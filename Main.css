@@ -1,5 +1,11 @@
 body {
-    background-image: url("assets/shatter.png");
+    background-color: black
+    background-image: url("assets/sunset");
+}
+
+@font-face {
+    font-family: 'Wider'; /*a name to be used later*/
+    src: url('assets/Wider.otf'); /*URL to font*/
 }
 
 /* Style the video: 100% width and height to cover the entire window */
@@ -19,6 +25,39 @@ body {
   color: #f1f1f1;
   width: 100%;
   padding: 20px;
+}
+
+.main {
+    position: fixed;
+    /* top: auto; */
+    text-align: center;
+    font-family: "Wider";
+    vertical-align: middle;
+
+    /* width: 200px;
+	height: 200px; */
+
+	position: absolute;
+	top: 33%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	margin: auto;
+}
+
+h1 {
+  font-size: 60px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  font-size: 48px;
+}
+
+p {
+  font-size: 32px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 /* Style the button used to pause/play the video */
