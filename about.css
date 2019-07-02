@@ -30,6 +30,8 @@ body {
     /* background: url("assets/newAbstract.png"); */
     /* background-color: #FF0D1A; */
 
+    background-color: #98191C;
+
     /* Safari, Chrome and Opera > 12.1 */
     -webkit-animation: fadein 3s;
     /* Firefox < 16 */
@@ -80,7 +82,7 @@ body {
     left: 0;
     right: 0;
     /* margin: auto; */
-    /* margin-top: 10px; */
+    margin-top: 10px;
     height:50px;
     width:120px
     color: #111111;
@@ -97,7 +99,7 @@ body {
   padding: 10px;
   border: none;
   background: RGBA(0,0,0,0.25);
-  color: #111;
+  color: #999;
   cursor: pointer;
 }
 
