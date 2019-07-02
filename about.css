@@ -12,13 +12,6 @@
 .Sunset-Theme-4-rgba { color: rgba(242, 182, 147, 1); }
 .Sunset-Theme-5-rgba { color: rgba(242, 131, 68, 1); }
 
-/* Color Theme Swatches in HSLA */
-.Sunset-Theme-1-hsla { color: hsla(235, 12, 40, 1); }
-.Sunset-Theme-2-hsla { color: hsla(0, 0, 5, 1); }
-.Sunset-Theme-3-hsla { color: hsla(33, 85, 65, 1); }
-.Sunset-Theme-4-hsla { color: hsla(21, 78, 76, 1); }
-.Sunset-Theme-5-hsla { color: hsla(22, 87, 60, 1); }
-
 /* Color Theme Swatches in Hex */
 .Copy-of-Sunset-Camping-1-hex { color: #2E112D; }
 .Copy-of-Sunset-Camping-2-hex { color: #540032; }
@@ -32,13 +25,6 @@
 .Copy-of-Sunset-Camping-3-rgba { color: rgba(130, 2, 50, 1); }
 .Copy-of-Sunset-Camping-4-rgba { color: rgba(201, 40, 62, 1); }
 .Copy-of-Sunset-Camping-5-rgba { color: rgba(239, 67, 57, 1); }
-
-/* Color Theme Swatches in HSLA */
-.Copy-of-Sunset-Camping-1-hsla { color: hsla(301, 44, 12, 1); }
-.Copy-of-Sunset-Camping-2-hsla { color: hsla(324, 100, 16, 1); }
-.Copy-of-Sunset-Camping-3-hsla { color: hsla(337, 96, 26, 1); }
-.Copy-of-Sunset-Camping-4-hsla { color: hsla(351, 66, 47, 1); }
-.Copy-of-Sunset-Camping-5-hsla { color: hsla(3, 85, 58, 1); }
 
 body {
     /* background: url("assets/newAbstract.png"); */
@@ -55,6 +41,30 @@ body {
             animation: fadein 3s;
 }
 
+.transitionBox {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:hidden;
+    z-index:100;
+    pointer-events: none;
+    background-color: RGBA(0, 0, 0, 0); /* Transition color for home page */
+
+    -webkit-animation-name: fadeToBlack;
+    -webkit-animation-play-state: paused;
+    -webkit-animation-duration:0.5s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fadeToBlack {
+  from { background-color: RGBA(0,0,0, 0.0); }
+  to { background-color: RGBA(0,0,0, 1.0); }
+}
+
 .video_container {
     z-index: -1;
 }
@@ -63,13 +73,13 @@ body {
     display:block;
     position: fixed;
     text-align: center;
-    vertical-align: middle;
+    vertical-align: top;
     position: absolute;
     top: 0;
-    /* bottom: 0; */
+    bottom: 0;
     left: 0;
     right: 0;
-    margin: auto;
+    /* margin: auto; */
     /* margin-top: 10px; */
     height:50px;
     width:120px

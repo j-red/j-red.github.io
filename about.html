@@ -14,7 +14,8 @@ https://github.com/daneden/animate.css/blob/master/README.md CSS Animations
 <html lang="en">
     <head>
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="Main.css" type="text/css">
+        <link rel="stylesheet" href="main.css" type="text/css">
+        <link rel="stylesheet" href="about.css" type="text/css">
 
         <title>Neon Renaissance - About</title>
         <meta charset="utf-8">
@@ -33,11 +34,19 @@ https://github.com/daneden/animate.css/blob/master/README.md CSS Animations
     <script>
         var btn = document.getElementById("homeBtn");
         function redirectHome() {
-          document.location.href = "index.html";
+            // Play animation
+            document.getElementById("transitionHomeID").style.WebkitAnimationPlayState = "running";
+            setTimeout(function () { // delay 500ms before executing redirect
+                document.location.href = "index.html";
+            }, 500);
         }
+
     </script>
 
     <body>
+        <!-- Transparent color overlay for page changes -->
+        <div class="transitionBox" id="transitionHomeID"></div>
+
         <div class="video_container">
             <video autoplay muted loop class="fullscreen-bg__video" id="myVideo" z-index=-1>
                 <source src="assets/redwave.mp4" type="video/mp4">
@@ -50,7 +59,10 @@ https://github.com/daneden/animate.css/blob/master/README.md CSS Animations
             </div>
 
             <div class="fadeIn">
+                <!-- Add a comment saying how old I am, add calculations to update automatically, even if >100 -->
                 <h2>My name's Jared. It's nice to meet you.</h2>
+                <!-- <h2>My name's Jared. I'm studying Computer and Information Science,</h2> -->
+                <!-- <h2>Music Technology, Spanish, and Math. It's nice to meet you.</h2> -->
             </div>
 
         <!-- End main -->

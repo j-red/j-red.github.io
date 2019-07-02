@@ -24,24 +24,21 @@
     <script>
         // Get the video
         // var video = document.getElementById("myVideo");
-
         // Get the button
         var btn = document.getElementById("aboutBtn");
 
-        // Pause and play the video, and change the button text
         function redirectAbout() {
-          // if (video.paused) {
-          //   video.play();
-          //   btn.innerHTML = "Pause";
-          // } else {
-          //   video.pause();
-          //   btn.innerHTML = "Play";
-          // }
-          document.location.href = "about.html";
+            // Play animation
+            document.getElementById("transitionID").style.WebkitAnimationPlayState = "running";
+            setTimeout(function () { // delay 500ms before executing redirect
+                document.location.href = "about.html";
+            }, 500);
         }
     </script>
 
     <body>
+        <!-- Transparent color overlay for page changes -->
+        <div class="transitionBox" id="transitionID"></div>
 
         <!-- <a href="about.html" style="display:block; height:100px; width:100px">click anywere!</a> -->
 
@@ -63,7 +60,6 @@
                     <h2>It's so nice to finally meet you.</h2>
                 </div>
             </div>
-        <!-- End main -->
         </div>
 
         <div class="links">
