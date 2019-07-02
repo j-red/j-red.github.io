@@ -297,6 +297,13 @@ body {
 }
 
 .main {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                          supported by Chrome and Opera */
     position: fixed;
     text-align: center;
     vertical-align: middle;
@@ -318,6 +325,30 @@ body {
     /* font-family: ubuntu, sans-serif;
     font-style: normal;
     font-weight: 300; */
+
+    color: #111111;
+
+    font-family: pt-sans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.links {
+    display:block;
+    position: fixed;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    /* top: 0; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-bottom: 1px;
+    height:50px;
+    width:120px
+
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 
     color: #111111;
 
@@ -368,17 +399,17 @@ p {
 }
 
 /* Style the button used to pause/play the video */
-/* #myBtn {
+#aboutBtn {
   width: 200px;
   font-size: 18px;
   padding: 10px;
   border: none;
-  background: #000;
-  color: #fff;
+  background: RGBA(0,0,0,0.25);
+  color: #111;
   cursor: pointer;
 }
 
-#myBtn:hover {
-  background: #ddd;
+#aboutBtn:hover {
+  background: RGBA(255,255,255,0.75);
   color: black;
-} */
+}

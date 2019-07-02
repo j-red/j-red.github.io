@@ -1,0 +1,66 @@
+<!-- For reference:
+https://freefrontend.com/css-page-transitions/
+https://codepen.io/mburakerman/pen/roJmaZ
+https://codepen.io/timrijkse/pen/ALgZpp
+https://codepen.io/johnheiner/pen/JdRybK Loader transition
+https://codepen.io/djmarland/pen/CxEbK Ripple
+https://codepen.io/hakimel/pen/FAiKv Layers for arrows
+https://codepen.io/marcelo-ribeiro/pen/xOOKpO Four Regions - TODO use for gallery of pieces? can click to expand
+
+https://github.com/daneden/animate.css/blob/master/README.md CSS Animations
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="Main.css" type="text/css">
+
+        <title>Neon Renaissance - About</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Use a 16x16 pixel .png as the favicon for the site. -->
+        <!-- <link rel="shortcut icon" type="image/png" href="assets/sun_icon2.png"/> -->
+    </head>
+
+    <style>
+        body {
+            /* background-image: url("assets/newAbstract.png"); */
+            background-color: #98191C; }
+    </style>
+
+    <script>
+        var btn = document.getElementById("homeBtn");
+        function redirectHome() {
+          document.location.href = "index.html";
+        }
+    </script>
+
+    <body>
+        <div class="video_container">
+            <video autoplay muted loop class="fullscreen-bg__video" id="myVideo" z-index=-1>
+                <source src="assets/redwave.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="main">
+            <div class="fadeDown">
+                <h1>Hi.</h1>
+            </div>
+
+            <div class="fadeIn">
+                <h2>My name's Jared. It's nice to meet you.</h2>
+            </div>
+
+        <!-- End main -->
+        </div>
+
+        <div class="fadeIn">
+            <div class="links">
+                <button id="aboutBtn" onclick="redirectHome()">Home</button>
+            </div>
+        </div>
+
+    </body>
+</html>
