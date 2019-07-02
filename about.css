@@ -67,9 +67,9 @@ body {
   to { background-color: RGBA(0,0,0, 1.0); }
 }
 
-.video_container {
+/* .video_container {
     z-index: -1;
-}
+} */
 
 .links {
     display:block;
