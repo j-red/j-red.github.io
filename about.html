@@ -31,7 +31,9 @@ https://github.com/daneden/animate.css/blob/master/README.md CSS Animations
             // Play animation
             document.getElementById("transitionHomeID").style.WebkitAnimationPlayState = "running";
             setTimeout(function () { // delay 500ms before executing redirect
-                document.location.href = "index.html";
+                // TODO: use the second one for publishing, first for programming
+                // document.location.href = "index.html";
+                document.location.href = "index";
             }, 500);
         }
     </script>
@@ -52,9 +54,10 @@ https://github.com/daneden/animate.css/blob/master/README.md CSS Animations
                 <h1 style="font-size: 60px;">Hi.</h1>
             </div>
 
-            <div class="fadeIn">
+            <div class="fadeIn" style="font-size: 32px;">
                 <!-- Add a comment saying how old I am, add calculations to update automatically, even if >100 -->
-                <p style="font-size: 32px;">My name's Jared. It's nice to meet you.</p>
+                <p>My name's Jared. It's nice to meet you.</p>
+                <p style="font-size: 24px;" id="textelement">Portland, Oregon.</p>
             </div>
 
         <!-- End main -->

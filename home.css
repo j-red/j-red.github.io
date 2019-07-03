@@ -281,11 +281,11 @@ body {
 }
 @-webkit-keyframes fadeToRed {
   from {
-      background-color: RGBA(152,25,28,0);
+      background-color: RGBA(155, 34, 25, 0.0);
       /* background-color: blue; */
   }
   to {
-    background-color: RGBA(152, 25, 28, 1);
+    background-color: RGBA(155, 34, 25, 1.0);
   }
 }
 
