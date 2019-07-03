@@ -1,7 +1,7 @@
 /* Custom fonts */
 @font-face {
-    font-family: 'Wider'; /*a name to be used later*/
-    src: url('assets/Wider.otf'); /*URL to font*/
+    font-family: 'SailorsDiary'; /*a name to be used later*/
+    src: url('assets/SailorsDiarySans.otf'); /*URL to font*/
 }
 
 /* Custom Scrollbar */
@@ -314,9 +314,13 @@ body {
 
     color: #111111;
 
-    font-family: pt-sans, sans-serif;
+    font-family: SailorsDiary, sans-serif;
     font-style: normal;
     font-weight: 400;
+
+    /* font-family: pt-sans, sans-serif;
+    font-style: normal;
+    font-weight: 400; */
 }
 
 .links {
@@ -331,7 +335,7 @@ body {
     right: 0;
     margin: auto;
     margin-bottom: 1px;
-    height:50px;
+    height:80px;
     width:120px
 
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
@@ -368,10 +372,6 @@ body {
             animation: slowfadein 5s;
 }
 
-.info {
-
-}
-
 h1 {
   font-size: 60px;
 }
@@ -384,8 +384,10 @@ p {
   font-size: 24px;
 }
 
-/* Style the button used to pause/play the video */
+/* Style the button */
 #aboutBtn {
+  font-family: SailorsDiary, sans-serif;
+  height: 50px;
   width: 200px;
   font-size: 18px;
   padding: 10px;

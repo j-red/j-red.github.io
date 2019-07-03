@@ -9,7 +9,6 @@ https://codepen.io/marcelo-ribeiro/pen/xOOKpO Four Regions - TODO use for galler
 
 https://github.com/daneden/animate.css/blob/master/README.md CSS Animations
 -->
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -26,19 +25,22 @@ https://github.com/daneden/animate.css/blob/master/README.md CSS Animations
     </head>
 
     <script>
-        var btn = document.getElementById("homeBtn");
+        var hometown = "Portland, Oregon.";
+
+        function updateHome() { document.getElementById("myHometown").textContent=hometown; }
+
         function redirectHome() {
             // Play animation
             document.getElementById("transitionHomeID").style.WebkitAnimationPlayState = "running";
             setTimeout(function () { // delay 500ms before executing redirect
                 // TODO: use the second one for publishing, first for programming
-                // document.location.href = "index.html";
-                document.location.href = "index";
+                document.location.href = "index.html";
+                // document.location.href = "";
             }, 500);
         }
     </script>
 
-    <body>
+    <body onload="updateHome();">
         <!-- Transparent color overlay for page changes -->
         <div class="transitionBox" id="transitionHomeID"></div>
 
@@ -51,13 +53,22 @@ https://github.com/daneden/animate.css/blob/master/README.md CSS Animations
 
         <div class="main">
             <div class="fadeInDown">
-                <h1 style="font-size: 60px;">Hi.</h1>
+                <h1 style="margin: 30px; font-size: 60px;">Hi.</h1>
             </div>
 
             <div class="fadeIn" style="font-size: 32px;">
                 <!-- Add a comment saying how old I am, add calculations to update automatically, even if >100 -->
-                <p>My name's Jared. It's nice to meet you.</p>
-                <p style="font-size: 24px;" id="textelement">Portland, Oregon.</p>
+                <p style="margin: 0">My name's Jared. It's nice to meet you.</p>
+                <div class="cityText" style="margin-left: auto; margin-right: auto;">
+                    <table style="width:50%; border-spacing: 15px; margin-left: auto; margin-right: auto;">
+                        <tr>
+                            <td><img src="assets/locationmarker.png" height= "24" width= "24"/></td>
+                            <td><p style="vertical-align: middle; font-size: 24px;" id="myHometown">Portland, Oregon.</p></td>
+                        </tr>
+                    </table>
+
+
+                </div>
             </div>
 
         <!-- End main -->

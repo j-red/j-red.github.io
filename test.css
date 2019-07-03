@@ -1,0 +1,40 @@
+/* Color Theme Swatches in Hex */
+.Sunset-Theme-1-hex { color: #595B73; }
+.Sunset-Theme-2-hex { color: #0D0D0D; }
+.Sunset-Theme-3-hex { color: #F2AF5C; }
+.Sunset-Theme-4-hex { color: #F2B694; }
+.Sunset-Theme-5-hex { color: #F28444; }
+
+/* Color Theme Swatches in RGBA */
+.Sunset-Theme-1-rgba { color: rgba(89, 91, 114, 1); }
+.Sunset-Theme-2-rgba { color: rgba(13, 13, 13, 1); }
+.Sunset-Theme-3-rgba { color: rgba(242, 175, 91, 1); }
+.Sunset-Theme-4-rgba { color: rgba(242, 182, 147, 1); }
+.Sunset-Theme-5-rgba { color: rgba(242, 131, 68, 1); }
+
+/* Color Theme Swatches in Hex */
+.Copy-of-Sunset-Camping-1-hex { color: #2E112D; }
+.Copy-of-Sunset-Camping-2-hex { color: #540032; }
+.Copy-of-Sunset-Camping-3-hex { color: #820333; }
+.Copy-of-Sunset-Camping-4-hex { color: #C9283E; }
+.Copy-of-Sunset-Camping-5-hex { color: #F0433A; }
+
+/* Color Theme Swatches in RGBA */
+.Copy-of-Sunset-Camping-1-rgba { color: rgba(45, 17, 44, 1); }
+.Copy-of-Sunset-Camping-2-rgba { color: rgba(84, 0, 49, 1); }
+.Copy-of-Sunset-Camping-3-rgba { color: rgba(130, 2, 50, 1); }
+.Copy-of-Sunset-Camping-4-rgba { color: rgba(201, 40, 62, 1); }
+.Copy-of-Sunset-Camping-5-rgba { color: rgba(239, 67, 57, 1); }
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* <!-- Bootstrap CSS --> */
+/* <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> --> */
