@@ -14,7 +14,7 @@ https://github.com/daneden/animate.css/blob/master/README.md CSS Animations
 <html lang="en">
     <head>
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="main.css" type="text/css">
+        <!-- <link rel="stylesheet" href="main.css" type="text/css"> -->
         <link rel="stylesheet" href="about.css" type="text/css">
 
         <title>Neon Renaissance - About</title>
@@ -41,19 +41,20 @@ https://github.com/daneden/animate.css/blob/master/README.md CSS Animations
         <div class="transitionBox" id="transitionHomeID"></div>
 
         <div class="video_container">
-            <video autoplay muted loop class="fullscreen-bg__video" id="myVideo" z-index=-1>
+            <!-- <video autoplay muted loop class="fullscreen-bg__video" id="myVideo" z-index=-1> -->
+            <video autoplay muted loop class="bg-video" id="myVideo" z-index=-10>
                 <source src="assets/redwave.mp4" type="video/mp4">
             </video>
         </div>
 
         <div class="main">
-            <div class="fadeDown">
-                <h1>Hi.</h1>
+            <div class="fadeInDown">
+                <h1 style="font-size: 60px;">Hi.</h1>
             </div>
 
             <div class="fadeIn">
                 <!-- Add a comment saying how old I am, add calculations to update automatically, even if >100 -->
-                <h2>My name's Jared. It's nice to meet you.</h2>
+                <p style="font-size: 32px;">My name's Jared. It's nice to meet you.</p>
             </div>
 
         <!-- End main -->

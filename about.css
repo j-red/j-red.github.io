@@ -1,36 +1,148 @@
-/* Color Theme Swatches in Hex */
-.Sunset-Theme-1-hex { color: #595B73; }
-.Sunset-Theme-2-hex { color: #0D0D0D; }
-.Sunset-Theme-3-hex { color: #F2AF5C; }
-.Sunset-Theme-4-hex { color: #F2B694; }
-.Sunset-Theme-5-hex { color: #F28444; }
+/*=== NORMAL FADE IN ===*/
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
 
-/* Color Theme Swatches in RGBA */
-.Sunset-Theme-1-rgba { color: rgba(89, 91, 114, 1); }
-.Sunset-Theme-2-rgba { color: rgba(13, 13, 13, 1); }
-.Sunset-Theme-3-rgba { color: rgba(242, 175, 91, 1); }
-.Sunset-Theme-4-rgba { color: rgba(242, 182, 147, 1); }
-.Sunset-Theme-5-rgba { color: rgba(242, 131, 68, 1); }
+/*=== FADE IN DOWN ===*/
+.fadeInDown {
+    /* Safari, Chrome and Opera > 12.1 */
+    -webkit-animation: fadeInDown 2s;
+    /* Firefox < 16 */
+       -moz-animation: fadeInDown 2s;
+    /* Internet Explorer */
+        -ms-animation: fadeInDown 2s;
+    /* Opera < 12.1 */
+         -o-animation: fadeInDown 2s;
+            animation: fadeInDown 2s;
+ }
+@-webkit-keyframes fadeInDown {
+    0% {
+    	opacity: 0;
+    	-webkit-transform: translate3d(0, -100%, 0);
+    	transform: translate3d(0, -100%, 0);
+    }
 
-/* Color Theme Swatches in Hex */
-.Copy-of-Sunset-Camping-1-hex { color: #2E112D; }
-.Copy-of-Sunset-Camping-2-hex { color: #540032; }
-.Copy-of-Sunset-Camping-3-hex { color: #820333; }
-.Copy-of-Sunset-Camping-4-hex { color: #C9283E; }
-.Copy-of-Sunset-Camping-5-hex { color: #F0433A; }
+    33% {
+    	opacity: 0;
+    	-webkit-transform: translate3d(0, -30%, 0);
+    	transform: translate3d(0, -30%, 0);
+    }
 
-/* Color Theme Swatches in RGBA */
-.Copy-of-Sunset-Camping-1-rgba { color: rgba(45, 17, 44, 1); }
-.Copy-of-Sunset-Camping-2-rgba { color: rgba(84, 0, 49, 1); }
-.Copy-of-Sunset-Camping-3-rgba { color: rgba(130, 2, 50, 1); }
-.Copy-of-Sunset-Camping-4-rgba { color: rgba(201, 40, 62, 1); }
-.Copy-of-Sunset-Camping-5-rgba { color: rgba(239, 67, 57, 1); }
+    100% {
+    	opacity: 1;
+    	-webkit-transform: none;
+    	transform: none;
+    }
+}
+@keyframes fadeInDown {
+    0% {
+    	opacity: 0;
+    	-webkit-transform: translate3d(0, -30%, 0);
+    	transform: translate3d(0, -30%, 0);
+    }
+
+    33% {
+    	opacity: 0;
+    	-webkit-transform: translate3d(0, -30%, 0);
+    	transform: translate3d(0, -30%, 0);
+    }
+
+    100% {
+    	opacity: 1;
+    	-webkit-transform: none;
+    	transform: none;
+        }
+}
+
+/*=== SLOW FADE IN ===*/
+@keyframes slowfadein {
+    0% {
+    	opacity: 0;
+    }
+
+    50% {
+    	opacity: 0;
+    }
+
+    100% {
+    	opacity: 1;
+    }
+}
+/* Firefox < 16 */
+@-moz-keyframes slowfadein {
+    0% {
+    	opacity: 0;
+    }
+
+    50% {
+    	opacity: 0;
+    }
+
+    100% {
+    	opacity: 1;
+    }
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes slowfadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Internet Explorer */
+@-ms-keyframes slowfadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Opera < 12.1 */
+@-o-keyframes slowfadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.fadeIn {
+    /* animation-delay 2s; */
+    /* Safari, Chrome and Opera > 12.1 */
+    -webkit-animation: slowfadein 5s;
+    /* Firefox < 16 */
+       -moz-animation: slowfadein 5s;
+    /* Internet Explorer */
+        -ms-animation: slowfadein 5s;
+    /* Opera < 12.1 */
+         -o-animation: slowfadein 5s;
+            animation: slowfadein 5s;
+}
 
 body {
     /* background: url("assets/newAbstract.png"); */
+
     /* background-color: #FF0D1A; */
 
     background-color: #98191C;
+
+    color: #111111;
+
+    font-family: pt-sans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
 
     /* Safari, Chrome and Opera > 12.1 */
     -webkit-animation: fadein 3s;
@@ -41,6 +153,22 @@ body {
     /* Opera < 12.1 */
          -o-animation: fadein 3s;
             animation: fadein 3s;
+    }
+
+.main {
+    position: fixed;
+    text-align: center;
+    vertical-align: middle;
+
+	position: absolute;
+	top: 35%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	margin: auto;
+
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 
 .transitionBox {
@@ -63,13 +191,41 @@ body {
 }
 
 @-webkit-keyframes fadeToBlack {
-  from { background-color: RGBA(0,0,0, 0.0); }
-  to { background-color: RGBA(0,0,0, 1.0); }
+  from { background-color: RGBA(1,4,7, 0.0); }
+  to { background-color: RGBA(1,4,7, 1.0); }
 }
 
 /* .video_container {
     z-index: -1;
 } */
+.video_container {
+    position: fixed;
+    top: 0;
+    /* bottom: -50%; */
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-height: 100%;
+    /* margin-left: -220px; */
+    display: block;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  /* height: 100%; */
+}
 
 .links {
     display:block;
@@ -81,7 +237,6 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    /* margin: auto; */
     margin-top: 10px;
     height:50px;
     width:120px
