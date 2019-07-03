@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- Bootstrap CSS -->
-        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
         <!-- Custom CSS -->
         <link rel="stylesheet" href="main.css" type="text/css">
 
@@ -15,8 +13,6 @@
     </head>
 
     <script>
-        // Get the video
-        // var video = document.getElementById("myVideo");
         // Get the button
         var btn = document.getElementById("aboutBtn");
 
@@ -33,18 +29,15 @@
         <!-- Transparent color overlay for page changes -->
         <div class="transitionBox" id="transitionID"></div>
 
-        <!-- <a href="about.html" style="display:block; height:100px; width:100px">click anywere!</a> -->
-
         <!-- The video -->
         <div class="video_container">
             <video autoplay muted loop class="fullscreen-bg__video" id="myVideo">
-                <!-- <source src="assets/oceansunset0001-0119.mp4" type="video/mp4"> -->
                 <source src="assets/oceansunset-square.mp4" type="video/mp4">
             </video>
         </div>
 
         <div class="main">
-            <!-- <div class="fadeOutUp"> -->
+            <div class="fadeOutUp">
                 <div class="fadeDown">
                     <h1>Hello world!</h1>
                 </div>
@@ -52,24 +45,11 @@
                 <div class="fadeIn">
                     <h2>It's so nice to finally meet you.</h2>
                 </div>
-            <!-- </div> -->
+            </div>
         </div>
 
         <div class="links">
-            <!-- <a href="about.html">click here!</a> -->
             <button id="aboutBtn" onclick="redirectAbout()">About Page</button>
         </div>
-
-
-        <!-- Optional: some overlay text to describe the video -->
-        <!-- <div class="content">
-            <h1>Heading</h1>
-            <p>Lorem ipsum...</p>
-            <button id="myBtn" onclick="myFunction()">Pause</button>
-        </div> -->
-
-
-
-    <!-- End body -->
     </body>
 </html>
