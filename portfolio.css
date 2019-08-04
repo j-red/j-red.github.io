@@ -1,0 +1,16 @@
+.enlarge-onhover {
+     /* width: 30px; */
+     /* height: 30px; */
+
+     width: 50%;
+     min-width: 200px;
+     height: auto;
+
+}
+
+.enlarge-onhover:hover {
+     width: 60%;
+     min-width: 200px;
+     height: auto;
+     cursor: pointer;
+}
