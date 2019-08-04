@@ -26,14 +26,63 @@
 .Copy-of-Sunset-Camping-4-rgba { color: rgba(201, 40, 62, 1); }
 .Copy-of-Sunset-Camping-5-rgba { color: rgba(239, 67, 57, 1); }
 
+html {
+    overflow: hidden;
+}
+
 /* Add some content at the bottom of the video/page */
 .content {
   position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
+  margin: 0 auto;
+  width: 50%;
+  /* background: rgba(0, 0, 0, 0.5); */
+  color: #1f1f1f;
   width: 100%;
   padding: 20px;
+}
+
+body {
+    margin: 0;
+    font-size: 26px;
+    color: #000000;
+
+    height: 100vh;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+parallax-wrapper {
+    width: 100vw;
+    height: 100vh;
+    /* padding-top: 20vh; */
+    transform-style: preserve-3d;
+    box-sizing: border-box;
+}
+parallax-wrapper::before {
+    content:"";
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    top: 0;
+    left: 0;
+    background-image: url("assets/abstract-back.png");
+    z-index: -3;
+    transform: translateZ(-10px) scale(2);
+}
+
+regular-wrapper {
+    width: 100vh;
+    height: 100vh;
+    padding-top: 20vh;
+    background-image: url("assets/abstract-mid.png");
+    z-index: -1;
 }
 
 /* <!-- Bootstrap CSS --> */

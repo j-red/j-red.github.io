@@ -22,29 +22,58 @@
   background: #222;
 }
 
+.onPageLoad {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    /* background: rgba(0, 0, 0, 1); */
+    z-index: 10;
+    /* -webkit-animation: fadeout 3s; */
+    -webkit-animation: fadeDisappear 5s;
+    pointer-events: none;
+    /* background-color: rgba(0, 0, 0, 0.0); */
+}
+
 body {
     /* background-image: url("assets/sunset"); */
     background-color: #010407;
     /* Safari, Chrome and Opera > 12.1 */
-    -webkit-animation: fadein 3s;
+    /* -webkit-animation: fadein 3s; */
     /* Firefox < 16 */
-       -moz-animation: fadein 3s;
+       /* -moz-animation: fadein 3s; */
     /* Internet Explorer */
-        -ms-animation: fadein 3s;
+        /* -ms-animation: fadein 3s; */
     /* Opera < 12.1 */
-         -o-animation: fadein 3s;
-            animation: fadein 3s;
+         /* -o-animation: fadein 3s;
+            animation: fadein 3s; */
+}
+
+
+
+
+/*=== NORMAL FADE OUT ===*/
+@keyframes fadeDisappear {
+    from { background: rgba(0, 0, 0, 1.0); }
+    to   { background: rgba(0, 200, 100, 0.0); }
+}
+
+@keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
 }
 
 .video_container {
     position: fixed;
     top: 0;
-    /* bottom: -50%; */
     left: 0;
     right: 0;
     width: 100%;
     min-height: 100%;
-    /* margin-left: -220px; */
+
+    height: 100vh;
+
     display: block;
     overflow: hidden;
     position: fixed;
