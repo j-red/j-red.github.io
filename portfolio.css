@@ -1,3 +1,12 @@
+
+
+/* background: assets/extrusion-mask_transparent.png; */
+
+html {
+    background-color: RGBA(255, 116, 93, 1.0);
+
+}
+
 .enlarge-onhover {
      /* width: 30px; */
      /* height: 30px; */
@@ -6,11 +15,19 @@
      min-width: 200px;
      height: auto;
 
+     color: rgba(255, 255, 255, 1.0);
+
 }
 
 .enlarge-onhover:hover {
-     width: 60%;
+
+    /* color: rgba(0, 0, 0, 0.75); */
+    /* color: Transparent; */
+
+    width: 55%;
+
+     /* width: 60%;
      min-width: 200px;
-     height: auto;
+     height: auto; */
      cursor: pointer;
 }
