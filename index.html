@@ -13,6 +13,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+        <!-- navbar script -->
+        <script src="navScript.js"></script>
+
         <!-- Use a 16x16 pixel .png as the favicon for the site. -->
         <link rel="shortcut icon" type="image/png" href="assets/sun_icon2.png"/>
     </head>
@@ -33,6 +36,15 @@
     </script>
 
     <body>
+        <!--Navigation bar-->
+        <div id="nav-placeholder"></div>
+        <script>
+        $(function(){
+            $("#nav-placeholder").load("nav.html");
+        });
+        </script>
+        <!--end of Navigation bar-->
+
         <!-- Transparent color overlay for page changes -->
         <div class="transitionBox" id="transitionID"></div>
 
