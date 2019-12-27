@@ -18,6 +18,33 @@
     /* padding-top: 10%; */
 }
 
+#social {
+    /* padding: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0; */
+    position: absolute;
+    bottom: 0;
+}
+
+.icons {
+
+}
+
+.icons:hover {
+    background-color: #21252D;
+    border-color: #21252D;
+}
+
+.icons {
+    background-color: #1C1F26;
+    width:30px;
+    height:30px;
+    margin: 2px;
+    border-radius: 4px;
+    border: 5px solid #1C1F26;
+}
+
 .btn{
     margin: 10px;
     margin-top: 20%;
@@ -25,18 +52,11 @@
     height: 60px;
     background: none;
     border: 4px solid;
-    /* color: #f1c40f; */
     font-weight: 700;
     text-transform: uppercase;
     cursor: pointer;
     font-size: 16px;
     position: relative;
-
-    /* -moz-transition: fade 1.2s ease-in;
-    -o-transition: all 1.2s ease-in;
-    -webkit-transition: all 1.2s ease-in;
-    transition: all 1.2s ease-in;
-    background: #272B35; */
 }
 
 #homeBtn {
@@ -47,9 +67,9 @@
     color: #e67e22;
 }
 
-#aboutBtn:hover {
+/* #aboutBtn:hover {
     color: #d35400;
-}
+} */
 
 #projectsBtn {
     color: #2ecc71;
@@ -60,12 +80,12 @@
 }
 
 #musicBtn {
-    color: #ecf0f1;
+    color: #3498db;
 }
 
-#musicBtn:hover {
+/* #musicBtn:hover {
     color: #bdc3c7;
-}
+} */
 
 #designBtn {
     color: #e74c3c;
