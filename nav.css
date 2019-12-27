@@ -28,21 +28,17 @@
 }
 
 .icons {
-
-}
-
-.icons:hover {
-    background-color: #21252D;
-    border-color: #21252D;
-}
-
-.icons {
     background-color: #1C1F26;
     width:30px;
     height:30px;
     margin: 2px;
     border-radius: 4px;
     border: 5px solid #1C1F26;
+}
+
+.icons:hover {
+    background-color: #21252D;
+    border-color: #21252D;
 }
 
 .btn{
