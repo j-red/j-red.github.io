@@ -1,9 +1,19 @@
 @font-face {
-    font-family: 'SailorsDiary'; /*a name to be used later*/
-    src: url('assets/SailorsDiarySans.otf'); /*URL to font*/
+    font-family: 'SailorsDiary';
+    src: url('assets/SailorsDiarySans.otf');
+
+    font-family: 'Qontra';
+    src: url('assets/Qontra.otf');
+
+    font-family: 'Wider';
+    src: url('assets/Wider.otf');
+
+    font-family: 'Brassie-Regular';
+    src: url('assets/Brassie-Regular.otf');
 }
 
 .sidenav {
+    font-family: Brassie-Regular, sans-serif;
     text-align: center;
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 240px; /* Set the width of the sidebar */
@@ -19,12 +29,9 @@
 }
 
 table {
-    /* padding: 6px; */
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40%;
-    /* margin-bottom: 0; */
-    /* margin: auto; */
+    margin-top: 50%;
     position: relative;
     bottom: 0px;
 }
@@ -57,59 +64,78 @@ table {
     cursor: pointer;
     font-size: 16px;
     position: relative;
+
+    transition: color 0.6s ease;
 }
 
 #homeBtn {
     color: #f1c40f;
 }
 
+#homeBtn:hover {
+    color: #f39c12;
+}
+
 #aboutBtn {
     color: #e67e22;
 }
 
-/* #aboutBtn:hover {
+#aboutBtn:hover {
     color: #d35400;
-} */
+}
 
 #projectsBtn {
     color: #2ecc71;
+}
+
+#projectsBtn:hover {
+    color: #27ae60;
 }
 
 #illustrationsBtn {
     color: #9b59b6;
 }
 
+#illustrationsBtn:hover {
+    color: #8e44ad;
+}
+
 #musicBtn {
     color: #3498db;
 }
 
-/* #musicBtn:hover {
-    color: #bdc3c7;
-} */
+#musicBtn:hover {
+    color: #2980b9;
+    /* transition: color 0.5s ease; */
+}
 
 #designBtn {
     color: #e74c3c;
 }
 
+#designBtn:hover {
+    color: #c0392b;
+}
+
 .btn::before,.btn::after{
-  content: "";
-  position: absolute;
-  width: 14px;
-  height: 4px;
-  background: #272B35; /* must be same color as background to appear transparent*/
-  transform: skewX(50deg);
-  transition: .4s ease;
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 4px;
+    background: #272B35; /* must be same color as background to appear transparent*/
+    transform: skewX(50deg);
+    transition: .4s ease;
 }
 
 /* hover animations */
 .btn::before{
-  top: -4px;
-  left: 10%;
+    top: -4px;
+    left: 10%;
 }
 
 .btn::after{
-  bottom: -4px;
-  right: 10%;
+    bottom: -4px;
+    right: 10%;
 }
 
 .btn:hover::before{
