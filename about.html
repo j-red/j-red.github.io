@@ -16,7 +16,7 @@ https://github.com/daneden/animate.css/blob/master/README.md CSS Animations
         <!-- <link rel="stylesheet" href="main.css" type="text/css"> -->
         <link rel="stylesheet" href="about.css" type="text/css">
 
-        <title>Neon Renaissance - About</title>
+        <title>about</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -25,7 +25,7 @@ https://github.com/daneden/animate.css/blob/master/README.md CSS Animations
     </head>
 
     <script>
-        var hometown = "Portland, Oregon.";
+        var hometown = "Portland, Oregon";
 
         function updateHome() { document.getElementById("myHometown").textContent=hometown; }
 
@@ -41,6 +41,19 @@ https://github.com/daneden/animate.css/blob/master/README.md CSS Animations
     </script>
 
     <body onload="updateHome();">
+        <!--Navigation bar-->
+        <div id="nav-placeholder">
+
+        </div>
+
+        <script>
+        $(function(){
+          $("#nav-placeholder").load("nav.html");
+        });
+        </script>
+        <!--end of Navigation bar-->
+
+
         <!-- Transparent color overlay for page changes -->
         <div class="transitionBox" id="transitionHomeID"></div>
 
@@ -72,6 +85,7 @@ https://github.com/daneden/animate.css/blob/master/README.md CSS Animations
             </div> <!-- End fade in div -->
 
             <div class="portfolio" style="align: center">
+                <button class="btn" onclick="window.location.href = 'portfolio.html';">Portfolio</button>
                 <!-- <br><br><br><br><br><br><br><br><br><br> -->
                 <!-- <img src="assets/envoy11.png" height= "156" width= "256"/> -->
             </div>
