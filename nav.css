@@ -1,19 +1,6 @@
-@font-face {
-    font-family: 'SailorsDiary';
-    src: url('assets/SailorsDiarySans.otf');
-
-    font-family: 'Qontra';
-    src: url('assets/Qontra.otf');
-
-    font-family: 'Wider';
-    src: url('assets/Wider.otf');
-
-    font-family: 'Brassie-Regular';
-    src: url('assets/Brassie-Regular.otf');
-}
-
 .sidenav {
-    font-family: Brassie-Regular, sans-serif;
+    /* font-family: SailorsDiary, sans-serif; */
+    /* font-family: Qontra, sans-serif; */
     text-align: center;
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 240px; /* Set the width of the sidebar */
@@ -22,16 +9,13 @@
     top: 0; /* Stay at the top */
     left: 0;
     background-color: #272B35;
-    /* align-items: center; */
-    /* align-content: center; */
     overflow-x: hidden; /* Disable horizontal scroll */
-    /* padding-top: 10%; */
 }
 
 table {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50%;
+    margin-top: 60%;
     position: relative;
     bottom: 0px;
 }
@@ -62,10 +46,17 @@ table {
     font-weight: 700;
     text-transform: uppercase;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 22px;
     position: relative;
+    /* kind of works, but doesn't shade the inner edges */
+    box-shadow: 2px 2px #21252D;
+    /* box-shadow: 2px 2px 0px 4px rgba(0,0,0,0.5); */
 
     transition: color 0.6s ease;
+}
+
+.btn:focus{
+    background-color: #21252D;
 }
 
 #homeBtn {
@@ -123,6 +114,7 @@ table {
     width: 14px;
     height: 4px;
     background: #272B35; /* must be same color as background to appear transparent*/
+    background: #21252D;
     transform: skewX(50deg);
     transition: .4s ease;
 }
