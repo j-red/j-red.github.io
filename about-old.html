@@ -1,0 +1,99 @@
+<!-- For reference:
+https://freefrontend.com/css-page-transitions/
+https://codepen.io/mburakerman/pen/roJmaZ
+https://codepen.io/timrijkse/pen/ALgZpp
+https://codepen.io/johnheiner/pen/JdRybK Loader transition
+https://codepen.io/djmarland/pen/CxEbK Ripples
+https://codepen.io/marcelo-ribeiro/pen/xOOKpO Four Regions - TODO use for gallery of pieces? can click to expand
+
+https://github.com/daneden/animate.css/blob/master/README.md CSS Animations
+-->
+<!-- <!DOCTYPE html>
+<html lang="en"> -->
+    <head>
+        <!-- Custom CSS -->
+        <!-- <link rel="stylesheet" href="main.css" type="text/css"> -->
+        <link rel="stylesheet" href="about.css" type="text/css">
+
+        <title>about</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Use a 16x16 pixel .png as the favicon for the site. -->
+        <link rel="shortcut icon" type="image/png" href="assets/sun_icon2.png"/>
+    </head>
+
+    <script>
+        var hometown = "Portland, Oregon";
+
+        function updateHome() { document.getElementById("myHometown").textContent=hometown; }
+
+        function redirectHome() {
+            // Play animation
+            document.getElementById("transitionHomeID").style.WebkitAnimationPlayState = "running";
+            setTimeout(function () { // delay 500ms before executing redirect
+                // TODO: use the second one for publishing, first for programming
+                document.location.href = "index.html";
+                // document.location.href = "";
+            }, 500);
+        }
+    </script>
+
+    <body onload="updateHome();">
+        <!--Navigation bar-->
+        <div id="nav-placeholder">
+
+        </div>
+
+        <script>
+        $(function(){
+          $("#nav-placeholder").load("nav.html");
+        });
+        </script>
+        <!--end of Navigation bar-->
+
+
+        <!-- Transparent color overlay for page changes -->
+        <div class="transitionBox" id="transitionHomeID"></div>
+
+        <div class="video_container">
+            <!-- <video autoplay muted loop class="fullscreen-bg__video" id="myVideo" z-index=-1> -->
+            <video autoplay muted loop class="bg-video" id="myVideo" z-index=-10>
+                <source src="assets/redwave.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="main">
+            <div class="fadeInDown">
+                <h1 style="margin: 30px; font-size: 60px;">Hi.</h1>
+            </div>
+
+            <div class="fadeIn" style="font-size: 32px;">
+                <!-- Add a comment saying how old I am, add calculations to update automatically, even if >100 -->
+                <p style="margin: 0">My name's Jared. It's nice to meet you.</p>
+                <div class="cityText" style="margin-left: auto; margin-right: auto;">
+                    <table style="width:50%; border-spacing: 15px; margin-left: auto; margin-right: auto;">
+                        <tr>
+                            <td><img src="assets/locationmarker.png" height= "24" width= "24"/></td>
+                            <td><p style="vertical-align: middle; font-size: 24px;" id="myHometown">Portland, Oregon.</p></td>
+                        </tr>
+                    </table>
+
+
+                </div>
+            </div> <!-- End fade in div -->
+
+            <div class="portfolio" style="align: center">
+                <button class="btn" onclick="window.location.href = 'portfolio.html';">Portfolio</button>
+                <!-- <br><br><br><br><br><br><br><br><br><br> -->
+                <!-- <img src="assets/envoy11.png" height= "156" width= "256"/> -->
+            </div>
+
+        <!-- End main -->
+        </div>
+
+        <div class="links">
+            <button id="homeBtn" onclick="redirectHome()">Home</button>
+        </div>
+    </body>
+</html>

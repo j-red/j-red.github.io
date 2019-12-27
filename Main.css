@@ -36,12 +36,24 @@
     font-family: Qontra, sans-serif;
     color: #F5F5F5;
     text-align: center;
+    justify-content: center;
+}
+
+body {
+    background: #353b48;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: -250px;
 }
 
 /* ignore the sidebar, treat the remaining area as the page */
 .container {
-    margin-left: 250px;
-    margin-right: 10px;
+    margin: auto;
+    margin-left: 300px;
+    margin-right: 60px;
+    margin-top: 320px;
 }
 
 .text {
@@ -49,6 +61,16 @@
     /* width: auto; */
     /* margin-left: 30%;
     margin-right: 30%; */
+}
+
+.blurb {
+    margin: auto;
+    width: 600px;
+}
+
+.wideBlurb {
+    margin: auto;
+    width: 700px;
 }
 
 .shaded {

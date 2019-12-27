@@ -1,23 +1,8 @@
-@font-face {
-    font-family: 'SailorsDiary'; /*a name to be used later*/
-    src: url('assets/SailorsDiarySans.otf'); /*URL to font*/
-}
-
-*{
-    padding: 0;
-    font-family: SailorsDiary, sans-serif;
-}
-
-body{
-    background: #353b48;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    margin-top: -250px;
-}
-
 #illustrationsBtn{
     background-color: #21252D;
+}
+
+#portfolioBlurb {
+    margin: auto;
+    width: 600px;
 }
