@@ -7,8 +7,11 @@
     top: 0; /* Stay at the top */
     left: 0;
     background-color: #272B35;
+    /* background-color: rgba(0,0,0,.33); */
     overflow-x: hidden; /* Disable horizontal scroll */
     overflow-y: hidden;
+
+    border-right: 6px ridge rgba(0,0,0,0.33);
 }
 
 table {
@@ -49,7 +52,8 @@ table {
     /* kind of works, but doesn't shade the inner edges */
     box-shadow: 2px 2px #21252D;
 
-    transition: color 0.6s ease;
+    /* works, but also fades in from white on page transition */
+    /* transition: color 0.6s ease; */
 }
 
 .btn:focus{
@@ -111,7 +115,8 @@ table {
     width: 14px;
     height: 4px;
     background: #272B35; /* must be same color as background to appear transparent*/
-    background: #21252D;
+    /* background: #21252D;
+    background: rgba(0,0,0,0.33) */
     transform: skewX(50deg);
     transition: .4s ease;
 }

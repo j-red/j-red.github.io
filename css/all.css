@@ -6,9 +6,6 @@
     font-family: 'Qontra';
     src: url('assets/Qontra.otf');
 
-    font-family: 'Wider';
-    src: url('assets/Wider.otf');
-
     font-family: 'Brassie-Regular';
     src: url('assets/Brassie-Regular.otf');
 }
@@ -41,6 +38,8 @@
 
 body {
     background: #353b48;
+    /* background: #e74c3c; */
+
     height: 100vh;
     display: flex;
     align-items: center;
@@ -74,7 +73,7 @@ body {
 }
 
 .shaded {
-    text-shadow: 2px 2px #272B35;
+    text-shadow: 3px 3px rgba(0,0,0,0.33);
 }
 
 h1 {
