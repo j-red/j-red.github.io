@@ -83,13 +83,18 @@
     background-color: var(--sidebar-light-shadow);
 }
 
+#social {
+    margin-left: 8px;
+    left: 0;
+    text-align: left;
+}
+
 #toggleBtn {
     background: var(--sidebar-shadow);
     width: 50px;
     margin: auto;
     margin-top: 10px;
     position: relative;
-    /* font-size: 11px; */
 }
 
 #toggleBtn:hover {
@@ -150,6 +155,15 @@
 
 #designBtn:hover {
     color: #c0392b;
+}
+
+#visualBtn {
+    color: #0f0f0f;
+    margin-bottom: 4px;
+}
+
+#visualBtn:hover {
+    color: #090909;
 }
 
 .btn::before,.btn::after{

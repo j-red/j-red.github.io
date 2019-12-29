@@ -9,9 +9,9 @@
         <script src="js/navScript.js"></script>
         <link rel="shortcut icon" type="image/png" href="assets/shell.png"/>
     </head>
-    <body>
+    <body style="background-color: #050505;">
         <!--Navigation bar-->
-        <!-- <div id="nav-placeholder"></div> -->
+        <div id="nav-placeholder"></div>
         <script>
         $(function(){
             $("#nav-placeholder").load("nav.html");
@@ -21,17 +21,18 @@
 
         <div class="container">
             <div class="threejs">
-              <!-- global script -->
-              <script src="js/three.js"></script>
-              <script src="GLTFLoader.js"></script>
-              <script>
+                <!-- global script -->
+                <script src="js/three.js"></script>
+                <script src="GLTFLoader.js"></script>
+                <script>
                 var scene = new THREE.Scene();
                 var camera = new THREE.PerspectiveCamera( 75, 1, 0.1, 1000 );
                 var renderer = new THREE.WebGLRenderer();
                 function init() {
                     renderer.setClearColor(0x050505);
+                    // renderer.setClearColor(0x1abc9c);
                     // renderer.setSize( window.innerWidth, window.innerHeight );
-                    renderer.setSize(500, 500); /* width x height? */
+                    renderer.setSize(1000, 1000); /* width x height? */
                     document.body.appendChild( renderer.domElement );
 
                     // lines

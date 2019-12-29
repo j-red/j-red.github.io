@@ -29,8 +29,8 @@
                 function openNav() {
                     sidebarOpen = true;
                     document.getElementById("mySidebar").style.width = "240px";
-                    document.getElementById("main").style.marginLeft = "240px";
-                    document.getElementById("main").style.marginRight = "240px";
+                    // document.getElementById("main").style.marginLeft = "240px";
+                    // document.getElementById("main").style.marginRight = "240px";
 
                     document.getElementById("homeBtn").style.width = openWidth;
                     document.querySelector('#homeBtn').textContent = 'Home';
@@ -49,13 +49,16 @@
 
                     document.getElementById("designBtn").style.width = openWidth;
                     document.querySelector('#designBtn').textContent = 'Design';
+
+                    document.getElementById("visualBtn").style.width = openWidth;
+                    document.querySelector('#visualBtn').textContent = 'Visualize';
                 }
 
                 function closeNav() {
                     sidebarOpen = false;
                     document.getElementById("mySidebar").style.width = "64px";
-                    document.getElementById("main").style.marginLeft= "auto";
-                    document.getElementById("main").style.marginRight = "auto";
+                    // document.getElementById("main").style.marginLeft= "auto";
+                    // document.getElementById("main").style.marginRight = "auto";
 
                     document.getElementById("homeBtn").style.width = collapsedWidth;
                     document.querySelector('#homeBtn').textContent = 'H';
@@ -74,13 +77,15 @@
 
                     document.getElementById("designBtn").style.width = collapsedWidth;
                     document.querySelector('#designBtn').textContent = 'D';
+
+                    document.getElementById("visualBtn").style.width = collapsedWidth;
+                    document.querySelector('#visualBtn').textContent = 'V';
                 }
             </script>
 
             <!-- <button class="openbtn" style='background: black; margin-top: 10px;' onclick="openNav()">☰ Open Sidebar</button> -->
 
-            <button class="closeBtn" id="toggleBtn" onclick="toggle()">Toggle Sidebar</button>
-            <br>
+            <button class="toggleBtn" id="toggleBtn" onclick="toggle()">Toggle Sidebar</button>
             <table id="navButtons">
                 <button class="btn" id="homeBtn" onclick="window.location.href = 'index.html';">Home</button>
                 <button class="btn" id="aboutBtn" onclick="window.location.href = 'about.html';">About</button>
@@ -88,40 +93,31 @@
                 <button class="btn" id="illustrationsBtn" onclick="window.location.href = 'portfolio.html';">Illustrations</button>
                 <button class="btn" id="musicBtn" onclick="window.location.href = 'music.html';">Music</button>
                 <button class="btn" id="designBtn" onclick="window.location.href = 'design.html';">Design</button>
+
+                <button class="btn" id="visualBtn" onclick="window.location.href = 'visual.html';">Visualize</button>
             </table>
 
-
-            <!-- <button class="btn" id="designBtn" onclick="window.location.href = 'visual.html';">Visualize</button> -->
+            <!-- TODO: left align social links in expanded view -->
 
             <div class="links">
                 <table id="social">
                     <a href="https://twitter.com/home" class="links">
                         <img src="assets/twitter_logo.png" alt="Twitter" class="icons">
                     </a>
+                    <!-- <br> -->
                     <a href="https://www.instagram.com/" class="links">
                         <img src="assets/instagram_logo.png" alt="Instagram" class="icons">
                     </a>
+                    <!-- <br> -->
                     <a href="https://soundcloud.com/" class="links">
                         <img src="assets/soundcloud_logo.png" alt="SoundCloud" class="icons">
                     </a>
+                    <!-- <br> -->
                     <a href="https://www.spotify.com/" class="links">
                         <img src="assets/spotify_logo.png" alt="Spotify" class="icons">
                     </a>
+                    <!-- <br> -->
                 </table>
-                <!-- <table id="social">
-                    <a href="https://twitter.com/home" class="links">
-                        <img src="assets/twitter_logo.png" alt="Twitter" class="icons">
-                    </a>
-                    <a href="https://www.instagram.com/" class="links">
-                        <img src="assets/instagram_logo.png" alt="Instagram" class="icons">
-                    </a>
-                    <a href="https://soundcloud.com/" class="links">
-                        <img src="assets/soundcloud_logo.png" alt="SoundCloud" class="icons">
-                    </a>
-                    <a href="https://www.spotify.com/" class="links">
-                        <img src="assets/spotify_logo.png" alt="Spotify" class="icons">
-                    </a>
-                </table> -->
             </div>
         </div>
     </body>
