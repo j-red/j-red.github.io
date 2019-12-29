@@ -1,3 +1,20 @@
+:root{
+    --sidebar-bg-color: #272B35;
+    --sidebar-light-shadow: #21252D;
+    --sidebar-shadow: #1
+
+    C1F26;
+}
+
+/* @media screen and (max-width: 768px) {
+    .links {
+        display: table;
+    }
+    .icons {
+        display: table-footer-group;
+    }
+} */
+
 .sidenav {
     text-align: center;
     height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -6,40 +23,45 @@
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #272B35;
+    /* background-color: #272B35; */
+    background-color: var(--sidebar-bg-color);
     /* background-color: rgba(0,0,0,.33); */
     overflow-x: hidden; /* Disable horizontal scroll */
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 
-    border-right: 6px ridge rgba(0,0,0,0.33);
+    /* border-right: 6px ridge rgba(0,0,0,0.33); */
+    border-right: 6px solid var(--sidebar-shadow);
+
+    /* smooth transition between widths */
+    transition: width 0.4s ease;
 }
 
-table {
+.links {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50%;
-    position: relative;
+    margin-top: 4px;
+    /* position: relative; */
+    text-decoration: none;
+    padding: 4px;
 }
 
 .icons {
-    background-color: #1C1F26;
-    width:32px;
-    height:32px;
+    background-color: var(--sidebar-shadow);
+    border: 1px solid var(--sidebar-shadow);
+    width:30px;
+    height:30px;
     margin: 2px;
-    margin-left: 4px;
-    margin-right: 4px;
     border-radius: 4px;
-    border: 5px solid #1C1F26;
 }
 
 .icons:hover {
-    background-color: #21252D;
-    border-color: #21252D;
+    background-color: var(--sidebar-light-shadow);
+    border-color: var(--sidebar-light-shadow);
 }
 
 .btn{
-    margin: 10px;
-    margin-top: 20%;
+    margin: 4px;
+    margin-top: 10%;
     width: 200px;
     height: 60px;
     background: none;
@@ -50,14 +72,35 @@ table {
     font-size: 22px;
     position: relative;
     /* kind of works, but doesn't shade the inner edges */
-    box-shadow: 2px 2px #21252D;
+    box-shadow: 2px 2px var(--sidebar-light-shadow);
 
+    transition: width 0.4s ease;
     /* works, but also fades in from white on page transition */
     /* transition: color 0.6s ease; */
 }
 
 .btn:focus{
-    background-color: #21252D;
+    background-color: var(--sidebar-light-shadow);
+}
+
+#toggleBtn {
+    background: var(--sidebar-shadow);
+    width: 50px;
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+    /* font-size: 11px; */
+}
+
+#toggleBtn:hover {
+    background: var(--sidebar-light-shadow);
+}
+
+#navButtons {
+    margin-top: 10px;
+    top: 100px;
+    bottom: 50px;
+    position: absolute;
 }
 
 #homeBtn {
@@ -114,14 +157,11 @@ table {
     position: absolute;
     width: 14px;
     height: 4px;
-    background: #272B35; /* must be same color as background to appear transparent*/
-    /* background: #21252D;
-    background: rgba(0,0,0,0.33) */
+    background: var(--sidebar-bg-color); /* must be same color as background to appear transparent*/
     transform: skewX(50deg);
     transition: .4s ease;
 }
 
-/* hover animations */
 .btn::before{
     top: -4px;
     left: 10%;

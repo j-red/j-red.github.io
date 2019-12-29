@@ -9,45 +9,120 @@
         <link rel="shortcut icon" type="image/png" href="assets/shell.png"/>
     </head>
     <body>
-        <div class="sidenav">
-            <button class="btn" id="homeBtn" onclick="window.location.href = 'index.html';">Home</button>
-            <button class="btn" id="aboutBtn" onclick="window.location.href = 'about.html';">About Me</button>
-            <button class="btn" id="projectsBtn" onclick="window.location.href = 'projects.html';">Projects</button>
-            <button class="btn" id="illustrationsBtn" onclick="window.location.href = 'portfolio.html';">Illustrations</button>
-            <button class="btn" id="musicBtn" onclick="window.location.href = 'music.html';">Music</button>
-            <button class="btn" id="designBtn" onclick="window.location.href = 'design.html';">Design</button>
+        <div class="sidenav" id="mySidebar">
+            <script>
+                var sidebarOpen = true;
+                var openWidth = "200px";
+                var collapsedWidth = "40px";
+
+                function toggle() {
+                    // console.log("value of sidebarOpen: " + sidebarOpen)
+                    if(sidebarOpen == true) {
+                        closeNav();
+                        // console.log("close");
+                    } else {
+                        openNav();
+                        // console.log("open");
+                    }
+                }
+
+                function openNav() {
+                    sidebarOpen = true;
+                    document.getElementById("mySidebar").style.width = "240px";
+                    document.getElementById("main").style.marginLeft = "240px";
+                    document.getElementById("main").style.marginRight = "240px";
+
+                    document.getElementById("homeBtn").style.width = openWidth;
+                    document.querySelector('#homeBtn').textContent = 'Home';
+
+                    document.getElementById("aboutBtn").style.width = openWidth;
+                    document.querySelector('#aboutBtn').textContent = 'About';
+
+                    document.getElementById("projectsBtn").style.width = openWidth;
+                    document.querySelector('#projectsBtn').textContent = 'Projects';
+
+                    document.getElementById("illustrationsBtn").style.width = openWidth;
+                    document.querySelector('#illustrationsBtn').textContent = 'Illustrations';
+
+                    document.getElementById("musicBtn").style.width = openWidth;
+                    document.querySelector('#musicBtn').textContent = 'Music';
+
+                    document.getElementById("designBtn").style.width = openWidth;
+                    document.querySelector('#designBtn').textContent = 'Design';
+                }
+
+                function closeNav() {
+                    sidebarOpen = false;
+                    document.getElementById("mySidebar").style.width = "64px";
+                    document.getElementById("main").style.marginLeft= "auto";
+                    document.getElementById("main").style.marginRight = "auto";
+
+                    document.getElementById("homeBtn").style.width = collapsedWidth;
+                    document.querySelector('#homeBtn').textContent = 'H';
+
+                    document.getElementById("aboutBtn").style.width = collapsedWidth;
+                    document.querySelector('#aboutBtn').textContent = 'A';
+
+                    document.getElementById("projectsBtn").style.width = collapsedWidth;
+                    document.querySelector('#projectsBtn').textContent = 'P';
+
+                    document.getElementById("illustrationsBtn").style.width = collapsedWidth;
+                    document.querySelector('#illustrationsBtn').textContent = 'I';
+
+                    document.getElementById("musicBtn").style.width = collapsedWidth;
+                    document.querySelector('#musicBtn').textContent = 'M';
+
+                    document.getElementById("designBtn").style.width = collapsedWidth;
+                    document.querySelector('#designBtn').textContent = 'D';
+                }
+            </script>
+
+            <!-- <button class="openbtn" style='background: black; margin-top: 10px;' onclick="openNav()">☰ Open Sidebar</button> -->
+
+            <button class="closeBtn" id="toggleBtn" onclick="toggle()">Toggle Sidebar</button>
+            <br>
+            <table id="navButtons">
+                <button class="btn" id="homeBtn" onclick="window.location.href = 'index.html';">Home</button>
+                <button class="btn" id="aboutBtn" onclick="window.location.href = 'about.html';">About</button>
+                <button class="btn" id="projectsBtn" onclick="window.location.href = 'projects.html';">Projects</button>
+                <button class="btn" id="illustrationsBtn" onclick="window.location.href = 'portfolio.html';">Illustrations</button>
+                <button class="btn" id="musicBtn" onclick="window.location.href = 'music.html';">Music</button>
+                <button class="btn" id="designBtn" onclick="window.location.href = 'design.html';">Design</button>
+            </table>
+
 
             <!-- <button class="btn" id="designBtn" onclick="window.location.href = 'visual.html';">Visualize</button> -->
 
             <div class="links">
                 <table id="social">
-                    <tr>
-                        <td>
-                            <a href="https://twitter.com/home">
-                                <img src="assets/twitter_logo.png" alt="Twitter" class="icons">
-                            </a>
-                        </td>
-                        <td>
-                            <a href="https://www.instagram.com/">
-                                <img src="assets/instagram_logo.png" alt="Instagram" class="icons">
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a href="https://soundcloud.com/">
-                                <img src="assets/soundcloud_logo.png" alt="SoundCloud" class="icons">
-                            </a>
-                        </td>
-                        <td>
-                            <a href="https://www.spotify.com/">
-                                <img src="assets/spotify_logo.png" alt="Spotify" class="icons">
-                            </a>
-                        </td>
-                    </tr>
+                    <a href="https://twitter.com/home" class="links">
+                        <img src="assets/twitter_logo.png" alt="Twitter" class="icons">
+                    </a>
+                    <a href="https://www.instagram.com/" class="links">
+                        <img src="assets/instagram_logo.png" alt="Instagram" class="icons">
+                    </a>
+                    <a href="https://soundcloud.com/" class="links">
+                        <img src="assets/soundcloud_logo.png" alt="SoundCloud" class="icons">
+                    </a>
+                    <a href="https://www.spotify.com/" class="links">
+                        <img src="assets/spotify_logo.png" alt="Spotify" class="icons">
+                    </a>
                 </table>
+                <!-- <table id="social">
+                    <a href="https://twitter.com/home" class="links">
+                        <img src="assets/twitter_logo.png" alt="Twitter" class="icons">
+                    </a>
+                    <a href="https://www.instagram.com/" class="links">
+                        <img src="assets/instagram_logo.png" alt="Instagram" class="icons">
+                    </a>
+                    <a href="https://soundcloud.com/" class="links">
+                        <img src="assets/soundcloud_logo.png" alt="SoundCloud" class="icons">
+                    </a>
+                    <a href="https://www.spotify.com/" class="links">
+                        <img src="assets/spotify_logo.png" alt="Spotify" class="icons">
+                    </a>
+                </table> -->
             </div>
-
         </div>
     </body>
 </html>

@@ -34,10 +34,13 @@
     color: #F5F5F5;
     text-align: center;
     justify-content: center;
+    transition: width 0.4s ease;
+    /* transition: margin-left 0.4s ease; */
 }
 
 body {
     background: #353b48;
+    /* float: none; */
     /* background: #e74c3c; */
 
     height: 100vh;
@@ -53,6 +56,8 @@ body {
     margin-left: 300px;
     margin-right: 60px;
     margin-top: 320px;
+
+
 }
 
 .text {
