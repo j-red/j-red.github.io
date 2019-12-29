@@ -11,6 +11,15 @@
     <body>
         <div class="sidenav" id="mySidebar">
             <script>
+                // Size of browser viewport.
+                var wHeight = $(window).height();
+                var wWidth = $(window).width();
+                console.log(wWidth + "x" + wHeight)
+
+                // Size of HTML document (same as pageHeight/pageWidth in screenshot).
+                $(document).height();
+                $(document).width();
+
                 var sidebarOpen = true;
                 var openWidth = "200px";
                 var collapsedWidth = "40px";
@@ -81,6 +90,11 @@
                     document.getElementById("visualBtn").style.width = collapsedWidth;
                     document.querySelector('#visualBtn').textContent = 'V';
                 }
+
+                if(wWidth <= 768) {
+                    closeNav();
+                }
+
             </script>
 
             <!-- <button class="openbtn" style='background: black; margin-top: 10px;' onclick="openNav()">☰ Open Sidebar</button> -->
