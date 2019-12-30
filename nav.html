@@ -14,8 +14,7 @@
                 // Size of browser viewport.
                 var wHeight = $(window).height();
                 var wWidth = $(window).width();
-                console.log(wWidth + "x" + wHeight)
-
+                console.log(wWidth + "x" + wHeight);
                 // Size of HTML document (same as pageHeight/pageWidth in screenshot).
                 // $(document).height();
                 // $(document).width();
@@ -40,42 +39,6 @@
                     }
                 	return "";
                 }
-
-        		// function checkCookie() {
-                //     var user = getCookie("testCookie");
-                //     if (user != "")
-                //     alert("Welcome back " + user + "!");
-                //     else {
-                //         user = prompt("Please enter your name");
-                //         num = prompt("How many days you want to store your name on your computer?");
-                //         if (user!="" && user!=null) {
-                //             setCookie("testCookie", user, num);
-                //         }
-                //     }
-                // }
-
-                // function setCookie(cname, cvalue, exdays) {
-                //     var d = new Date();
-                //     d.setTime(d.getTime() + (exdays*24*60*60*1000));
-                //     var expires = "expires="+ d.toUTCString();
-                //     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-                // }
-
-                // function getCookie(cname) {
-                //     var name = cname + "=";
-                //     var decodedCookie = decodeURIComponent(document.cookie);
-                //     var ca = decodedCookie.split(';');
-                //     for(var i = 0; i < ca.length; i++) {
-                //         var c = ca[i];
-                //         while (c.charAt(0) == ' ') {
-                //           c = c.substring(1);
-                //     }
-                //     if (c.indexOf(name) == 0) {
-                //         return c.substring(name.length, c.length);
-                //         }
-                //     }
-                //     return "";
-                // }
 
                 function toggle() {
                     // console.log("value of sidebarOpen: " + sidebarOpen)
@@ -152,33 +115,25 @@
                 }
 
                 // if(wWidth <= 828) { //iPhone XR resolution width
-                if(wWidth <= 1000) { //iPhone XR resolution width + headroom
+                if(wWidth <= 850) { //iPhone XR resolution width + headroom
                     closeNav();
                 }
 
                 var navOpen = getCookie('navOpen');
-                console.log("value of navOpen: " + navOpen);
-
                 if(navOpen == '') {
-                    console.log("Cookie not set? setting to: " + sidebarOpen);
+                    // console.log("Cookie not set? setting to: " + sidebarOpen);
                     setCookie('navOpen', sidebarOpen.toString())
                 }
-
-                if(getCookie('navOpen') == 'false') {
+                if(navOpen == 'false') {
                     closeNav();
-                    console.log("cookie set to close, closing.");
+                    // console.log("cookie set to close, closing.");
                 }
-
-                if(getCookie('navOpen') == 'true') {
+                if(navOpen == 'true') {
                     openNav();
-                    console.log("cookie set to open, opening.");
+                    // console.log("cookie set to open, opening.");
                 }
-
-
             </script>
-
-            <!-- <button class="openbtn" style='background: black; margin-top: 10px;' onclick="openNav()">☰ Open Sidebar</button> -->
-
+            
             <button class="toggleBtn" id="toggleBtn" onclick="toggle()">Toggle Sidebar</button>
             <table id="navButtons">
                 <button class="btn" id="homeBtn" onclick="window.location.href = 'index.html';">Home</button>
@@ -187,7 +142,6 @@
                 <button class="btn" id="illustrationsBtn" onclick="window.location.href = 'portfolio.html';">Illustrations</button>
                 <button class="btn" id="musicBtn" onclick="window.location.href = 'music.html';">Music</button>
                 <button class="btn" id="designBtn" onclick="window.location.href = 'design.html';">Design</button>
-
                 <button class="btn" id="visualBtn" onclick="window.location.href = 'visual.html';">Visualize</button>
             </table>
 
@@ -196,21 +150,25 @@
 
             <div class="links">
                 <table id="social">
-                    <a href="https://twitter.com/home" class="links">
+                    <a href="https://twitter.com/home" target="_blank" class="links">
                         <img src="assets/twitter_logo.png" alt="Twitter" class="icons">
                     </a>
                     <!-- <br> -->
-                    <a href="https://www.instagram.com/" class="links">
+                    <a href="https://www.instagram.com/" target="_blank" class="links">
                         <img src="assets/instagram_logo.png" alt="Instagram" class="icons">
                     </a>
                     <!-- <br> -->
-                    <a href="https://soundcloud.com/" class="links">
+                    <a href="https://soundcloud.com/j-a-r-e-d" target="_blank" class="links">
                         <img src="assets/soundcloud_logo.png" alt="SoundCloud" class="icons">
                     </a>
                     <!-- <br> -->
-                    <a href="https://www.spotify.com/" class="links">
-                        <img src="assets/spotify_logo.png" alt="Spotify" class="icons">
+                    <a href="https://github.com/j-red" target="_blank" class="links">
+                        <img src="assets/github_logo.png" alt="GitHub" class="icons">
                     </a>
+                    <!-- <br> -->
+                    <!-- <a href="https://www.spotify.com/" target="_blank" class="links">
+                        <img src="assets/spotify_logo.png" alt="Spotify" class="icons">
+                    </a> -->
                     <!-- <br> -->
                 </table>
             </div>

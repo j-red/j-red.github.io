@@ -10,3 +10,9 @@
     width: 16px;
     height: 16px;
 }
+
+/* @media only screen and (max-width: 600px) {
+    .container {
+        background-color: lightblue;
+    }
+} */

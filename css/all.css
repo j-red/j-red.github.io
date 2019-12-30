@@ -1,3 +1,5 @@
+/* ☰ */
+
 /* Custom fonts */
 @font-face {
     font-family: 'SailorsDiary';
@@ -35,6 +37,7 @@
     text-align: center;
     justify-content: center;
     transition: width 0.4s ease;
+    /* overflow-x: hidden; */
     /* transition: margin-left 0.4s ease; */
 }
 
@@ -44,6 +47,7 @@ body {
     /* background: #e74c3c; */
 
     height: 100vh;
+    /* width: 10vw; */
     display: flex;
     align-items: center;
     margin: auto;
@@ -56,8 +60,7 @@ body {
     margin-left: 300px;
     margin-right: 60px;
     margin-top: 320px;
-
-
+    /* width: 120vw; */
 }
 
 .text {
