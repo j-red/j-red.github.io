@@ -3,10 +3,12 @@
     padding: 0;
 }
 
+#visualBtn {
+    background-color: #21252D;
+}
+
 .threejs {
     margin: auto;
-    /* width: 50%; */
-    /* margin-top:50%; */
 }
 
 #info {
