@@ -17,8 +17,8 @@
                 console.log(wWidth + "x" + wHeight)
 
                 // Size of HTML document (same as pageHeight/pageWidth in screenshot).
-                $(document).height();
-                $(document).width();
+                // $(document).height();
+                // $(document).width();
 
                 var sidebarOpen = true;
                 var openWidth = "200px";
@@ -35,9 +35,6 @@
                     var name = cname + "=";
                     var decodedCookie = decodeURIComponent(document.cookie);
                     var ca = decodedCookie.split(';');
-
-                    console.log(ca);
-
                     for(var i = 0; i < ca.length; i++) {
                         var c = ca[i];
                         while (c.charAt(0) == ' ') {
@@ -64,6 +61,8 @@
                 function openNav() {
                     sidebarOpen = true;
                     setCookie('navOpen', 'true', 0);
+                    console.log('navOpen set to true')
+                    console.log('actual value: "' + getCookie('navOpen') + '"')
 
                     document.getElementById("mySidebar").style.width = "240px";
                     // document.getElementById("main").style.marginLeft = "240px";
@@ -94,6 +93,7 @@
                 function closeNav() {
                     sidebarOpen = false;
                     setCookie('navOpen', 'false', 0);
+                    console.log('navOpen set to false')
 
                     document.getElementById("mySidebar").style.width = "64px";
                     // document.getElementById("main").style.marginLeft= "auto";
@@ -126,11 +126,16 @@
                     closeNav();
                 }
 
-                console.log("value: " + getCookie('navOpen'));
+                var navOpen = getCookie('navOpen');
+                console.log("value of navOpen: " + navOpen);
+                if(navOpen == '') {
+                    console.log("Cookie not set? setting to: " + sidebarOpen);
+                    setCookie('navOpen', sidebarOpen.toString())
+                }
 
                 if(getCookie('navOpen') == 'false') {
                     closeNav();
-                    console.log("close");
+                    console.log("cookie set to close, closing.");
                 }
 
 
