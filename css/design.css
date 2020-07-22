@@ -1,3 +1,33 @@
 #designBtn{
     background-color: #21252D;
 }
+
+.portfolio {
+    margin: auto;
+    padding: 1px;
+    /* border: 1px white solid; */
+}
+
+img {
+    /* max-width: 250px; */
+    max-height: 150px;
+}
+
+video {
+    max-width: 250px;
+    /* max-height: 250px; */
+}
+
+td {
+    align-items: center;
+    /* color: black; */
+    width: 250px;
+    padding: 2px;
+    /* border: 1px white solid; */
+
+    /* width: 30px; */
+    overflow: hidden;
+    /* overflow: scroll; */
+    display: inline-block;
+    white-space: nowrap;
+}

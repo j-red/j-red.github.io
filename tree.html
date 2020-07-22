@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <title>p5.js example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/png" href="assets/shell.png"/>
+    <link rel="stylesheet" href="css/all.css" type="text/css">
+    <link rel="stylesheet" href="css/tree.css" type="text/css">
+    <script src="js/navScript.js"></script>
+    <script src="scripts/p5.js"></script>
+    <!-- <script src="p5.dom.js"></script> -->
+</head>
+
+<body>
+    <!--Navigation bar-->
+    <div id="nav-placeholder"></div>
+    <script>
+        $(function(){
+            $("#nav-placeholder").load("nav.html");
+        });
+    </script>
+    <!--end of Navigation bar-->
+
+    <div class="layout">
+        <script src="scripts/drawTree.js"></script>
+
+        <div id="sketch"></div>
+        <div class="sliders">
+            <table>
+                <tr>
+                    <th>Angle</th>
+                    <th>Minimum Length</th>
+                </tr>
+                <tr>
+                    <td><input type="range" class="slider" id="angleSlider"></td>
+                    <td><input type="range" class="slider" id="lengthSlider"></td>
+                </tr>
+            </table>
+            <!-- <input type="range" class="slider" id="angleSlider"> -->
+            <!-- <input type="range" min="1" max="10" value="5" class="slider" id="lengthSlider"> -->
+        </div>
+
+    </div>
+
+
+</body>
+</html>

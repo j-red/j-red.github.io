@@ -1,0 +1,37 @@
+body {
+    justify-content: center;
+    /* background-color: #333; */
+
+    font-family: Courier, sans-serif;
+    text-shadow: 2px 2px 2px #222222;
+    text-align: center;
+    color: white;
+    stroke-linecap: round;
+}
+
+table {
+    margin: auto;
+}
+
+.layout {
+    display: grid;
+    grid-gap: 10%;
+    /* grid-column: 3; */
+    /* margin-top: 20%; */
+}
+
+#sketch {
+    margin-top: 33%;
+    /* grid-row: 1; */
+}
+
+.sliders {
+    grid-row: 2;
+}
+
+/* Vertical Sliders */
+/* input {
+    -webkit-appearance: slider-vertical;
+    width: 10px;
+    height: 100px;
+} */
