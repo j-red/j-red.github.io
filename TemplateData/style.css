@@ -14,3 +14,16 @@ body { padding: 0; margin: 0; background-color: #111111; }
 #unity-build-title { color: white; float: right; margin-right: 10px; line-height: 38px; font-family: arial; font-size: 18px }
 #unity-fullscreen-button { float: right; width: 38px; height: 38px; background: url('fullscreen-button.png') no-repeat center }
 #unity-mobile-warning { position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; padding: 10px; display: none }
+#controltxt {
+	color:white !important;
+	font-family: "Lucida Console", "Courier New", monospace; 
+	#position: absolute;
+    top: 90%;
+    #left: 20%;
+    #margin-top: -50px;
+    #margin-left: -50px;
+    #width: 60%;
+	text-align:center;
+	margin-top:10%; 
+	width=20%;
+}
