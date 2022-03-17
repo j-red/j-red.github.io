@@ -1,0 +1,38 @@
+* { 
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+body {
+    background-color: rgb(5, 5, 5);
+    color:green;
+    font-family: 'Consolas', Consolas, monospace;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+    user-select: none;
+    -moz-user-select: none;
+}
+
+.map {
+    width: 80%;
+    height: 80%;
+}
+
+.entity {
+    cursor: pointer;
+}
+
+.wall {
+    cursor: default;
+}
+
+/* .entity:focus {
+    color:lime;
+} */
+
+.focused {
+    color:lime;
+}
