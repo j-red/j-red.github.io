@@ -19,6 +19,10 @@
 
 * Add -/+ size option for painting tools; place below buttons on RHS (done)
 * Map exporter (export as JSON string? add export/import menu in bottom right)
+* Enable export JSON entities list to import/save into another map
+* also allow export as text for safekeeping
+
+* Button mouse hover styling for bottom right buttons and buttons in IO menu
 
 ### TO FIX:
 * Erasing entities does not remove only the ones dragged over -- presumably the erase call is made multiple times on the same index before the one is removed? (DONE)

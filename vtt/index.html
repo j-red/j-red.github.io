@@ -14,6 +14,38 @@
 </head>
 <body oncontextmenu="return false;">
     
+    <div class="overlay-menu" id="faq" onclick="toggle_faq();">
+        <div class="overlay-box" onclick="event.stopPropagation();">
+            <h2>faq</h2>
+            <br />
+            <p>press ESCAPE to clear the map</p>
+        </div>
+    </div>
+
+    <div class="overlay-menu" id="io-menu" onclick="toggle_io();">
+        <div class="overlay-box" onclick="event.stopPropagation();">
+            <h2>import/export settings</h2>
+            <br />
+            <div style="display: inline-grid; column-gap: 200px;">
+                <button id="import-text" class="io-btn" onclick="">
+                    import state
+                </button>
+
+                <button id="export-state" class="io-btn" onclick="">
+                    export state
+                </button> 
+
+                <button id="export-text" class="io-btn" onclick="">
+                    export ASCII
+                </button>
+            </div>
+            <!-- <p>import/export settings</p> -->
+            <div id="io-box">
+                <input type="text" placeholder="copy/paste IO string here" id="iostring"> </input>
+            </div>
+            <p class="exit-menu-text">click anywhere else or press ESCAPE to exit</p>
+        </div>
+    </div>
 
     <div id="map">
         <!-- Container for edges around screen -->
@@ -43,14 +75,20 @@
     </div>
 
     <div class="sidebar right bottom">
-        <button id="rsb_faq" class="rightside button bottom" tabindex="-1" onclick="faq()">
+        <button id="rsb_faq" class="rightside button bottom" tabindex="-1" onclick="toggle_faq()">
             ?
         </button>
 
-        <button id="rsb_export" class="rightside button bottom" tabindex="-1" onclick="io()">
+        <button id="rsb_export" class="rightside button bottom" tabindex="-1" onclick="toggle_io()">
             IO
         </button>
     </div>
+
+    <!-- <div id="faq">
+        <div id="faq-box" style="">
+            <p>press ESCAPE to clear the map</p>
+        </div>
+    </div> -->
 
     <!-- <script src="scripts/entities.js"></script> -->
     <script src="scripts/fill.js"></script>

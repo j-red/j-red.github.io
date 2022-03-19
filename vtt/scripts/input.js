@@ -47,6 +47,10 @@ main.addEventListener("keyup", onKeyUp);
 // main.addEventListener("click", onClick);
 main.addEventListener("mousedown", onClick);
 
+// map.addEventListener("keydown", onKeyDown);
+// map.addEventListener("keyup", onKeyUp);
+// map.addEventListener("mousedown", onClick);
+
 // document.querySelector("#map").addEventListener("click", onClick);
 // $('#map').children('span').on("click", onClick);
 
@@ -144,6 +148,23 @@ function switch_rsb(x, y, e) { // x pos, y pos, click event
 
 function onKeyDown(event) {
     // console.log(`Event.key: ${event.key}`)
+    if (faq_open) { // close faq or IO menu if open
+        if (KEYS.CONFIRM.includes(event.key)) { // if menu is open and 
+            event.preventDefault(); // enter/space pressed, close menu
+            toggle_faq();
+        } else if (KEYS.ESCAPE.includes(event.key)) { // if menu is open and
+            event.preventDefault(); // esc pressed, close menu
+            toggle_faq();
+        }
+        return;
+    } else if (io_open) {
+        if (KEYS.ESCAPE.includes(event.key)) { // if menu is open and esc pressed,
+            event.preventDefault(); // close menu
+            toggle_io();
+        }
+        return;
+    } // else: (if no menu is open)
+
     if (shift_down) {
         delta = speed * scalar;
     } else {
@@ -188,12 +209,32 @@ function onKeyDown(event) {
         } else if (KEYS.MENU.includes(event.key)) {
             event.preventDefault();
             // console.log(`MENU: ${event.key}`);
+
+            if (faq_open) { // close faq or IO menu if open
+                toggle_faq();
+                return;
+            } else if (io_open) {
+                toggle_io();
+                return;
+            } // else:
+
+
+
         } else if (KEYS.CONSOLE.includes(event.key)) {
             event.preventDefault();
             // console.log(`CONSOLE: ${event.key}`);
         } else if (KEYS.CONFIRM.includes(event.key)) {
             event.preventDefault();
             // console.log(`CONFIRM: ${event.key}`);
+
+            // if (faq_open) { // close faq or IO menu if open
+            //     toggle_faq();
+            //     return;
+            // } else if (io_open) {
+            //     toggle_io();
+            //     return;
+            // } // else:
+
         } else if (KEYS.PRIMARY.includes(event.key)) {
             event.preventDefault();
             // console.log(`PRIMARY: ${event.key}`);
@@ -209,6 +250,15 @@ function onKeyDown(event) {
             window.location.reload(true);
         } else if (KEYS.ESCAPE.includes(event.key)) {
             event.preventDefault();
+
+            if (faq_open) { // close faq or IO menu if open
+                toggle_faq();
+                return;
+            } else if (io_open) {
+                toggle_io();
+                return;
+            } // else:
+
             if (confirm("would you like to clear all entities?")) {
                 console.debug(`ESCAPE: Clearing Entities...`);
                 let ct = entities.length;

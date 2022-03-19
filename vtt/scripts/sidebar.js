@@ -45,14 +45,52 @@ function drawsize(delta) {
 }
 
 
-function faq() {
+var faq_open = false;
+const faq = $("#faq");
+function toggle_faq() {
     /* open the tutorial/faq */
-    console.log('opening FAQ');
+    faq_open = !faq_open;
+
+    if (faq_open) {
+        console.log('opening FAQ'); 
+        $("#faq").css("display", "block");
+    } else {
+        console.log('closing FAQ'); 
+        $("#faq").css("display", "none");
+    }
 }
 
 
-function io() {
+var io_open = false;
+const io = $("#io-menu");
+
+$(".overlay-box").on("click", function(event){ 
+    // prevent child elem clicks from clicking parent
+    event.stopPropagation();
+    console.log( "I was clicked, but my parent will not be." );
+});
+
+function toggle_io() {
     /* manage importing/exporting maps */
-    console.log('opening IO menu');
+    io_open = !io_open;
+
+    if (io_open) {
+        console.log('opening IO menu'); 
+        $("#io-menu").css("display", "block");
+    } else {
+        console.log('closing IO menu'); 
+        $("#io-menu").css("display", "none");
+    }
 
 }
+
+// $("#overlay-box").on("click", function(event){
+//     event.stopPropagation();
+//     console.log( "I was clicked, but my parent will not be." );
+// });
+
+
+// function stop_prop(event){
+//     event.stopPropagation();
+//     console.log( "I was clicked, but my parent will not be." );
+// }
