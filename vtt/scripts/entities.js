@@ -1,20 +1,51 @@
 class Entity {
-    constructor(x, y) {
-        this.cell = $(`.${x}_${y}`); // reference to current cell
+    constructor(x, y, e = null) {
+        if (!is_empty(x, y)) { // check if something already in this cell
+            // console.log('cell occupied');
+            // return false;
+            throw `Cell Already Occupied Error`;
+        }
+
+        // this.cell = $(`.${x}_${y}`); // reference to current cell
+        this.cell = $('#map').find(`.${x}_${y}`); // only look in map
         this.cell.addClass('entity');
+        this.type = 'entity'; // entity, player, wall, etc...
 
         this.x = Number(x);
         this.y = Number(y);
         this.char = "@";
         this.prev = this.cell.text(); // get previous content of the cell
         this.unique_ID = ""; // future placeholder
+
+        this.health = 1;
         
-        // cell.innerText = this.char; // override prev char
         this.cell.text(this.char); // override prev char
 
         entities.push(this); // insert self into entities array
 
         this.active = false;
+
+        return this;
+    }
+
+    toggle_focus() {
+        if (this.active) {
+            this.unfocus();
+        } else {
+            this.focus();
+        }
+    }
+
+    focus() {
+        this.active = true;
+        this.cell.addClass("focused");
+        // console.log('added focus');
+    }
+
+    unfocus() {
+        this.active = false;
+        this.cell.removeClass("focused");
+        // console.log('removed focus');
     }
 
     move(dr, dc) {
@@ -69,62 +100,90 @@ class Entity {
     }
 
     reveal() {
-        // ensure Entity is visible in its current cell
-        // console.debug("Entity revealed");
-        this.cell = $(`.${this.x}_${this.y}`); // reference to current cell
+        /* ensure Entity is visible in its current cell */
+        this.cell = $('#map').find(`.${this.x}_${this.y}`) // reference current cell
         
         if (this.x == MAX_HEIGHT - 1 || this.y == MAX_WIDTH - 1) return; // don't reveal if overlaps with border
-
+        
         this.cell.addClass('entity');
+        this.cell.addClass(this.type);
         this.cell.text(this.char);
-
+        
         if (this.active) {
             this.cell.addClass("focused");
         }
+        
+
+        // console.debug("Entity revealed");
     }
 
     destroy() {
         this.cell.text(this.prev);
         this.cell.removeClass('entity');
         
-        // if (this.active) {
         this.cell.removeClass('focused');
-        // }
+        this.active = false;
+
+        this.cell.removeClass(this.type);
         
-        // entities.delete(get_entity_index(this));
-        entities.splice(get_entity_index(this), 1);
+        entities.splice(get_entity_index(this), 1); // splice self out of entities list
+    }
+
+    equals(other) {
+        return (this.x === other.x && this.y === other.y && this.type === other.type);
     }
 }
 
 class Player extends Entity {
     constructor(x, y) {
-        super(x, y); // call base class constructor
-        this.char = "o";
-        this.cell.addClass("player");
-        this.reveal();
-    }
+        super(x, y);
+        // let parent = super(x, y); // execute parent constructor
+        // if (parent == false) {
+        //     console.log('aborting player');
+        //     return false; // abort if parent construction fails
+        // } else {
+        //     console.log("player OK: ");
+        //     console.log(this);
+        // }
+            
 
-    destroy() {
-        super.destroy(); // call base class destructor
-        this.cell.removeClass('player');
+        this.char = "o";
+        this.type = 'player';
+        this.cell.addClass("player");
+        this.cell.text(this.char);
+
+        this.health = 3;
+        
+        // this.reveal();
+
+        return this;
     }
 }
 
 class Wall extends Entity {
     constructor(x, y) {
-        super(x, y);
+        super(x, y); // call parent constructor
+        // let parent = super(x, y); // execute parent constructor
+        // if (parent == false) return false; // abort if parent construction fails
+
         this.char = '█';
+        this.cell = $('#map').find(`.${x}_${y}`);
+        this.type = 'wall';
         this.cell.addClass('wall');
-        this.reveal();
+        this.cell.text(this.char);
+        // this.reveal();
+
+        this.health = 10;
+
+        return this;
     }
 
     move(x, y) {
         return; // walls can't move, silly!
     }
 
-    destroy() {
-        super.destroy();
-        this.cell.removeClass('wall');
+    toggle_focus() {
+        return; // do not allow focus on walls
     }
 }
 
@@ -138,10 +197,8 @@ class Wall extends Entity {
 // }
 
 function kill_entity_at_index(i) {
-    entities[i].destroy();
-    // console.debug(`Entity deleted. New Entities array:`);
-    // console.debug(entities);
-    entities.splice(i, 1); // remove entity from list
+    entities[i].destroy(); // removes self from entities list
+    // console.log('Killed index ' + i);
 }
 
 function kill_entity_at(x, y) {
@@ -166,12 +223,12 @@ function get_entity_for(x, y) {
             return entities[i];
         }
     }
-    console.error(`No entity found for location (${x}, ${y})`)
+    // console.error(`No entity found for location (${x}, ${y})`)
     return null; // if not found
 }
 
 function get_entity_index_for(x, y) {
-    console.log(entities);
+    // console.log(entities);
     for (let i = 0; i < entities.length; i++) {
         // console.debug(`Comparing Ent(${entities[i].x}, ${entities[i].y}) to (${x}, ${y})`);
         if (entities[i].x == x && entities[i].y == y) {
@@ -182,3 +239,18 @@ function get_entity_index_for(x, y) {
     return null; 
 }
 
+function is_empty(x, y) {
+    if (x == 0 || x == (MAX_HEIGHT - 1)) return false;
+    if (y == 0 || y == (MAX_WIDTH - 1)) return false;
+
+    // for (let i = 0; i < entities.length; i++) {
+    //     if (entities[i].x == x && entities[i].y == y) {
+    //         return false;
+    //     }
+    // }
+    if (get_entity_for(x, y)) return false;
+    
+    /* TODO: check for walls, other obstacles, etc. as they are added */
+
+    return true;
+}

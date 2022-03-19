@@ -1,5 +1,6 @@
 <!-- python3 -m http.server -->
 <head>
+    <title>virtual tabletop</title>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link rel="stylesheet" href="style/main.css">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -18,7 +19,7 @@
         <!-- Container for edges around screen -->
     </div>
 
-    <div class="sidebar right">
+    <div class="sidebar right top">
         <!-- right sidebar: paint options, FAQ, and more -->
 
         <button id="rsb_walls" class="rightside button" tabindex="-1" onclick="right_sidebar('rsb_walls')">
@@ -35,6 +36,19 @@
 
         <button id="rsb_erase" class="rightside button" tabindex="-1" onclick="right_sidebar('rsb_erase')">
             ~
+        </button>
+
+        <p><a id="decrease_drawsize" onclick="drawsize(-1)" style="text-decoration:none;">-</a>/<a id="increase_drawsize" onclick="drawsize(1)">+</a></p>
+
+    </div>
+
+    <div class="sidebar right bottom">
+        <button id="rsb_faq" class="rightside button bottom" tabindex="-1" onclick="faq()">
+            ?
+        </button>
+
+        <button id="rsb_export" class="rightside button bottom" tabindex="-1" onclick="io()">
+            IO
         </button>
     </div>
 

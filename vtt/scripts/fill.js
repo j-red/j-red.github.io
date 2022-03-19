@@ -1,4 +1,4 @@
-var map = document.getElementById("map");
+const map = document.getElementById("map");
 
 // const singleWalls = "─│┌┐└┘ ├┤┬┴┼";
 // const doubleWalls = "═║╔╗╚╝ ╠╣╦╩╬"

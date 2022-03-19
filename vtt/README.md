@@ -17,6 +17,12 @@
     * Fix margin to right; make fixed distance
 * Add Tutorial/FAQ menu; onboard new users appropriately
 
+* Add -/+ size option for painting tools; place below buttons on RHS (done)
+* Map exporter (export as JSON string? add export/import menu in bottom right)
+
+### TO FIX:
+* Erasing entities does not remove only the ones dragged over -- presumably the erase call is made multiple times on the same index before the one is removed? (DONE)
+
 #### Long-term:
 * Right click context menu for each entity; create popup with name, health, other stats
 * Journal menu on left side of screen; press Tab to open

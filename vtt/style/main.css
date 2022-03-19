@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     cursor: default;
+    font-family: 'Consolas', Consolas, monospace;
 }
 
 body {
@@ -23,45 +24,67 @@ body {
     -moz-user-select: none;
 }
 
+p {
+    color: var(--fg-color);
+}
+
 .map {
     width: 80%;
     height: 80%;
+}
+
+.wall {
+    cursor: default !important;
+}
+
+.focused {
+    color: var(--focused-color);
 }
 
 .entity {
     cursor: pointer;
 }
 
-.wall {
-    cursor: default;
-}
-
 /* .entity:focus {
     color:lime;
 } */
 
-.focused {
-    color: var(--focused-color);
-}
+
 
 a {
     cursor: pointer;
     color: inherit;
+    text-decoration: underline;
+}
+
+.sidebar.right.top {
+    height: 30%;
+    top: 15;
+}
+
+.sidebar.right.bottom {
+    height: 10%;
+    bottom: 100px;
+    row-gap: 10px;
 }
 
 .sidebar.right {
     /* border: 1px solid var(--fg-color); */
-    color: var(--bg-color);
+    /* color: var(--bg-color); */
     display: grid;
     /* height: 100%; */
-    height: 30%;
+    /* height: 30%; */
     width: 2%;
     position: absolute;
-    top: 15;
+    /* top: 15; */
     right: 15;
     /* padding: 15px 15px 15px 15px; */
     /* row-gap: 10px; */
 }
+
+
+
+
 
 .rightside.button.focused {
     border: 1px solid var(--focused-color);
