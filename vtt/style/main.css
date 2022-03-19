@@ -4,13 +4,20 @@
     cursor: default;
 }
 
+:root {
+    --bg-color: rgb(5, 5, 5);
+    --fg-color: green;
+    --focused-color: lime;
+}
+
 body {
-    background-color: rgb(5, 5, 5);
-    color:green;
+    background-color: var(--bg-color);
+    color:var(--fg-color);
     font-family: 'Consolas', Consolas, monospace;
     margin: 0;
     padding: 0;
     text-align: center;
+    overflow: hidden;
     
     user-select: none;
     -moz-user-select: none;
@@ -34,5 +41,10 @@ body {
 } */
 
 .focused {
-    color:lime;
+    color: var(--focused-color);
+}
+
+a {
+    cursor: pointer;
+    color: inherit;
 }

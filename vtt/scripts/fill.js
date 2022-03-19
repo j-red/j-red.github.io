@@ -47,6 +47,11 @@ var CHARSIZE = { // default is 9px wide, 19px tall
 var MAX_WIDTH = 200; // maximum number of columns to draw
 var MAX_HEIGHT = 48; // maximum number of rows to draw
 
+var SCREENFILL = { // what maximum percentage of the page to fill
+    X: 0.96,
+    Y: 0.99
+}
+
 var map_width = $('body').width();
 var map_height = $('body').height();
 MAX_WIDTH = Math.min(Math.floor(map_width / CHARSIZE.w), MAX_WIDTH);
@@ -69,8 +74,8 @@ function redraw() {
     // console.debug("Called redraw")
     map.innerHTML = "";
 
-    var map_width = $('body').width();
-    var map_height = $('body').height();
+    var map_width = $('body').width() * SCREENFILL.X;
+    var map_height = $('body').height() * SCREENFILL.Y;
     MAX_WIDTH = Math.floor(map_width / CHARSIZE.w), MAX_WIDTH;
     MAX_HEIGHT = Math.floor(map_height / CHARSIZE.h), MAX_HEIGHT;
 
