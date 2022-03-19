@@ -5,7 +5,7 @@ class Entity {
 
         this.x = Number(x);
         this.y = Number(y);
-        this.char = "o";
+        this.char = "@";
         this.prev = this.cell.text(); // get previous content of the cell
         this.unique_ID = ""; // future placeholder
         
@@ -99,7 +99,7 @@ class Entity {
 class Player extends Entity {
     constructor(x, y) {
         super(x, y); // call base class constructor
-        this.char = "@";
+        this.char = "o";
         this.cell.addClass("player");
         this.reveal();
     }
@@ -142,6 +142,10 @@ function kill_entity_at_index(i) {
     // console.debug(`Entity deleted. New Entities array:`);
     // console.debug(entities);
     entities.splice(i, 1); // remove entity from list
+}
+
+function kill_entity_at(x, y) {
+    kill_entity_at_index(get_entity_index_for(x, y));
 }
 
 function get_entity_index(entity) {

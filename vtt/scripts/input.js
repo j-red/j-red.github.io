@@ -237,7 +237,8 @@ function dragStart(e) {
         initialY = e.clientY - yOffset;
     }
 
-    if (e.button == 2) { // if right mouse held down
+    // if (e.button == 2) { // if right mouse held down
+    if (e.button == 0 || e.button == 2) { // if left OR right mouse held down
         active = true;
     }
 }
@@ -265,17 +266,42 @@ function drag(e) {
         xOffset = currentX;
         yOffset = currentY;
 
-        // setTranslate(currentX, currentY, dragItem);
-        // console.log(currentX, currentY);
-
         var classes = e.target.classList;
         
-        let x = classes[0];
-        let y = classes[1];
-        if (!isNaN(x) && !isNaN(y) && is_empty(x, y)) {
-            // let ent = new Entity(x, y, e.target); // place new entities beneath cursor
-            new Wall(x, y, e.target); // place walls at cursor
+        let x = classes[0]; // x coordinate of currently hovered cell
+        let y = classes[1]; // y coordinate
+
+
+        switch (rightsidebar_active) { // switch based on which tool is active on right sidebar
+            case "rsb_walls": // place walls at cursor
+                if (!isNaN(x) && !isNaN(y) && is_empty(x, y)) {
+                    new Wall(x, y, e.target);
+                }
+                break;
+            case "rsb_player":
+                if (!isNaN(x) && !isNaN(y) && is_empty(x, y)) {
+                    new Player(x, y, e.target);
+                }
+                break;
+            case "rsb_entity":
+                if (!isNaN(x) && !isNaN(y) && is_empty(x, y)) {
+                    new Entity(x, y, e.target);
+                }
+                break;
+            case "rsb_erase":
+                if (!isNaN(x) && !isNaN(y) && !is_empty(x, y)) {
+                    kill_entity_at(x, y);
+                }
+                break;
+            case null: // nothing selected
+                break;
+            default:
+                // something selected, but not specified
+                console.warn("Unspecified sidebar button active!");
+                break;
         }
+
+
     }
 }
 

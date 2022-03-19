@@ -1,13 +1,13 @@
-* { 
-    margin: 0;
-    padding: 0;
-    cursor: default;
-}
-
 :root {
     --bg-color: rgb(5, 5, 5);
     --fg-color: green;
     --focused-color: lime;
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+    cursor: default;
 }
 
 body {
@@ -47,4 +47,37 @@ body {
 a {
     cursor: pointer;
     color: inherit;
+}
+
+.sidebar.right {
+    /* border: 1px solid var(--fg-color); */
+    color: var(--bg-color);
+    display: grid;
+    /* height: 100%; */
+    height: 30%;
+    width: 2%;
+    position: absolute;
+    top: 15;
+    right: 15;
+    /* padding: 15px 15px 15px 15px; */
+    /* row-gap: 10px; */
+}
+
+.rightside.button.focused {
+    border: 1px solid var(--focused-color);
+    color: var(--focused-color);
+}
+
+.rightside.button {
+    height: 40px;
+    aspect-ratio: 1;
+
+    background-color: var(--bg-color);
+    border: 1px solid var(--fg-color);
+    color: var(--fg-color);
+}
+
+
+button:focus {
+    outline: none;
 }
