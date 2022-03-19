@@ -791,7 +791,7 @@ img {
 .logo_backdrop {
     background: #585858;
     padding: 60px 0;
-    margin-top: 60px;
+    margin-top: -65px;
 }
 
 .client_logos ul {
