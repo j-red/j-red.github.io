@@ -121,7 +121,6 @@ class Entity {
     destroy() {
         this.cell.text(this.prev);
         this.cell.removeClass('entity');
-        
         this.cell.removeClass('focused');
         this.active = false;
 
@@ -199,9 +198,9 @@ class Wanderer extends Entity {
         this.cell.text(this.char);
         this.canFocus = false;
 
-        this.health = 1;
-
-        this.wander();
+        this.health = 2;
+        
+        this.wander(); // start wandering
 
         return this;
     }
@@ -217,7 +216,7 @@ class Wanderer extends Entity {
             if (dc != 0) dc -= (dc / Math.abs(dc));
             
             if (failsafe++ > 100) {
-                console.error("Infinite loop in Wanderer.move()");
+                console.error("Infinite loop in Wanderer.move_by()");
                 break;
             }
 
@@ -247,8 +246,17 @@ class Wanderer extends Entity {
                 break;
         }
 
-        setTimeout(() => this.wander(), wanderTime);
+        this.routine = setTimeout(() => this.wander(), wanderTime);
     } // end wander
+
+    stopWandering() {
+        clearTimeout(this.routine);
+    }
+
+    destroy() {
+        clearTimeout(this.routine); // stop wandering
+        super.destroy(); // call parent destructor
+    }
 }
 
 // function kill_entity(entity) {
@@ -261,8 +269,10 @@ class Wanderer extends Entity {
 // }
 
 function kill_entity_at_index(i) {
-    entities[i].destroy(); // removes self from entities list
-    // console.log('Killed index ' + i);
+    try {
+        entities[i].destroy(); // removes self from entities list
+        // console.log('Killed index ' + i);
+    } catch {}
 }
 
 function kill_entity_at(x, y) {
@@ -272,7 +282,7 @@ function kill_entity_at(x, y) {
 function get_entity_index(entity) {
     /* return the integer index of the entity in the entities array */
     for (let i = 0; i < entities.length; i++) {
-        if (entities[i].x == entity.x && entities[i].y == entity.y) {
+        if (entities[i].x === entity.x && entities[i].y === entity.y) {
             return i;
         }
     }

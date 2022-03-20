@@ -69,11 +69,13 @@ window.addEventListener('load', function() {
     redraw();
 }, false);
 
+const initialMap = map.innerHTML;
 
 function redraw() {
     // console.debug("Called redraw");
 
-    map.innerHTML = "";
+    // map.innerHTML = "";
+    map.innerHTML = initialMap;
 
     // var map_width = $('body').width() * SCREENFILL.X;
     // var map_height = $('body').height() * SCREENFILL.Y;
@@ -99,7 +101,7 @@ function redraw() {
             // content += "<span>" + walls["tlc"] + (walls["h"].repeat(MAX_WIDTH - 2)) + walls["trc"] + "</span>";
     
             for (let j = 0; j < MAX_WIDTH; j ++) {
-                content += `<span class='${i} ${j} ${i}_${j}'>`;
+                content += `<span class='${i} ${j} ${i}_${j}' data-x='${i}' data-y='${j}'>`;
                 if (j == 0) {
                     // first column
                     content += walls['tlc'];
@@ -114,7 +116,7 @@ function redraw() {
             }
         } else if (i == MAX_HEIGHT - 1) { // if last row:
             for (let j = 0; j < MAX_WIDTH; j ++) {
-                content += `<span class='${i} ${j} ${i}_${j}'>`;
+                content += `<span class='${i} ${j} ${i}_${j}' data-x='${i}' data-y='${j}'>`;
                 if (j == 0) {
                     // first column
                     content += walls['blc'];
@@ -128,15 +130,15 @@ function redraw() {
                 content += "</span>";
             }
         } else { // if middle row:
-            content += `<span class='${i} ${0} ${i}_${0}'>` + walls["v"] + "</span>";
+            content += `<span class='${i} ${0} ${i}_${0}' data-x='${i}' data-y='${0}'>` + walls["v"] + "</span>";
     
             for(let j = 1; j < MAX_WIDTH - 1; j ++) {
-                content += `<span class='${i} ${j} ${i}_${j}'>`;
+                content += `<span class='${i} ${j} ${i}_${j}' data-x='${i}' data-y='${j}'>`;
                 content += ((i % grid == 0) && (j % grid == 0) ? gridcell : empty);
                 content += "</span>";
             }
     
-            content += `<span class='${i} ${MAX_WIDTH - 1} ${i}_${MAX_WIDTH - 1}'>` + walls["v"] + "</span>";
+            content += `<span class='${i} ${MAX_WIDTH - 1} ${i}_${MAX_WIDTH - 1}' data-x='${i}' data-y='${MAX_WIDTH - 1}'>` + walls["v"] + "</span>";
         }
     
         row.innerHTML = content;

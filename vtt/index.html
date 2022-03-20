@@ -1,4 +1,3 @@
-<!-- python3 -m http.server -->
 <head>
     <title>virtual tabletop</title>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -6,7 +5,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <script type="text/javascript">
         var entities = []; // global declaration of ALL entities
-        var rightsidebar_active = null; // which button is active on right sidebar
+        // which button is active on right sidebar
+        // var rightsidebar_active = null; 
+        var rightsidebar_active = "rsb_walls"; 
     </script>
 
     <script src="scripts/entities.js"></script>
@@ -14,14 +15,15 @@
 </head>
 <body oncontextmenu="return false;">
     
+    
     <div class="overlay-menu" id="faq" onclick="toggle_faq();">
         <div class="overlay-box" onclick="event.stopPropagation();">
             <h2>faq</h2>
             <br />
             <p>select a tool from the RIGHT SIDEBAR to edit the map</p>
             <p>█: wall </p>
-            <p>o: player</p>
-            <p>@: entity</p>
+            <p>o: player (you can focus these ones!)</p>
+            <p>@: wanderer</p>
             <p>~: erase</p>
             <p>-/+: change draw size</p>
             <p>click on an entity to FOCUS it</p>
@@ -35,6 +37,7 @@
     <div class="overlay-menu" id="io-menu" onclick="toggle_io();">
         <div class="overlay-box" onclick="event.stopPropagation();">
             <h2>import/export settings</h2>
+            <h4>(work in progress -- IO not implemented yet</h4>
             <br />
             <div style="display: inline-grid; column-gap: 200px;">
                 <button id="import-text" class="io-btn" onclick="">
@@ -49,22 +52,27 @@
                     export ASCII
                 </button>
             </div>
-            <!-- <p>import/export settings</p> -->
+            
             <div id="io-box">
-                <input type="text" placeholder="copy/paste IO string here" id="iostring"> </input>
+                <!-- <input type="text" placeholder="copy/paste IO string here" id="iostring"> </input> -->
+                <textarea name="iotext" id="iotext" cols="50" rows="6" data-gramm="false"
+                data-gramm_editor="false"
+                data-enable-grammarly="false"></textarea>
             </div>
+
             <p class="exit-menu-text">click anywhere else or press ESCAPE to exit</p>
         </div>
     </div>
 
     <div id="map">
+        <div id="drag-overlay"></div>
         <!-- Container for edges around screen -->
     </div>
 
     <div class="sidebar right top">
         <!-- right sidebar: paint options, FAQ, and more -->
 
-        <button id="rsb_walls" class="rightside button" tabindex="-1" onclick="right_sidebar('rsb_walls')">
+        <button id="rsb_walls" class="rightside button focused" tabindex="-1" onclick="right_sidebar('rsb_walls')">
             █
         </button>
 

@@ -3,10 +3,9 @@ const scalar = 3;
 var delta = speed; // observed move speed considering multipliers
 
 var draw_size = 1; // cell paint size option
-
-
-
 var shift_down = false;
+
+const dragOverlay = $("#drag-overlay"); // for click-drag-select
 
 
 const KEYCODE = { // https://keycode.info/
@@ -361,6 +360,8 @@ var initialY;
 var xOffset = 0;
 var yOffset = 0;
 // var scaling = false; // pinch scaling
+var overlay_initial_x; var overlay_initial_y;
+var overlay_current_x; var overlay_current_y;
 
 map.addEventListener("touchstart", dragStart, false);
 map.addEventListener("touchend", dragEnd, false);
@@ -369,6 +370,29 @@ map.addEventListener("touchmove", drag, false);
 map.addEventListener("mousedown", dragStart, false);
 map.addEventListener("mouseup", dragEnd, false);
 map.addEventListener("mousemove", drag, false);
+
+
+var on_target = null; // under mouse when click pressed
+var off_target = null; // was under mouse when click released
+function dragged() {
+    if (on_target != null && off_target != null) {
+        // console.log(on_target);
+        let on_row = Number(on_target.getAttribute('data-x'));
+        let on_col = Number(on_target.getAttribute('data-y'));
+
+        // console.log(off_target);
+        let off_row = Number(off_target.getAttribute('data-x'));
+        let off_col = Number(off_target.getAttribute('data-y'));
+
+        for (let j = Math.min(off_col, on_col); j < Math.max(off_col, on_col); j ++) {
+            for (let i = Math.min(off_row, on_row); i < Math.max(off_row, on_row); i ++) {
+                console.log(`cell: ${i}, ${j}`);
+                new Wall(i, j);
+            }   
+        }
+    }
+}
+
 
 function dragStart(e) {
     if (e.type === "touchstart") {
@@ -386,6 +410,25 @@ function dragStart(e) {
     if (e.button === 0 || e.button === 2) { // if left OR right mouse held down
         active = true;
     }
+
+    if (!(rightsidebar_active != null) && active) {
+        /* rightsidebar has no tool; do click-drag select */
+        console.log('activating overlay');
+
+        overlay_initial_x = e.pageX;
+        overlay_initial_y = e.pageY;
+
+        // console.log(e.target);
+        on_target = e.target;
+
+        $("#drag-overlay").css( {
+            display: "block",
+            top: e.pageY, 
+            left: e.pageX, 
+            bottom: e.pageY, 
+            right: e.pageX
+        });
+    }
 }
 
 function dragEnd(e) { 
@@ -402,6 +445,21 @@ function dragEnd(e) {
         redraw();
     }
     // }
+
+    if (!(rightsidebar_active != null)) { // if no item selected
+        // console.log('disabling overlay');
+
+        $("#drag-overlay").css({
+            display: 'none',
+            width: 0,
+            height: 0,
+        }); // hide overlay
+        
+        // TODO: select objects in area, etc
+        off_target = e.target;
+
+        dragged(); // trigger actions in dragged area
+    }
 }
 
 function drag(e) {
@@ -410,10 +468,7 @@ function drag(e) {
             /* if this is a touch pinch event, do nothing (allow default behavior) */
         } else {
             e.preventDefault();
-        // }
-        
-            // e.preventDefault();
-
+            
             if (e.type === "touchmove") {
                 currentX = e.touches[0].clientX - initialX;
                 currentY = e.touches[0].clientY - initialY;
@@ -426,7 +481,6 @@ function drag(e) {
             yOffset = Math.floor(currentY / CHARSIZE.x);
 
             var classes = e.target.classList;
-
             // console.log(e.target.classList);
             
             let x = classes[0]; // x coordinate of currently hovered cell
@@ -436,6 +490,41 @@ function drag(e) {
                 switch_rsb(x, y, e); // perform click action based on which tool is selected
                 // switch_rsb(currentX, currentY, e);
                 // switch_rsb(xOffset, yOffset, e);
+            } else {
+                /* if no tool is selected, draw a div overlay */
+                overlay_current_x = e.pageX;
+                overlay_current_y = e.pageY;
+                
+                if (overlay_current_x >= overlay_initial_x) {
+                    // mouse is to the right of start pos
+                    $('#drag-overlay').css("width", (e.pageX - overlay_initial_x));
+                } else {
+                    // mouse is to the left of start pos
+                    $('#drag-overlay').css("width", -(e.pageX - overlay_initial_x));
+                    $('#drag-overlay').css("left", e.pageX);
+                }
+
+                if (overlay_current_y >= overlay_initial_y) {
+                    // mouse is below start pos
+                    $('#drag-overlay').css("height", (e.pageY - overlay_initial_y));
+                } else {
+                    // mouse is above start pos
+                    $('#drag-overlay').css("height", -(e.pageY - overlay_initial_y));
+                    $('#drag-overlay').css("top", e.pageY);
+                }
+
+
+
+                // $("#drag-overlay").css( {
+                //     // bottom: e.pageY, 
+                //     // right: e.pageX
+                //     // bottom: Math.abs(overlay_initial_x - e.pageX), 
+                //     // right: Math.abs(overlay_initial_y - e.pageY)
+                //     // width: Math.abs(overlay_initial_x - e.pageX), 
+                //     // height: Math.abs(overlay_initial_y - e.pageY)
+                //     width: (e.pageX - overlay_initial_x), 
+                //     height: (e.pageY - overlay_initial_y)
+                // });
             }
         } // end if not pinch event
     }

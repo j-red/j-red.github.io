@@ -50,8 +50,6 @@ p {
     color:lime;
 } */
 
-
-
 a {
     cursor: pointer;
     color: inherit;
@@ -87,7 +85,6 @@ a:hover {
     /* row-gap: 10px; */
 }
 
-
 .rightside.button.focused {
     border: 1px solid var(--focused-color);
     color: var(--focused-color);
@@ -113,6 +110,7 @@ button:focus {
 button:hover {
     border-color: var(--focused-color);
     color: var(--focused-color);
+    /* border-width: 2px !important; */
 }
 
 .overlay-menu {
@@ -153,12 +151,28 @@ button:hover {
     justify-content: center;
 }
 
+#drag-overlay {
+    position: absolute;
+    display: none;
+    width: 0;
+    height: 0;
+    /* top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    z-index: 100;
+    border: 1px solid var(--fg-color);
+    background-color: rgba(0, 0, 0, 0.1);
+    pointer-events: none;
+}
+
 .io-btn {
     margin: 8px 0 0 0;
 }
 
 #io-box {
-    margin-top: 10%;
+    margin-top: 5%;
     /* width: 80%; */
     /* height: 20px; */
 }
@@ -185,9 +199,34 @@ input[type="text"]::placeholder {
     height: 30;
 }
 
+#iotext {
+    width: 100%;
+    height: fit-content;
+    resize: none;
+    /* overflow: hidden; */
+}
+
+#iotext:focus {
+    outline: none;
+    border-color: var(--focused-color);
+    /* color: var(--focused-color); */
+}
+
+/* -webkit- (Chrome, Safari, newer versions of Opera): */
+#iotext::-webkit-scrollbar { width: 0 !important }
+/* -moz- (Firefox): */
+#iotext { overflow: -moz-scrollbars-none; }
+/* -ms- (Internet Explorer +10): */
+#iotext { -ms-overflow-style: none; }
+
+
 .exit-menu-text {
     color: var(--faded); 
     position: absolute; 
     bottom: 10px;
     width: 90%;
+}
+
+.overlay-box,p {
+    padding-top: 10px;
 }
