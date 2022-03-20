@@ -65,17 +65,17 @@ function draw_by_size(type, x, y, target) {
     // console.log(`x-1: ${x-1}, y-1: ${y - 1}`);
     switch (draw_size) { // draw size is in range [1, 3], inclusive.
         case 3: // NE/SE/NW/SW
-            new type(x + 1, y + 1, target);
-            new type(x + 1, y - 1, target);
-            new type(x - 1, y + 1, target);
-            new type(x - 1, y - 1, target);
+            try { new type(x + 1, y + 1, target) } catch {}
+            try { new type(x + 1, y - 1, target) } catch {}
+            try { new type(x - 1, y + 1, target) } catch {}
+            try { new type(x - 1, y - 1, target) } catch {}
         case 2: // N/E/S/W
-            new type(x + 1, y, target);
-            new type(x - 1, y, target);
-            new type(x, y + 1, target);
-            new type(x, y - 1, target);
+            try { new type(x + 1, y, target) } catch {}
+            try { new type(x - 1, y, target) } catch {}
+            try { new type(x, y + 1, target) } catch {}
+            try { new type(x, y - 1, target) } catch {}
         case 1: // center
-            new type(x, y, target);
+            try { new type(x, y, target) } catch {}
             break;
         default:
             console.warn("Invalid draw size specified: " + draw_size);
@@ -89,17 +89,17 @@ function erase_by_size(x, y) {
 
     switch (draw_size) { // draw size is in range [1, 3], inclusive.
         case 3: // NE/SE/NW/SW
-            kill_entity_at(x + 1, y + 1);
-            kill_entity_at(x + 1, y - 1);
-            kill_entity_at(x - 1, y + 1);
-            kill_entity_at(x - 1, y - 1);
+            try { kill_entity_at(x + 1, y + 1) } catch {}
+            try { kill_entity_at(x + 1, y - 1) } catch {}
+            try { kill_entity_at(x - 1, y + 1) } catch {}
+            try { kill_entity_at(x - 1, y - 1) } catch {}
         case 2: // N/E/S/W
-            kill_entity_at(x + 1, y);
-            kill_entity_at(x - 1, y);
-            kill_entity_at(x, y + 1);
-            kill_entity_at(x, y - 1);
+            try { kill_entity_at(x + 1, y) } catch {}
+            try { kill_entity_at(x - 1, y) } catch {}
+            try { kill_entity_at(x, y + 1) } catch {}
+            try { kill_entity_at(x, y - 1) } catch {}
         case 1: // center
-            kill_entity_at(x, y);
+            try { kill_entity_at(x, y) } catch {}
             break;
         default:
             console.warn("Invalid draw size specified: " + draw_size);
@@ -125,10 +125,9 @@ function switch_rsb(x, y, e) { // x pos, y pos, click event
             draw_by_size(Player, x, y, e.target);
             break;
         case "rsb_entity":
-            if (is_empty(x, y)) {
-                // new Entity(x, y, e.target);
-                draw_by_size(Entity, x, y, e.target);
-            }
+            // new Entity(x, y, e.target);
+            // draw_by_size(Entity, x, y, e.target);
+            draw_by_size(Wanderer, x, y);
             break;
         case "rsb_erase":
             // if (!is_empty(x, y)) {

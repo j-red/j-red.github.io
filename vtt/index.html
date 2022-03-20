@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="style/main.css">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <script type="text/javascript">
-        var entities = []; // global declaration of entities
+        var entities = []; // global declaration of ALL entities
         var rightsidebar_active = null; // which button is active on right sidebar
     </script>
 
@@ -18,7 +18,17 @@
         <div class="overlay-box" onclick="event.stopPropagation();">
             <h2>faq</h2>
             <br />
+            <p>select a tool from the RIGHT SIDEBAR to edit the map</p>
+            <p>█: wall </p>
+            <p>o: player</p>
+            <p>@: entity</p>
+            <p>~: erase</p>
+            <p>-/+: change draw size</p>
+            <p>click on an entity to FOCUS it</p>
+            <p>hold SHIFT when focusing to focus additional entities</p>
+            <p>move focused entities with W/A/S/D or &uarr;/&larr;/&darr;/&rarr;</p>
             <p>press ESCAPE to clear the map</p>
+            <p>import/export maps in the IO menu</p>
         </div>
     </div>
 
@@ -35,7 +45,7 @@
                     export state
                 </button> 
 
-                <button id="export-text" class="io-btn" onclick="">
+                <button id="export-text" class="io-btn" onclick="export_ascii()">
                     export ASCII
                 </button>
             </div>

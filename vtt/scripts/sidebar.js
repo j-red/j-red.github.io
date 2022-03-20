@@ -27,7 +27,7 @@ function drawsize(delta) {
     draw_size = Math.max(mindraw, draw_size); // minimum is one
     draw_size = Math.min(maxdraw, draw_size); // maximum is 3
     
-    console.log(draw_size);
+    // console.log(draw_size);
 
     $("#decrease_drawsize").css("text-decoration", "underline");
     $("#increase_drawsize").css("text-decoration", "underline");
@@ -64,11 +64,11 @@ function toggle_faq() {
 var io_open = false;
 const io = $("#io-menu");
 
-$(".overlay-box").on("click", function(event){ 
-    // prevent child elem clicks from clicking parent
-    event.stopPropagation();
-    console.log( "I was clicked, but my parent will not be." );
-});
+// $(".overlay-box").on("click", function(event){ 
+//     // prevent child elem clicks from clicking parent
+//     event.stopPropagation();
+//     console.log( "I was clicked, but my parent will not be." );
+// });
 
 function toggle_io() {
     /* manage importing/exporting maps */
@@ -84,13 +84,6 @@ function toggle_io() {
 
 }
 
-// $("#overlay-box").on("click", function(event){
-//     event.stopPropagation();
-//     console.log( "I was clicked, but my parent will not be." );
-// });
-
-
-// function stop_prop(event){
-//     event.stopPropagation();
-//     console.log( "I was clicked, but my parent will not be." );
-// }
+function export_ascii() {
+    /* fill text output with chars on screen */
+}

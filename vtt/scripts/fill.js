@@ -71,13 +71,19 @@ window.addEventListener('load', function() {
 
 
 function redraw() {
-    // console.debug("Called redraw")
+    // console.debug("Called redraw");
+
     map.innerHTML = "";
 
-    var map_width = $('body').width() * SCREENFILL.X;
-    var map_height = $('body').height() * SCREENFILL.Y;
+    // var map_width = $('body').width() * SCREENFILL.X;
+    // var map_height = $('body').height() * SCREENFILL.Y;
+    var map_width = window.innerWidth * SCREENFILL.X;
+    var map_height = window.innerHeight * SCREENFILL.Y;
+    
     MAX_WIDTH = Math.floor(map_width / CHARSIZE.w), MAX_WIDTH;
     MAX_HEIGHT = Math.floor(map_height / CHARSIZE.h), MAX_HEIGHT;
+
+    // console.debug(`x: ${MAX_HEIGHT}, y: ${MAX_WIDTH}`);
 
     for (let i = 0; i < MAX_HEIGHT; i ++) {
         let content = "";

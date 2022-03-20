@@ -13,7 +13,7 @@ class Entity {
 
         this.x = Number(x);
         this.y = Number(y);
-        this.char = "@";
+        this.char = "%";
         this.prev = this.cell.text(); // get previous content of the cell
         this.unique_ID = ""; // future placeholder
 
@@ -24,12 +24,13 @@ class Entity {
         entities.push(this); // insert self into entities array
 
         this.active = false;
+        this.canFocus = true;
 
         return this;
     }
 
     toggle_focus() {
-        if (this.active) {
+        if (this.active || !this.canFocus) {
             this.unfocus();
         } else {
             this.focus();
@@ -153,7 +154,7 @@ class Player extends Entity {
         this.cell.text(this.char);
 
         this.health = 3;
-        
+
         // this.reveal();
 
         return this;
@@ -174,6 +175,7 @@ class Wall extends Entity {
         // this.reveal();
 
         this.health = 10;
+        this.canFocus = false;
 
         return this;
     }
@@ -185,6 +187,68 @@ class Wall extends Entity {
     toggle_focus() {
         return; // do not allow focus on walls
     }
+}
+
+class Wanderer extends Entity {
+    constructor (x, y) {
+        super(x, y);
+                
+        this.char = "@";
+        this.type = 'wanderer';
+        this.cell.addClass("wanderer");
+        this.cell.text(this.char);
+        this.canFocus = false;
+
+        this.health = 1;
+
+        this.wander();
+
+        return this;
+    }
+
+    move() {} // disallow default move
+
+    move_by(dr, dc) { // movement override
+        let failsafe = 0;
+        while (dr != 0 || dc != 0) { 
+            /* this funky math loop moves 1 unit at a time until satisfied */
+            this.move_to(this.x + (dr / (dr != 0 ? Math.abs(dr) : 1)), this.y + (dc / (dc != 0 ? Math.abs(dc) : 1)));
+            if (dr != 0) dr -= (dr / Math.abs(dr));
+            if (dc != 0) dc -= (dc / Math.abs(dc));
+            
+            if (failsafe++ > 100) {
+                console.error("Infinite loop in Wanderer.move()");
+                break;
+            }
+
+        }
+    }
+
+    async wander() {
+        // console.log("wandering...");    
+        let wanderTime = (Math.random() * 1000 * 3) + 1000; // [1, 4] seconds between moves
+
+        let wanderDir = Math.floor(Math.random() * 5); // 0 stay stationary, 1-4 movement dirs
+
+        switch (wanderDir) {
+            case 0:
+                break; // do nothing
+            case 1:
+                this.move_by(-1, 0);
+                break;
+            case 2:
+                this.move_by(1, 0);
+                break;
+            case 3:
+                this.move_by(0, -1);
+                break;
+            case 4:
+                this.move_by(0, 1);
+                break;
+        }
+
+        setTimeout(() => this.wander(), wanderTime);
+    } // end wander
 }
 
 // function kill_entity(entity) {
@@ -235,7 +299,7 @@ function get_entity_index_for(x, y) {
             return i;
         }
     }
-    console.error(`No entity found for location (${x}, ${y})`)
+    // console.error(`No entity found for location (${x}, ${y})`)
     return null; 
 }
 

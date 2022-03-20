@@ -29,9 +29,9 @@ p {
     color: var(--fg-color);
 }
 
-.map {
-    width: 80%;
-    height: 80%;
+#map {
+    /* width: 80%; */
+    /* height: 80%; */
 }
 
 .wall {
@@ -56,6 +56,10 @@ a {
     cursor: pointer;
     color: inherit;
     text-decoration: underline;
+}
+
+a:hover {
+    color: var(--focused-color);
 }
 
 .sidebar.right.top {
@@ -84,9 +88,6 @@ a {
 }
 
 
-
-
-
 .rightside.button.focused {
     border: 1px solid var(--focused-color);
     color: var(--focused-color);
@@ -102,10 +103,16 @@ button {
     border: 1px solid var(--fg-color);
     color: var(--fg-color);
     padding: 10px;
+    cursor: pointer;
 }
 
 button:focus {
     outline: none;
+}
+
+button:hover {
+    border-color: var(--focused-color);
+    color: var(--focused-color);
 }
 
 .overlay-menu {
@@ -165,6 +172,7 @@ input[type="text"], textarea {
     /* font-size: 18; */
     /* margin: 10px; */
     padding:10px;
+    cursor: text;
 }
 
 input[type="text"]::placeholder {
