@@ -377,17 +377,37 @@ var off_target = null; // was under mouse when click released
 function dragged() {
     if (on_target != null && off_target != null) {
         // console.log(on_target);
-        let on_row = Number(on_target.getAttribute('data-x'));
-        let on_col = Number(on_target.getAttribute('data-y'));
+        let on_row = on_target.getAttribute('data-x');
+        let on_col = on_target.getAttribute('data-y');
 
         // console.log(off_target);
-        let off_row = Number(off_target.getAttribute('data-x'));
-        let off_col = Number(off_target.getAttribute('data-y'));
+        let off_row = off_target.getAttribute('data-x');
+        let off_col = off_target.getAttribute('data-y');
 
-        for (let j = Math.min(off_col, on_col); j < Math.max(off_col, on_col); j ++) {
-            for (let i = Math.min(off_row, on_row); i < Math.max(off_row, on_row); i ++) {
-                console.log(`cell: ${i}, ${j}`);
-                new Wall(i, j);
+        if (isNaN(off_row) || isNaN(off_col) || isNaN(on_row) || isNaN(on_col) || on_row == null || on_col == null || off_row == null || off_col == null) {
+            console.warn("NaN found in drag select region");
+            return;
+        }
+
+        // console.log(`${on_row} ${on_col} to ${off_row} ${off_col}`)
+
+        if (!shift_down) {
+            // clear focus from all entities 
+            for (let i in entities) {
+                entities[i].unfocus();
+            }
+        }
+
+        for (let i = Math.min(off_row, on_row); i < Math.max(off_row, on_row); i ++) {
+            for (let j = Math.min(off_col, on_col); j < Math.max(off_col, on_col); j ++) {
+                // console.log(`cell: ${i}, ${j}`);
+
+                // do action on cell i, j
+                // try {new Wall(i, j)} catch {};
+                let e = get_entity_for(i, j);
+                if (e != null) {
+                    e.focus();
+                }
             }   
         }
     }
@@ -413,7 +433,9 @@ function dragStart(e) {
 
     if (!(rightsidebar_active != null) && active) {
         /* rightsidebar has no tool; do click-drag select */
-        console.log('activating overlay');
+        // console.log('activating overlay');
+        
+        // console.log(map.getBoundingClientRect());
 
         overlay_initial_x = e.pageX;
         overlay_initial_y = e.pageY;

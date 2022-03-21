@@ -38,9 +38,11 @@ class Entity {
     }
 
     focus() {
-        this.active = true;
-        this.cell.addClass("focused");
-        // console.log('added focus');
+        if (this.canFocus) {
+            this.active = true;
+            this.cell.addClass("focused");
+            // console.log('added focus');
+        }
     }
 
     unfocus() {
@@ -147,7 +149,7 @@ class Player extends Entity {
         // }
             
 
-        this.char = "o";
+        this.char = "o"; // o☺☻
         this.type = 'player';
         this.cell.addClass("player");
         this.cell.text(this.char);
@@ -181,6 +183,10 @@ class Wall extends Entity {
 
     move(x, y) {
         return; // walls can't move, silly!
+    }
+
+    focus() {
+        return; // do not allow focus on walls
     }
 
     toggle_focus() {

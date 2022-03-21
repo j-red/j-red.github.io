@@ -1,8 +1,8 @@
 :root {
-    --bg-color: rgb(5, 5, 5);
-    --fg-color: green;
-    --focused-color: lime;
-    --faded: rgb(0, 87, 0);
+    --bg-color: #050505;
+    --fg-color: #008000;
+    --focused-color: #00ff00;
+    --faded: #005700;
 }
 
 * { 
@@ -67,20 +67,23 @@ a:hover {
 
 .sidebar.right.bottom {
     height: 10%;
-    bottom: 100px;
+    bottom: 109px;
     row-gap: 10px;
 }
 
 .sidebar.right {
     /* border: 1px solid var(--fg-color); */
     /* color: var(--bg-color); */
+    position: relative;
     display: grid;
-    /* height: 100%; */
+    height: 100%;
+    /* row-gap: 10px; */
     /* height: 30%; */
     width: 2%;
     position: absolute;
     /* top: 15; */
-    right: 15;
+    right: 15px;
+    /* left: 15px; */
     /* padding: 15px 15px 15px 15px; */
     /* row-gap: 10px; */
 }
@@ -149,6 +152,8 @@ button:hover {
     font-size: 14;
     text-align: center;
     justify-content: center;
+
+    min-width: 330px;
 }
 
 #drag-overlay {
@@ -172,7 +177,8 @@ button:hover {
 }
 
 #io-box {
-    margin-top: 5%;
+    /* margin-top: 5%; */
+    margin: 5%;
     /* width: 80%; */
     /* height: 20px; */
 }
@@ -206,6 +212,10 @@ input[type="text"]::placeholder {
     /* overflow: hidden; */
 }
 
+#io-display {
+    height: fit-content;
+}
+
 #iotext:focus {
     outline: none;
     border-color: var(--focused-color);
@@ -228,5 +238,65 @@ input[type="text"]::placeholder {
 }
 
 .overlay-box,p {
+    padding-top: 10px;
+}
+
+h5 {
+    /* margin-block-start: 0.1em; */
+    padding-top: 5px;
+    margin-block-end: -0.5em;
+}
+
+
+
+
+/* color picker settings */
+hex-color-picker {
+    height: 90px;
+    /* width: 25%; */
+    width: auto;
+    margin-top: 15px;
+
+}
+
+.color-picker-container {
+    width: 30%;
+    display: inline-block;
+    /* margin: 10px 0 10px 0; */
+    margin: auto;
+    top: 10px;
+}
+
+#color-pickers {
+    bottom: 10%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: auto;
+}
+
+hex-color-picker::part(saturation) {
+    /* bottom: 30px; */
+    border-radius: 3px 3px 0 0;
+}
+
+hex-color-picker::part(hue) {
+    /* height: 30px; */
+    height: 15px;
+    border-radius: 0 0 3px 3px;
+}
+
+hex-color-picker::part(saturation-pointer) {
+    border-radius: 5px;
+}
+
+hex-color-picker::part(hue-pointer) {
+    border-radius: 2px;
+    width: 15px;
+    height: inherit;
+}
+/* end color picker settings */
+
+.option-line {
     padding-top: 10px;
 }

@@ -27,6 +27,9 @@
 * ensure wandering entities are deleted properly (they reappear after clearing with escape) (done)
 * Add hover indicators to buttons, etc., to see what they do or will add
 * add visual indicator of draw size? (hold alt to see preview? or toggle on/off)
+* add fullscreen button in bottom right
+* add color change prompt
+* fix touch to draw
 
 ### TO FIX:
 * Erasing entities does not remove only the ones dragged over -- presumably the erase call is made multiple times on the same index before the one is removed? (DONE)
