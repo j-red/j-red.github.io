@@ -62,7 +62,7 @@ a:hover {
 
 .sidebar.right.top {
     height: 30%;
-    top: 15;
+    top: 15px;
 }
 
 .sidebar.right.bottom {
@@ -137,6 +137,7 @@ button:hover {
     /* transform: translate(0%, 50%); */
     width: 33%;
     height: 50%;
+
     background-color: rgba(0, 0, 0, 0.5);
     border: 1px var(--fg-color) solid;
     top: 0;
@@ -193,6 +194,7 @@ input[type="text"], textarea {
     /* margin: 10px; */
     padding:10px;
     cursor: text;
+    font-size: 8pt;
 }
 
 input[type="text"]::placeholder {
@@ -222,13 +224,17 @@ input[type="text"]::placeholder {
     /* color: var(--focused-color); */
 }
 
-/* -webkit- (Chrome, Safari, newer versions of Opera): */
-#iotext::-webkit-scrollbar { width: 0 !important }
-/* -moz- (Firefox): */
-#iotext { overflow: -moz-scrollbars-none; }
-/* -ms- (Internet Explorer +10): */
-#iotext { -ms-overflow-style: none; }
+#iotext::-webkit-scrollbar { 
+    width: 0 !important;
+} /* -webkit- (Chrome, Safari, newer versions of Opera): */
 
+#iotext { 
+    overflow: -moz-scrollbars-none;
+} /* -moz- (Firefox): */
+
+#iotext {
+    -ms-overflow-style: none; 
+} /* -ms- (Internet Explorer +10): */
 
 .exit-menu-text {
     color: var(--faded); 

@@ -1,3 +1,5 @@
+'use strict';
+
 class Entity {
     constructor(x, y, e = null) {
         if (!is_empty(x, y)) { // check if something already in this cell
@@ -30,10 +32,10 @@ class Entity {
     }
 
     toggle_focus() {
-        if (this.active || !this.canFocus) {
-            this.unfocus();
-        } else {
+        if (!this.active && this.canFocus) {
             this.focus();
+        } else {
+            this.unfocus();
         }
     }
 
@@ -83,6 +85,7 @@ class Entity {
         // clean up old cell
         this.cell.text(this.prev); // restore current cell's prev text
         this.cell.removeClass('entity');
+        this.cell.removeClass(this.type);
         
         if (this.active) {
             this.cell.removeClass("focused");
@@ -93,6 +96,7 @@ class Entity {
         this.prev = this.cell.text();
         this.cell.text(this.char);
         this.cell.addClass('entity');
+        this.cell.addClass(this.type);
         
         if (this.active) {
             this.cell.addClass("focused");
@@ -203,7 +207,6 @@ class Wanderer extends Entity {
         this.cell.addClass("wanderer");
         this.cell.text(this.char);
         this.canFocus = false;
-
         this.health = 2;
         
         this.wander(); // start wandering
@@ -229,38 +232,56 @@ class Wanderer extends Entity {
         }
     }
 
-    async wander() {
-        // console.log("wandering...");    
-        let wanderTime = (Math.random() * 1000 * 3) + 1000; // [1, 4] seconds between moves
+    wander() {
+        this.wanderTime = (Math.random() * 1000 * 3) + 1000; // [1, 4] seconds between moves
+        this.routine = setInterval(this._wander, this.wanderTime, this);
+    }
 
-        let wanderDir = Math.floor(Math.random() * 5); // 0 stay stationary, 1-4 movement dirs
+    _wander(self) {
+        // console.log("wandering...");
+        // clearInterval(self.routine);
 
-        switch (wanderDir) {
+        // let wanderDir = Math.floor(Math.random() * 5); // 0 stay stationary, 1-4 movement dirs
+
+        switch (Math.floor(Math.random() * 5)) {
             case 0:
                 break; // do nothing
             case 1:
-                this.move_by(-1, 0);
+                // this.move_by(-1, 0);
+                self.move_by(-1, 0);
+                // console.log(self);
                 break;
             case 2:
-                this.move_by(1, 0);
+                // this.move_by(1, 0);
+                self.move_by(1, 0);
+                // console.log(self);
                 break;
             case 3:
-                this.move_by(0, -1);
+                // this.move_by(0, -1);
+                self.move_by(0, -1);
+                // console.log(self);
                 break;
             case 4:
-                this.move_by(0, 1);
+                // this.move_by(0, 1);
+                self.move_by(0, 1);
+                // console.log(self);
                 break;
         }
 
-        this.routine = setTimeout(() => this.wander(), wanderTime);
-    } // end wander
+        // this.routine = setTimeout(() => this.wander(), wanderTime);
+        // this.wanderTime = (Math.random() * 1000 * 3) + 1000; // update time to next move
+        // self.wander();
+    }
 
     stopWandering() {
-        clearTimeout(this.routine);
+        // clearTimeout(this.routine);
+        clearInterval(this.routine);
+        this.routine = null;
     }
 
     destroy() {
-        clearTimeout(this.routine); // stop wandering
+        // clearTimeout(this.routine); // stop wandering
+        clearInterval(this.routine); // stop wandering
         super.destroy(); // call parent destructor
     }
 }
@@ -333,4 +354,46 @@ function is_empty(x, y) {
     /* TODO: check for walls, other obstacles, etc. as they are added */
 
     return true;
+}
+
+function from_json(dict) {
+    /* create an entity (or derived type) from a JSON object */
+    var new_entity;
+    switch (dict['type']) {
+        case 'wall':
+            new_entity = new Wall(dict['x'], dict['y']);
+            break;
+        case 'player':
+            new_entity = new Player(dict['x'], dict['y']);
+            break;
+        case 'entity':
+            new_entity = new Entity(dict['x'], dict['y']);
+            break;
+        case 'wanderer':
+            new_entity = new Wanderer(dict['x'], dict['y']);
+            break;
+        default:
+            console.warn('Entity type ' + dict['type'] + ' not accounted for in Entity.from_json().')
+            break;
+    }
+
+    let keys = Object.keys(dict);
+    for (let i in keys) {
+        // console.log(`setting this.${keys[i]} to ${dict[keys[i]]}`);
+        new_entity[keys[i]] = dict[keys[i]]; // copy attributes (health, etc) from dict object
+    }
+
+    if (new_entity['active']) new_entity.focus(); // focus object if active
+
+
+}
+
+function kill_all_entities() {
+    let ct = entities.length;
+    for(let i = 0; i < ct; i++) {
+        entities[0].destroy();
+    }
+
+    save_state(); // cache state after killing all entities
+    return;
 }

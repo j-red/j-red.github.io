@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <head>
     <title>virtual tabletop</title>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -8,7 +8,7 @@
         var entities = []; // global declaration of ALL entities
         // which button is active on right sidebar
         // var rightsidebar_active = null; 
-        var rightsidebar_active = "rsb_walls"; 
+        var rightsidebar_active = null; 
     </script>
 
     <script src="scripts/util.js"></script>
@@ -49,7 +49,7 @@
                         import state
                     </button>
     
-                    <button id="export-state" class="io-btn" onclick="export_state()">
+                    <button id="export-state" class="io-btn" onclick="export_state_to_IO()">
                         export state
                     </button> 
     
@@ -80,19 +80,6 @@
                 <h4>(work in progress -- many features not yet implemented)</h4>
                 <br />
                 <div style="display: inline-grid; column-gap: 200px;">
-
-                    <!-- <button id="import-text" class="io-btn" onclick="">
-                        import state
-                    </button>
-    
-                    <button id="export-state" class="io-btn" onclick="">
-                        export state
-                    </button> 
-    
-                    <button id="export-text" class="io-btn" onclick="export_ascii()">
-                        export ASCII
-                    </button> -->
-
                     <h5>TODO: zoom level</h5>
                     <span class="option-line" id="option1">
                         <span id="option-1-slider">-------------------|</span>
@@ -141,7 +128,13 @@
                     <script type="text/javascript">
                         colorpicker_setup();
                     </script>
+
+                    <button id="reset-colors" class="color-reset-btn" onclick="reset_colors()" style="margin-top: 10px;">
+                        reset colors
+                    </button>
                 </div>
+
+                
 
                 <p class="exit-menu-text">click anywhere else or press ESCAPE to exit</p>
             </div>
@@ -218,7 +211,7 @@
     </div> -->
 
     <div class="sidebar right top">
-        <button id="rsb_walls" class="rightside button focused" tabindex="-1" onclick="right_sidebar('rsb_walls')">
+        <button id="rsb_walls" class="rightside button" tabindex="-1" onclick="right_sidebar('rsb_walls')">
             █
         </button>
 
@@ -251,12 +244,6 @@
             ☰
         </button>
     </div>
-
-    <!-- <div id="faq">
-        <div id="faq-box" style="">
-            <p>press ESCAPE to clear the map</p>
-        </div>
-    </div> -->
 
     <!-- <script src="scripts/entities.js"></script> -->
     <script src="scripts/fill.js"></script>

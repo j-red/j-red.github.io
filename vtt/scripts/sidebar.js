@@ -52,10 +52,10 @@ function toggle_faq() {
     faq_open = !faq_open;
 
     if (faq_open) {
-        console.log('opening FAQ'); 
+        // console.log('opening FAQ'); 
         $("#faq").css("display", "block");
     } else {
-        console.log('closing FAQ'); 
+        // console.log('closing FAQ'); 
         $("#faq").css("display", "none");
     }
 }
@@ -67,10 +67,10 @@ function toggle_settings() {
     settings_open = !settings_open;
 
     if (settings_open) {
-        console.log('opening settings menu'); 
+        // console.log('opening settings menu'); 
         $("#settings-menu").css("display", "block");
     } else {
-        console.log('closing settings menu'); 
+        // console.log('closing settings menu'); 
         $("#settings-menu").css("display", "none");
     }
 }
@@ -94,7 +94,6 @@ function toggle_io() {
 
 }
 
-
 function clear_io() {
     let temp = $("#iotext").val();
     $("#iotext").val("");
@@ -106,23 +105,63 @@ function set_io(content) {
     return content;
 }
 
-function import_state() {
+function import_state(state = null) {
     /* create chars on screen based on input in io textbox */
-    let newstate = clear_io();
-    console.debug(`Importing state: ${newstate}`);
+    let newstate;
 
-    toggle_io();
+    if (state != null) {
+        newstate = state;
+    } else {
+        newstate = clear_io();
+    }
 
+    if (newstate == "") {
+        console.debug('Input state was empty. Try again?');
+        return; 
+    }
+
+    kill_all_entities();
+    // console.debug(`Importing state: ${newstate}`);
+
+    try {
+        let obj = JSON.parse(newstate);
+        // console.log(obj);
+
+        for (let i in obj) {
+            // console.log(obj[i]);
+            from_json(obj[i]);
+        }
+    } catch {
+        console.error("Tried to load invalid state.");
+    }
+
+    if (io_open)
+        toggle_io();
     return;
 }
 
 function export_state() {
-    console.debug("Creating new state from entities...");
-    set_io(JSON.stringify(entities));
+    // console.debug("Creating new state from entities...");
+    // set_io(JSON.stringify(entities));
 
-    // TODO: copy to clipboard?
-    $("#iotext").select();
-    return;
+    function stringify_filter(key, value) {
+        let filters = ['cell']; // do not add these elements when running JSON stringify
+
+        if (filters.includes(key)) return undefined;
+        return value;
+    }
+    
+    let state = JSON.stringify(entities, stringify_filter);
+    
+    return state;
+}
+
+function export_state_to_IO() {
+    if (io_open) {
+        set_io(export_state());
+        $("#iotext").select();
+        // TODO: copy to clipboard?
+    }
 }
 
 function export_ascii() {
@@ -172,16 +211,25 @@ function set_css(varname, value) {
 }
 
 
+
 function colorpicker_setup() {
     const bg_selector = document.getElementById('bg-selector');
     bg_selector.addEventListener('color-changed', (event) => {
         // get updated color value
         let newColor = event.detail.value;
         set_css('--bg-color', newColor);
+        
+        // get current color value
+        // console.log(bg_selector);
+        // console.log(bg_selector.color);
+
+        // save_colors();
+        if (colorsHaveLoaded)
+            save_data('--bg-color', newColor);
+
+        // console.log("This should not run on load");
     });
 
-    // get current color value
-    // console.log(bg_selector.color);
 
     // const fg_selector = document.getElementById('hex-color-picker');
     const fg_selector = document.getElementById('fg-selector');
@@ -189,21 +237,55 @@ function colorpicker_setup() {
         // get updated color value
         let newColor = event.detail.value;
         set_css('--fg-color', newColor);
+        
+        // get current color value
+        // console.log(fg_selector.color);
+        
+        // save_colors();
+        if (colorsHaveLoaded) 
+            save_data('--fg-color', newColor);
     });
 
-    // get current color value
-    // console.log(fg_selector.color);
 
     const focus_selector = document.getElementById('focus-selector');
     focus_selector.addEventListener('color-changed', (event) => {
         // get updated color value
         let newColor = event.detail.value;
         set_css('--focused-color', newColor);
+        
+        // get current color value
+        // console.log(focus_selector.color);
+
+        // save_colors();
+        if (colorsHaveLoaded)
+            save_data('--focused-color', newColor);
     });
 
-    // get current color value
-    // console.log(focus_selector.color);
 }
+
+const default_colors = {
+    "--bg-color": "#050505",
+    "--fg-color": "#008000",
+    "--focused-color": "#00ff00",
+    "--faded": "#005700"
+};
+
+function reset_colors() {
+    for (let i in default_colors) {
+        set_css(i, default_colors[i]);
+    }
+
+    $("#bg-selector").color = default_colors['--bg-color'];
+    $("#fg-selector").color = default_colors['--fg-color'];
+    $("#focused-selector").color = default_colors['--focused-color'];
+
+    save_data('--bg-color', default_colors['--bg-color']);
+    save_data('--fg-color', default_colors['--fg-color']);
+    save_data('--focused-color', default_colors['--focused-color']);
+    // clear_data('--bg-color');
+}
+
+// ----- end color picker management -----
 
 
 // option settings menu

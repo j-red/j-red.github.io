@@ -22,18 +22,32 @@ String.prototype.convertToRGB = function(){
     return aRgb;
 }
 
-// Local storage options:
 
+// Local storage options:
 if (typeof(Storage) !== "undefined") {
     // Code for localStorage/sessionStorage.
     function save_data(key, value) {
         // Store
+        console.debug(`saved ${key} as ${value} in session data`);
         return localStorage.setItem(key, value);
     }
 
     function load_data(key) {
         // Retrieve
+        // console.debug(`${key} was ${localStorage.getItem(key)} in session data`);
         return localStorage.getItem(key);
+    }
+
+    function clear_data(key) {
+        localStorage.clear(key);
+    }
+
+    function save_state() {
+        return save_data('map_state', export_state());
+    }
+
+    function load_state() {
+        return import_state(load_data('map_state'));
     }
 } else {
     // Sorry! No Web Storage support..
@@ -44,9 +58,68 @@ if (typeof(Storage) !== "undefined") {
         return null;
     }
 
-    function load_data(key, value) {
+    function load_data(key) {
+        console.error('Local storage not supported on this browser. Send me a message if you want to see this implemented!');
+        return null;
+    }
+
+    function clear_data(key) {
+        console.error('Local storage not supported on this browser. Send me a message if you want to see this implemented!');
+        return null;
+    }
+
+    function save_state() {
+        throw 'Local storage not supported on this browser. Send me a message if you want to see this implemented!';
+    }
+
+    function load_state() {
         console.error('Local storage not supported on this browser. Send me a message if you want to see this implemented!');
         return null;
     }
 }
 
+
+// function save_cycle() {
+//     console.debug("began save cycle.");
+//     try {
+//         // console.debug("Map state saved.");
+//         save_state();
+//         // setInterval(save_cycle, 5000); // save every 5 seconds
+//     } catch {
+//         return;
+//     }
+// }
+
+var colorsHaveLoaded = false;
+function on_load() {
+    /* this function called on page load */
+    // console.debug("called on_load");
+
+    load_state(); // try to load from local session storage
+    setInterval(save_state, 5000); // save state every 5 seconds
+    
+
+    let loadcssvars = ['--bg-color', '--fg-color', '--focused-color']; 
+    for (let i in loadcssvars) {
+        let cached = load_data(loadcssvars[i]);
+        if (cached != null) {
+            set_css(loadcssvars[i], cached);
+            console.debug(`loaded ${loadcssvars[i]} to ${load_data(loadcssvars[i])} from session data`);
+        } else {
+            console.debug(`key '${loadcssvars[i]}' not found in session data`);
+        }
+    }
+    colorsHaveLoaded = true;
+
+
+    /* set rightsidebar button if map is empty */
+    if (entities.length === 0) {
+        rightsidebar_active = "rsb_walls";
+        $("#rsb_walls").addClass('focused');
+    } else {
+        /* do not select tool if map not empty */
+    }
+
+
+    return;
+}

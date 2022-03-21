@@ -67,6 +67,12 @@ var first_load = true; // might be useful at some point! not used yet.
 window.addEventListener('resize', redraw);
 window.addEventListener('load', function() { 
     redraw();
+    // console.log("loading page");
+    // load_state(); // try to load from local session storage
+    // console.log("beginning save cycle");
+    // save_cycle(); // begin save loop
+    // console.log("calling on_load");
+    on_load();    // filler onload function in util.js
 }, false);
 
 const initialMap = map.innerHTML;

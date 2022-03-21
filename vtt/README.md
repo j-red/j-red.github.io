@@ -30,6 +30,7 @@
 * add fullscreen button in bottom right
 * add color change prompt
 * fix touch to draw
+* make movement asynchronous
 
 ### TO FIX:
 * Erasing entities does not remove only the ones dragged over -- presumably the erase call is made multiple times on the same index before the one is removed? (DONE)

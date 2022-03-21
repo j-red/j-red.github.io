@@ -143,7 +143,6 @@ function switch_rsb(x, y, e) { // x pos, y pos, click event
     }
 }
 
-
 function onKeyDown(event) {
     // console.log(`Event.key: ${event.key}`)
     if (faq_open) { // close faq or IO menu if open
@@ -159,6 +158,12 @@ function onKeyDown(event) {
         if (KEYS.ESCAPE.includes(event.key)) { // if menu is open and esc pressed,
             event.preventDefault(); // close menu
             toggle_io();
+        }
+        return;
+    } else if (settings_open) {
+        if (KEYS.ESCAPE.includes(event.key)) { // if menu is open and esc pressed,
+            event.preventDefault(); // close menu
+            toggle_settings();
         }
         return;
     } // else: (if no menu is open)
@@ -255,16 +260,20 @@ function onKeyDown(event) {
             } else if (io_open) {
                 toggle_io();
                 return;
+            } else if (settings_open) {
+                toggle_settings();
+                return;
             } // else:
 
             if (confirm("would you like to clear all entities?")) {
                 console.debug(`ESCAPE: Clearing Entities...`);
-                let ct = entities.length;
-                for(let i = 0; i < ct; i++) {
-                    // kill_entity_at_index(0);
-                    entities[0].destroy();
-                }
+                // let ct = entities.length;
+                // for(let i = 0; i < ct; i++) {
+                //     // kill_entity_at_index(0);
+                //     entities[0].destroy();
+                // }
                 // entities = [];
+                kill_all_entities();
             }
         } else if (KEYS.SHIFT.includes(event.key)) {
             event.preventDefault();
@@ -351,7 +360,6 @@ function onClick(event) {
 /* Mouse Drag settings */
 
 // var map = document.querySelector("#map");
-
 var active = false;
 var currentX;
 var currentY;
@@ -482,6 +490,8 @@ function dragEnd(e) {
 
         dragged(); // trigger actions in dragged area
     }
+
+    save_state();
 }
 
 function drag(e) {
@@ -490,23 +500,43 @@ function drag(e) {
             /* if this is a touch pinch event, do nothing (allow default behavior) */
         } else {
             e.preventDefault();
+
+            var xcoord;
+            var ycoord; 
             
             if (e.type === "touchmove") {
                 currentX = e.touches[0].clientX - initialX;
                 currentY = e.touches[0].clientY - initialY;
+                // console.log(e)
+
+                xcoord = e.touches[0].clientX;
+                ycoord = e.touches[0].clientY;
+                
             } else {
                 currentX = e.clientX - initialX;
                 currentY = e.clientY - initialY;
+
+                xcoord = e.clientX;
+                ycoord = e.clientY;
             }
 
-            xOffset = Math.floor(currentX / CHARSIZE.y);
-            yOffset = Math.floor(currentY / CHARSIZE.x);
+            // xOffset = Math.floor(currentX / CHARSIZE.y);
+            // yOffset = Math.floor(currentY / CHARSIZE.x);
 
-            var classes = e.target.classList;
+            
+            // var classes = e.target.classList;
+            
+            let ele = document.elementFromPoint(xcoord, ycoord);
+            // console.log(ele);
+
+            // let classes = 
+
             // console.log(e.target.classList);
             
-            let x = classes[0]; // x coordinate of currently hovered cell
-            let y = classes[1]; // y coordinate
+            // let x = classes[0]; // x coordinate of currently hovered cell
+            // let y = classes[1]; // y coordinate
+            let x = ele.getAttribute('data-x');
+            let y = ele.getAttribute('data-y');
 
             if (rightsidebar_active != null) {
                 switch_rsb(x, y, e); // perform click action based on which tool is selected
