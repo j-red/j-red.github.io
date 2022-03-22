@@ -36,7 +36,8 @@ const KEYS = {
     SHIFT: ["Shift"],
     CONTROL: ["Control"],
     ALT: ['Alt'],
-    RELOAD: ['R', 'r']
+    RELOAD: ['R', 'r'],
+    DELETE: ['Backspace', 'Delete']
 };
 
 
@@ -143,7 +144,17 @@ function switch_rsb(x, y, e) { // x pos, y pos, click event
     }
 }
 
+
+var last_keypress = new Date();
 function onKeyDown(event) {
+    let time_since_last_keypress = new Date() - last_keypress;
+    // console.log(time_since_last_keypress);
+    if (time_since_last_keypress < 150) {
+        // console.debug('Preventing repeated keypresses.');
+        return;
+    }
+    last_keypress = new Date();
+
     // console.log(`Event.key: ${event.key}`)
     if (faq_open) { // close faq or IO menu if open
         if (KEYS.CONFIRM.includes(event.key)) { // if menu is open and 
@@ -182,32 +193,41 @@ function onKeyDown(event) {
             event.preventDefault();
             // console.log(`UP: ${event.key}`);
             
-            for (let ent in entities) {
-                entities[ent].move(-delta, 0);
-            }
+            // for (let ent in entities) {
+            //     // entities[ent].move(-delta, 0);
+            //     new Promise(() => {entities[ent].move(-delta, 0)});
+            // }
+
+            // entities.map(x => x.move(-delta, 0));
+            focused_entities.map(x => x.move(-delta, 0));
         } else if (KEYS.DOWN.includes(event.key)) {
             event.preventDefault();
             // console.log(`DOWN: ${event.key}`);
 
-            for (let ent in entities.reverse()) {
-                entities[ent].move(delta, 0);
-            }
+            // for (let ent in entities.reverse()) {
+            //     entities[ent].move(delta, 0);
+            // }
+            focused_entities.map(x => x.move(delta, 0));
     
         } else if (KEYS.LEFT.includes(event.key)) {
             event.preventDefault();
             // console.log(`LEFT: ${event.key}`);
             
-            for (let ent in entities) {
-                entities[ent].move(0, -delta);
-            }
+            // for (let ent in entities) {
+            //     entities[ent].move(0, -delta);
+            // }
+            focused_entities.map(x => x.move(0, -delta));
 
         } else if (KEYS.RIGHT.includes(event.key)) {
             event.preventDefault();
             // console.log(`RIGHT: ${event.key}`);
 
-            for (let ent in entities.reverse()) {
-                entities[ent].move(0, delta);
-            }
+            // for (let ent in entities.reverse()) {
+            //     entities[ent].move(0, delta);
+            // }
+            let tasks = focused_entities.map(x => x.move(0, delta));
+            // let results = await Promise.all(tasks);
+            // console.log(results);
     
         } else if (KEYS.MENU.includes(event.key)) {
             event.preventDefault();
@@ -278,11 +298,23 @@ function onKeyDown(event) {
         } else if (KEYS.SHIFT.includes(event.key)) {
             event.preventDefault();
             shift_down = true;
-        }  else if (KEYS.CONTROL.includes(event.key)) {
+        } else if (KEYS.CONTROL.includes(event.key)) {
             event.preventDefault();
         } else if (KEYS.ALT.includes(event.key)) {
             event.preventDefault();
             // console.log(`ALT: ${event.key}`);
+        } else if (KEYS.DELETE.includes(event.key)) {
+            event.preventDefault();
+            // console.log(`DELETE: ${event.key}`);
+            // TODO: kill focused entities
+            let focused_ents = [];
+            for (let i in entities) {
+                if (entities[i].active) 
+                    focused_ents.push(entities[i]);
+            }
+            for (let i in focused_ents) {
+                focused_ents[i].destroy();
+            }
         } else {
             console.log(`Unmapped keypress ${event.key}`);
         }
@@ -298,25 +330,24 @@ function onKeyUp(event) {
 }
 
 function onClick(event) {
-    // console.log("Click!")
-    var classes = event.target.classList;
-
-    if (event.button === 1) return false;  // ignore middle clicks
+    if (event.button === 1) return false; // ignore middle clicks
+    
+    let xcoord;
+    let ycoord;
 
     if (event.type === "touchstart") {
         // console.log(event.touches)
-        // initialX = e.touches[0].clientX - xOffset;
-        // initialY = e.touches[0].clientY - yOffset;
-
-        // active = true;
-        // console.log(event.target);
+        xcoord = event.touches[0].clientX;
+        ycoord = event.touches[0].clientY;
+    } else {
+        xcoord = event.clientX;
+        ycoord = event.clientY;
     }
-    
-    
-    // console.log(classes);
 
-    let X_POS = classes[0];
-    let Y_POS = classes[1];
+    let ele = document.elementFromPoint(xcoord, ycoord);
+    let X_POS = ele.getAttribute('data-x');
+    let Y_POS = ele.getAttribute('data-y');
+    
     // console.log(event.target.parentElement); // parent of clicked node
 
     if (X_POS == null || Y_POS == null || isNaN(X_POS) || isNaN(Y_POS)) {
@@ -325,8 +356,11 @@ function onClick(event) {
         return;
     } 
     
-    // console.debug(`Clicked X: ${X_POS}, Y: ${Y_POS}`);
-    if (classes.value.includes('entity') && !classes.value.includes('wall') && rightsidebar_active != "rsb_erase") {
+    console.debug(`Clicked X: ${X_POS}, Y: ${Y_POS}`);
+    var ent = get_entity_for(X_POS, Y_POS);
+    // console.log(ent);
+
+    if (ent != null && ent.canFocus && rightsidebar_active != "rsb_erase") {
         // console.log("Error: Entity already exists in this position.");
         // kill_entity_at_index(get_entity_index_for(X_POS, Y_POS));
         // if (classes)
@@ -336,18 +370,22 @@ function onClick(event) {
 
         if (shift_down) {
             // toggle focus and ignore other elements
-            let ent = get_entity_for(X_POS, Y_POS);
-            ent.toggle_focus();
+            // let ent = get_entity_for(X_POS, Y_POS);
+            // ent.toggle_focus();
         } else {
             // make ent the ONLY focused element
-            let ent = get_entity_for(X_POS, Y_POS);
-            ent.toggle_focus();
-
             for (let i in entities) {
-                if (!entities[i].equals(ent))
+                if (!entities[i].equals(ent)) {
                     entities[i].unfocus();
+                }
             }
+
+            // ent = get_entity_for(X_POS, Y_POS);
         }
+        
+        // if (!call_dragged) {
+        ent.toggle_focus();
+        // }
         
     } else {
         if (is_empty(X_POS, Y_POS) || rightsidebar_active === "rsb_erase") { // if pos is empty or eraser selected
@@ -357,8 +395,8 @@ function onClick(event) {
 
 }
 
-/* Mouse Drag settings */
 
+/* Mouse Drag settings */
 // var map = document.querySelector("#map");
 var active = false;
 var currentX;
@@ -382,6 +420,7 @@ map.addEventListener("mousemove", drag, false);
 
 var on_target = null; // under mouse when click pressed
 var off_target = null; // was under mouse when click released
+var call_dragged = false; // whether dragged() should be called on click release
 function dragged() {
     if (on_target != null && off_target != null) {
         // console.log(on_target);
@@ -423,52 +462,48 @@ function dragged() {
 
 
 function dragStart(e) {
+    console.debug('drag start');
     if (e.type === "touchstart") {
+        // e.stopPropagation();
+    // if (e.type === "touchmove") {
         // console.log(e.touches)
-        initialX = e.touches[0].clientX - xOffset;
-        initialY = e.touches[0].clientY - yOffset;
+        initialX = e.touches[0].clientX;
+        initialY = e.touches[0].clientY;
 
-        active = true;        
+        active = true; 
     } else {
-        initialX = e.clientX - xOffset;
-        initialY = e.clientY - yOffset;
+        // if (e.button == 2) { // if right mouse held down
+        if (e.button === 0 || e.button === 2) { // if left OR right mouse held down
+            initialX = e.clientX;
+            initialY = e.clientY;
+            active = true;
+        }
     }
 
-    // if (e.button == 2) { // if right mouse held down
-    if (e.button === 0 || e.button === 2) { // if left OR right mouse held down
-        active = true;
-    }
 
-    if (!(rightsidebar_active != null) && active) {
+    // if (!(rightsidebar_active != null) && active) {
         /* rightsidebar has no tool; do click-drag select */
-        // console.log('activating overlay');
-        
-        // console.log(map.getBoundingClientRect());
-
-        overlay_initial_x = e.pageX;
-        overlay_initial_y = e.pageY;
-
-        // console.log(e.target);
-        on_target = e.target;
-
-        $("#drag-overlay").css( {
-            display: "block",
-            top: e.pageY, 
-            left: e.pageX, 
-            bottom: e.pageY, 
-            right: e.pageX
-        });
+        // overlay_initial_x = e.pageX;
+        // overlay_initial_y = e.pageY;
+    try {
+        on_target = document.elementFromPoint(initialX, initialY);
+    } catch {
+        on_target = null;
     }
+
+    call_dragged = false;
+    // }
 }
 
-function dragEnd(e) { 
+function dragEnd(e) {
+    console.debug('drag end');
     // if (scaling) {
     //     pinchMove(e);
     // } else {
     initialX = currentX;
     initialY = currentY;
 
-    active = false;
+    // active = false;
 
     // redraw map and all entities in case some were updated but not visually changed
     if (rightsidebar_active == "rsb_erase") {
@@ -476,7 +511,7 @@ function dragEnd(e) {
     }
     // }
 
-    if (!(rightsidebar_active != null)) { // if no item selected
+    if (!(rightsidebar_active != null) && active) { // if no item selected
         // console.log('disabling overlay');
 
         $("#drag-overlay").css({
@@ -485,58 +520,71 @@ function dragEnd(e) {
             height: 0,
         }); // hide overlay
         
-        // TODO: select objects in area, etc
-        off_target = e.target;
 
-        dragged(); // trigger actions in dragged area
+        // off_target = e.target;
+        try {
+            off_target = document.elementFromPoint(currentX, currentY);
+        } catch {
+            off_target = null;
+        }
+
+        if (call_dragged) {
+            dragged(); // trigger actions in dragged area
+            call_dragged = false;
+        }
     }
+
+    active = false;
+    
+    on_target = null;
+    off_target = null;
 
     save_state();
 }
 
 function drag(e) {
     if (active) {
+        console.debug('drag move (active)');
+        call_dragged = true;
+
         if (e.type === "touchmove" && e.touches.length === 2) {
             /* if this is a touch pinch event, do nothing (allow default behavior) */
         } else {
             e.preventDefault();
 
-            var xcoord;
-            var ycoord; 
+            $("#drag-overlay").css( {
+                display: "block",
+                top: initialY, 
+                left: initialX, 
+                bottom: initialY, 
+                right: initialX
+            });
+
             
             if (e.type === "touchmove") {
-                currentX = e.touches[0].clientX - initialX;
-                currentY = e.touches[0].clientY - initialY;
+                currentX = e.touches[0].clientX;
+                currentY = e.touches[0].clientY;
                 // console.log(e)
-
-                xcoord = e.touches[0].clientX;
-                ycoord = e.touches[0].clientY;
-                
             } else {
-                currentX = e.clientX - initialX;
-                currentY = e.clientY - initialY;
-
-                xcoord = e.clientX;
-                ycoord = e.clientY;
+                currentX = e.clientX;
+                currentY = e.clientY;
             }
 
             // xOffset = Math.floor(currentX / CHARSIZE.y);
             // yOffset = Math.floor(currentY / CHARSIZE.x);
 
+            let ele = document.elementFromPoint(currentX, currentY);
+            let x;
+            let y;
             
-            // var classes = e.target.classList;
-            
-            let ele = document.elementFromPoint(xcoord, ycoord);
-            // console.log(ele);
-
-            // let classes = 
-
-            // console.log(e.target.classList);
-            
-            // let x = classes[0]; // x coordinate of currently hovered cell
-            // let y = classes[1]; // y coordinate
-            let x = ele.getAttribute('data-x');
-            let y = ele.getAttribute('data-y');
+            try {
+                x = ele.getAttribute('data-x');
+                y = ele.getAttribute('data-y');
+            } catch {
+                // console.error('Invalid drag region.');
+                x = null;
+                y = null;
+            }
 
             if (rightsidebar_active != null) {
                 switch_rsb(x, y, e); // perform click action based on which tool is selected
@@ -544,40 +592,25 @@ function drag(e) {
                 // switch_rsb(xOffset, yOffset, e);
             } else {
                 /* if no tool is selected, draw a div overlay */
-                overlay_current_x = e.pageX;
-                overlay_current_y = e.pageY;
                 
-                if (overlay_current_x >= overlay_initial_x) {
+                if (currentX >= initialX) {
                     // mouse is to the right of start pos
-                    $('#drag-overlay').css("width", (e.pageX - overlay_initial_x));
+                    $('#drag-overlay').css("width", (currentX - initialX));
                 } else {
-                    // mouse is to the left of start pos
-                    $('#drag-overlay').css("width", -(e.pageX - overlay_initial_x));
-                    $('#drag-overlay').css("left", e.pageX);
+                     // mouse is to the left of start pos
+                    $('#drag-overlay').css("width", -(currentX - initialX));
+                    $('#drag-overlay').css("left", currentX);
                 }
 
-                if (overlay_current_y >= overlay_initial_y) {
+                if (currentY >= initialY) {
                     // mouse is below start pos
-                    $('#drag-overlay').css("height", (e.pageY - overlay_initial_y));
+                    $('#drag-overlay').css("height", (currentY - initialY));
                 } else {
                     // mouse is above start pos
-                    $('#drag-overlay').css("height", -(e.pageY - overlay_initial_y));
-                    $('#drag-overlay').css("top", e.pageY);
+                    $('#drag-overlay').css("height", -(currentY - initialY));
+                    $('#drag-overlay').css("top", currentY);
                 }
-
-
-
-                // $("#drag-overlay").css( {
-                //     // bottom: e.pageY, 
-                //     // right: e.pageX
-                //     // bottom: Math.abs(overlay_initial_x - e.pageX), 
-                //     // right: Math.abs(overlay_initial_y - e.pageY)
-                //     // width: Math.abs(overlay_initial_x - e.pageX), 
-                //     // height: Math.abs(overlay_initial_y - e.pageY)
-                //     width: (e.pageX - overlay_initial_x), 
-                //     height: (e.pageY - overlay_initial_y)
-                // });
-            }
+            } // end if rsb_active is null
         } // end if not pinch event
-    }
-}
+    } // end if active
+} // end drag function

@@ -28,7 +28,7 @@ if (typeof(Storage) !== "undefined") {
     // Code for localStorage/sessionStorage.
     function save_data(key, value) {
         // Store
-        console.debug(`saved ${key} as ${value} in session data`);
+        // console.debug(`saved ${key} as ${value} in session data`);
         return localStorage.setItem(key, value);
     }
 
@@ -79,23 +79,13 @@ if (typeof(Storage) !== "undefined") {
 }
 
 
-// function save_cycle() {
-//     console.debug("began save cycle.");
-//     try {
-//         // console.debug("Map state saved.");
-//         save_state();
-//         // setInterval(save_cycle, 5000); // save every 5 seconds
-//     } catch {
-//         return;
-//     }
-// }
-
 var colorsHaveLoaded = false;
 function on_load() {
     /* this function called on page load */
     // console.debug("called on_load");
 
     load_state(); // try to load from local session storage
+    save_state();
     setInterval(save_state, 5000); // save state every 5 seconds
     
 
@@ -104,9 +94,9 @@ function on_load() {
         let cached = load_data(loadcssvars[i]);
         if (cached != null) {
             set_css(loadcssvars[i], cached);
-            console.debug(`loaded ${loadcssvars[i]} to ${load_data(loadcssvars[i])} from session data`);
+            // console.debug(`loaded ${loadcssvars[i]} to ${load_data(loadcssvars[i])} from session data`);
         } else {
-            console.debug(`key '${loadcssvars[i]}' not found in session data`);
+            // console.debug(`key '${loadcssvars[i]}' not found in session data`);
         }
     }
     colorsHaveLoaded = true;

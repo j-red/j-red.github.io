@@ -10,27 +10,29 @@
 * Add 3rd layer on top for UI overlays?
 * Reverse entity move direction loop for down and right movement --> this doesn't work; when entities that are adjacent move in the same direction, a space is still added between them
 
-* Add tool select option for right click drag; select from (default) doing nothing, painting walls, erasing them, placing entities, deleting entities, etc., from a popup bar in menu or something
+* Add tool select option for right click drag; select from (default) doing nothing, painting walls, erasing them, placing entities, deleting entities, etc., from a popup bar in menu or something (done)
 * Create 'Container' entities that store a list of entities inside them
 * Create an 'Item' base class for other items to derive from
-* add 'virtual table top' logo/copyright in bottom right
+* add 'virtual table top' logo/copyright in bottom right (done)
     * Fix margin to right; make fixed distance
-* Add Tutorial/FAQ menu; onboard new users appropriately
+* Add Tutorial/FAQ menu; onboard new users appropriately (done, ish)
 
 * Add -/+ size option for painting tools; place below buttons on RHS (done)
-* Map exporter (export as JSON string? add export/import menu in bottom right)
-* Enable export JSON entities list to import/save into another map
-* also allow export as text for safekeeping
+* Map exporter (export as JSON string? add export/import menu in bottom right) (done)
+* Enable export JSON entities list to import/save into another map (done)
+* also allow export as text for safekeeping (done)
 
 * Button mouse hover styling for bottom right buttons and buttons in IO menu (done)
-* add simple wandering AI to default % or @ entities
+* add simple wandering AI to default % or @ entities (done)
 * ensure wandering entities are deleted properly (they reappear after clearing with escape) (done)
 * Add hover indicators to buttons, etc., to see what they do or will add
 * add visual indicator of draw size? (hold alt to see preview? or toggle on/off)
 * add fullscreen button in bottom right
-* add color change prompt
-* fix touch to draw
+* add color change prompt (done)
+* fix touch to draw (done)
 * make movement asynchronous
+* allow pressing `delete` to kill selected objects
+* fix touch screen allowing weird select when tapping (not dragging) different places
 
 ### TO FIX:
 * Erasing entities does not remove only the ones dragged over -- presumably the erase call is made multiple times on the same index before the one is removed? (DONE)

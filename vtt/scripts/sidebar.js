@@ -145,7 +145,7 @@ function export_state() {
     // set_io(JSON.stringify(entities));
 
     function stringify_filter(key, value) {
-        let filters = ['cell']; // do not add these elements when running JSON stringify
+        let filters = ['cell', 'routine', 'wanderTime']; // do not add these elements when running JSON stringify
 
         if (filters.includes(key)) return undefined;
         return value;

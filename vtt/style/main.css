@@ -29,10 +29,9 @@ p {
     color: var(--fg-color);
 }
 
-#map {
-    /* width: 80%; */
-    /* height: 80%; */
-}
+/* #map {
+
+} */
 
 .wall {
     cursor: default !important;

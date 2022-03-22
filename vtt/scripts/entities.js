@@ -43,22 +43,37 @@ class Entity {
         if (this.canFocus) {
             this.active = true;
             this.cell.addClass("focused");
-            // console.log('added focus');
+            // console.debug('added focus');
+
+            focused_entities.push(this);
         }
     }
 
     unfocus() {
         this.active = false;
         this.cell.removeClass("focused");
-        // console.log('removed focus');
+        // console.debug('removed focus');
+
+        if (this.canFocus) {
+            for (let i in focused_entities) {
+                if (this.equals(focused_entities[i])) {
+                    focused_entities.splice(i, 1); // remove self from focused array
+                }
+            }
+        }
     }
 
-    move(dr, dc) {
+    async move(dr, dc) {
         if (this.active) {
             let failsafe = 0;
             while (dr != 0 || dc != 0) { 
                 /* this funky math loop moves 1 unit at a time until satisfied */
-                this.move_to(this.x + (dr / (dr != 0 ? Math.abs(dr) : 1)), this.y + (dc / (dc != 0 ? Math.abs(dc) : 1)));
+                let target_x = this.x + (dr / (dr != 0 ? Math.abs(dr) : 1));
+                let target_y = this.y + (dc / (dc != 0 ? Math.abs(dc) : 1));
+
+                this.move_to(target_x, target_y);
+                // new Promise(() => {this.move_to(target_x, target_y)});
+
                 if (dr != 0) dr -= (dr / Math.abs(dr));
                 if (dc != 0) dc -= (dc / Math.abs(dc));
                 
@@ -127,7 +142,7 @@ class Entity {
     destroy() {
         this.cell.text(this.prev);
         this.cell.removeClass('entity');
-        this.cell.removeClass('focused');
+        this.unfocus();
         this.active = false;
 
         this.cell.removeClass(this.type);
@@ -214,9 +229,9 @@ class Wanderer extends Entity {
         return this;
     }
 
-    move() {} // disallow default move
+    async move() {} // disallow default move
 
-    move_by(dr, dc) { // movement override
+    async move_by(dr, dc) { // movement override
         let failsafe = 0;
         while (dr != 0 || dc != 0) { 
             /* this funky math loop moves 1 unit at a time until satisfied */
