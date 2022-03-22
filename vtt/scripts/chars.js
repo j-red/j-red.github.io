@@ -5,7 +5,7 @@ const door = "▏▁│";
 
 const health = "✚";
 
-const symbols = "☼☽☾♁⚝⚞⚟⚠⚯⚷⚹⚼⚿⛆⛉⛊⛛⛨⛩⛫☰⛏";
+const symbols = "✚☼☽☾♁⚝⚞⚟⚠⚯⚷⚹⚼⚿⛆⛉⛊⛛⛨⛩⛫☰⛏";
 
 const damage = {
     0: "█",
