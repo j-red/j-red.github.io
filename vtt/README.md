@@ -1,11 +1,10 @@
 # TODO: 
-* Add `focus` element for selected entity
-* Only control focused entity with directional movement, etc
-* Make borders/window adjust to size of screen
-* Enable change of zoom (fixed for a given map; control by GM)
+* Add `focus` element for selected entity (done)
+* Only control focused entity with directional movement, etc (done)
+* Make borders/window adjust to size of screen (done)
+* Enable change of zoom (fixed for a given map; control by GM?)
 * Enable save/load of Entities, NPCs, maps, etc. Do so in browser cookies? Or JSON exports for ease of sharing.
-* Toggle focus by **clicking on individual Entities to toggle**, or by **clicking and dragging around a group to select all and deselect all others**. (Hold shift to add to existing selection in both cases?)
-
+* Toggle focus by **clicking on individual Entities to toggle**, or by **clicking and dragging around a group to select all and deselect all others**. (Hold shift to add to existing selection in both cases?) (done)
 * Add extra layer of invisible <span> grid that can be used for temporary overlay effects
 * Add 3rd layer on top for UI overlays?
 * Reverse entity move direction loop for down and right movement --> this doesn't work; when entities that are adjacent move in the same direction, a space is still added between them
@@ -21,7 +20,6 @@
 * Map exporter (export as JSON string? add export/import menu in bottom right) (done)
 * Enable export JSON entities list to import/save into another map (done)
 * also allow export as text for safekeeping (done)
-
 * Button mouse hover styling for bottom right buttons and buttons in IO menu (done)
 * add simple wandering AI to default % or @ entities (done)
 * ensure wandering entities are deleted properly (they reappear after clearing with escape) (done)
@@ -31,14 +29,15 @@
 * add color change prompt (done)
 * fix touch to draw (done)
 * make movement asynchronous
-* allow pressing `delete` to kill selected objects
-* fix touch screen allowing weird select when tapping (not dragging) different places
+* allow pressing `delete` to kill selected objects (done)
+* fix touch screen allowing weird select when tapping (not dragging) different places (done)
 
-* add 0..9 states that can be cached to/loaded at will via buttons in the IO menu. enabling right click to delete cached slots. use confirm() dialog to ensure they are okay with deleting.
+* add 0..9 states that can be cached to/loaded at will via buttons in the IO menu. enabling right click to delete cached slots. (done)
+* cache settings on change in localStorage
 
 ### TO FIX:
 * Erasing entities does not remove only the ones dragged over -- presumably the erase call is made multiple times on the same index before the one is removed? (DONE)
-* If a page is saved, then made smaller, then reloaded from cache, it fails to load all entities as it errors when some are out of bounds.
+* If a page is saved, then made smaller, then reloaded from cache, it fails to load all entities as it errors when some are out of bounds. (done)
 
 #### Long-term:
 * Right click context menu for each entity; create popup with name, health, other stats

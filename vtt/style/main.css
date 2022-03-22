@@ -150,15 +150,18 @@ button:hover {
     /* margin-top: 100px; */
     padding: 20px;
 
-    font-size: 14;
+    /* font-size: 12pt; */
     text-align: center;
     justify-content: center;
 
     min-width: 330px;
+
+    /* white-space: pre-wrap; */
 }
 
 #settings-box {
     background-color: var(--bg-color);
+    height: fit-content;
 }
 
 #drag-overlay {
@@ -242,10 +245,14 @@ input[type="text"]::placeholder {
 
 .exit-menu-text {
     color: var(--faded); 
-    position: absolute; 
+    /* position: absolute;  */
     bottom: 10px;
     width: 90%;
     /* padding-top:20%; */
+    left: 0;
+    right: 0;
+    margin: auto;
+
 }
 
 #io-saves {
@@ -288,11 +295,11 @@ hex-color-picker {
 }
 
 #color-pickers {
-    bottom: 10%;
-    position: absolute;
+    /* bottom: 10%; */
+    /* position: absolute; */
     left: 0;
     right: 0;
-    height: auto;
+    /* height: auto; */
 }
 
 hex-color-picker::part(saturation) {
@@ -319,4 +326,5 @@ hex-color-picker::part(hue-pointer) {
 
 .option-line {
     padding-top: 10px;
+    text-align: right;
 }

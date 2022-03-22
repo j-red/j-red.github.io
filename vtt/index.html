@@ -19,7 +19,7 @@
 <body oncontextmenu="return false;">
     <div id="overlays">
         <div class="overlay-menu" id="faq" onclick="toggle_faq();">
-            <div class="overlay-box" onclick="event.stopPropagation();">
+            <div class="overlay-box" style="height: fit-content;" onclick="event.stopPropagation();">
                 <h2>faq</h2>
                 <br />
                 <p>select a tool from the RIGHT SIDEBAR to edit the map</p>
@@ -31,8 +31,8 @@
                 <p>click on an entity to FOCUS it</p>
                 <p>hold SHIFT when focusing to focus additional entities</p>
                 <p>move focused entities with W/A/S/D or &uarr;/&larr;/&darr;/&rarr;</p>
-                <p>press ESCAPE to clear the map</p>
-                <p>import/export maps in the IO menu</p>
+                <p>press DELETE to clear the map or kill focused entities</p>
+                <p>save/load maps in the IO menu</p>
 
                 <p class="exit-menu-text">click anywhere else or press ESCAPE to exit</p>
             </div>
@@ -68,8 +68,6 @@
                         spellcheck="false"
                     ></textarea>
                 </div>
-
-                <p class="exit-menu-text">click anywhere else or press ESCAPE to exit</p>
 
                 <div id="io-saves">
                     <p style="margin: 0 0 0 0;">save states</p>
@@ -111,7 +109,8 @@
                     </button>
                 </div>
     
-                
+                <p class="exit-menu-text">click anywhere else or press ESCAPE to exit</p>
+
             </div>
         </div>
 
@@ -150,7 +149,7 @@
 
                 </div>
 
-                <div id="color-pickers" style="margin-top: 10px;">
+                <div id="color-pickers" style="margin-top: 20px;">
                     <div class="color-picker-container">
                         <h5>background color</h5>
                         <hex-color-picker id="bg-selector" color="#050505"></hex-color-picker>
@@ -173,12 +172,12 @@
                     <button id="reset-colors" class="color-reset-btn" onclick="reset_colors()" style="margin-top: 10px;">
                         reset colors
                     </button>
+                    
+                    <p class="exit-menu-text">click anywhere else or press ESCAPE to exit</p>
                 </div>
 
-                
-
-                <p class="exit-menu-text">click anywhere else or press ESCAPE to exit</p>
             </div>
+
         </div>
     </div>
 

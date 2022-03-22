@@ -302,14 +302,17 @@ function option1 (delta) {
     try {
         let str = "-".repeat(option_01_index - 1) + "|" + "-".repeat(option_slider_chars - option_01_index);
         $("#option-1-slider").text(str);
-        $("#option-1-value").text(100 * (option_01 / max_option) + "%")
+        // $("#option-1-value").text(valstr);
+        
+        let pct = 100 * (option_01 / max_option);
+        let valstr = (pct < 100 ? "&nbsp;" + pct : "100") + "%"
+        $("#option-1-value").html(valstr);
     } catch {
         // if current option is 0%
+        // $("#option-1-value").text("0%");
         $("#option-1-slider").text("|" + "-".repeat(option_slider_chars - 1));
-        $("#option-1-value").text("0%")
+        $("#option-1-value").html("&nbsp;&nbsp;0%");
     }
-
-
     return;
 }
 
@@ -323,11 +326,16 @@ function option2 (delta) {
     try {
         let str = "-".repeat(option_02_index - 1) + "|" + "-".repeat(option_slider_chars - option_02_index);
         $("#option-2-slider").text(str);
-        $("#option-2-value").text(100 * (option_02 / max_option) + "%")
+        // $("#option-2-value").text(100 * (option_02 / max_option) + "%")
+
+        let pct = 100 * (option_02 / max_option);
+        let valstr = (pct < 100 ? "&nbsp;" + pct : "100") + "%";
+        $("#option-2-value").html(valstr);
     } catch {
         // if current option is 0%
+        // $("#option-2-value").text("0%")
         $("#option-2-slider").text("|" + "-".repeat(option_slider_chars - 1));
-        $("#option-2-value").text("0%")
+        $("#option-2-value").html("&nbsp;&nbsp;0%");
     }
 
     
@@ -343,11 +351,16 @@ function option3 (delta) {
     try {
         let str = "-".repeat(option_03_index - 1) + "|" + "-".repeat(option_slider_chars - option_03_index);
         $("#option-3-slider").text(str);
-        $("#option-3-value").text(100 * (option_03 / max_option) + "%")
+        // $("#option-3-value").text(100 * (option_03 / max_option) + "%")
+
+        let pct = 100 * (option_03 / max_option);
+        let valstr = (pct < 100 ? "&nbsp;" + pct : "100") + "%";
+        $("#option-3-value").html(valstr);
     } catch {
         // if current option is 0%
         $("#option-3-slider").text("|" + "-".repeat(option_slider_chars - 1));
-        $("#option-3-value").text("0%")
+        // $("#option-3-value").text("0%")
+        $("#option-3-value").html("&nbsp;&nbsp;0%");
     }
     
     return;

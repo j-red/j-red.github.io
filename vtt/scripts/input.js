@@ -225,7 +225,8 @@ function onKeyDown(event) {
             // for (let ent in entities.reverse()) {
             //     entities[ent].move(0, delta);
             // }
-            let tasks = focused_entities.map(x => x.move(0, delta));
+            
+            focused_entities.map(x => x.move(0, delta));
             // let results = await Promise.all(tasks);
             // console.log(results);
     
@@ -284,17 +285,6 @@ function onKeyDown(event) {
                 toggle_settings();
                 return;
             } // else:
-
-            if (confirm("would you like to clear all entities?")) {
-                console.debug(`ESCAPE: Clearing Entities...`);
-                // let ct = entities.length;
-                // for(let i = 0; i < ct; i++) {
-                //     // kill_entity_at_index(0);
-                //     entities[0].destroy();
-                // }
-                // entities = [];
-                kill_all_entities();
-            }
         } else if (KEYS.SHIFT.includes(event.key)) {
             event.preventDefault();
             shift_down = true;
@@ -306,14 +296,16 @@ function onKeyDown(event) {
         } else if (KEYS.DELETE.includes(event.key)) {
             event.preventDefault();
             // console.log(`DELETE: ${event.key}`);
-            // TODO: kill focused entities
-            let focused_ents = [];
-            for (let i in entities) {
-                if (entities[i].active) 
-                    focused_ents.push(entities[i]);
-            }
-            for (let i in focused_ents) {
-                focused_ents[i].destroy();
+            if (focused_entities.length == 0 && confirm("would you like to clear all entities?")) {
+                kill_all_entities();
+            } else {
+                let focused_ents = [];
+                for (let i in focused_entities) {
+                    focused_ents.push(focused_entities[i]);
+                }
+                for (let i in focused_ents) {
+                    focused_ents[i].destroy();
+                }
             }
         } else {
             console.log(`Unmapped keypress ${event.key}`);
