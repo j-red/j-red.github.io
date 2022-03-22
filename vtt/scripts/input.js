@@ -144,7 +144,6 @@ function switch_rsb(x, y, e) { // x pos, y pos, click event
     }
 }
 
-
 var last_keypress = new Date();
 function onKeyDown(event) {
     let time_since_last_keypress = new Date() - last_keypress;
@@ -177,6 +176,12 @@ function onKeyDown(event) {
             toggle_settings();
         }
         return;
+    } else if (welcome_open) {
+        if (KEYS.ESCAPE.includes(event.key)) { // if menu is open and esc pressed,
+            event.preventDefault(); // close menu
+            toggle_welcome();
+        }
+        return;
     } // else: (if no menu is open)
 
     if (shift_down) {
@@ -189,6 +194,9 @@ function onKeyDown(event) {
         if (KEYS.MENU.includes(event.key)) {
             event.preventDefault();
             // console.log(`MENU: ${event.key}`);
+
+            toggle_fullscreen();
+
         } else if (KEYS.UP.includes(event.key)) {
             event.preventDefault();
             // console.log(`UP: ${event.key}`);
@@ -273,18 +281,23 @@ function onKeyDown(event) {
             // reload window
             window.location.reload(true);
         } else if (KEYS.ESCAPE.includes(event.key)) {
-            event.preventDefault();
+            // event.preventDefault();
 
-            if (faq_open) { // close faq or IO menu if open
-                toggle_faq();
-                return;
-            } else if (io_open) {
-                toggle_io();
-                return;
-            } else if (settings_open) {
-                toggle_settings();
-                return;
-            } // else:
+            // toggle_fullscreen();
+
+            // if (faq_open) { // close faq or IO menu if open
+            //     toggle_faq();
+            //     return;
+            // } else if (io_open) {
+            //     toggle_io();
+            //     return;
+            // } else if (settings_open) {
+            //     toggle_settings();
+            //     return;
+            // } else if (welcome_open) {
+            //     toggle_welcome();
+            //     return;
+            // } // else:
         } else if (KEYS.SHIFT.includes(event.key)) {
             event.preventDefault();
             shift_down = true;
@@ -318,6 +331,10 @@ function onKeyUp(event) {
     if (KEYS.SHIFT.includes(event.key)) {
         event.preventDefault();
         shift_down = false;
+    } else if (KEYS.ESCAPE.includes(event.key)) {
+        // event.preventDefault();
+
+        // toggle_fullscreen();
     }
 }
 
@@ -386,6 +403,7 @@ function onClick(event) {
     }
 
 }
+
 
 
 /* Mouse Drag settings */

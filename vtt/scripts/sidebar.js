@@ -75,6 +75,22 @@ function toggle_settings() {
     }
 }
 
+var welcome_open = false;
+function toggle_welcome() {
+    /* manage welcome menu */
+    welcome_open = !welcome_open;
+
+    if (welcome_open) {
+        // console.log('opening welcome menu'); 
+        $("#welcome-menu").css("display", "block");
+    } else {
+        // console.log('closing welcome menu'); 
+        $("#welcome-menu").css("display", "none");
+
+        save_data('_welcome', true); // register that we have visited site before
+    }
+}
+
 /* ------ IO management ------ */
 var io_open = false;
 var io = $("#io-menu");

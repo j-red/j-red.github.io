@@ -97,10 +97,26 @@ function clear_save(index, noconfirm = true) {
     if ($('#io-save-' + index).text() === '--') return;
 
     if (noconfirm || confirm(`are you sure you wish to delete save 0${index + 1}?`)) {
-        localStorage.clear(`saved_map_${index}`);
+        localStorage.removeItem(`saved_map_${index}`);
         $('#io-save-' + index).text('--');
     }
     return;
+}
+
+// fullscreen settings
+var fullscreen_open = false;
+function toggle_fullscreen(enable = null) {
+    if (enable != null) {
+        fullscreen_open = enable;
+    } else {
+        fullscreen_open = !fullscreen_open;
+    }
+
+    if (fullscreen_open) {
+        document.exitFullscreen();
+    } else {
+        document.documentElement.requestFullscreen()
+    }
 }
 
 
@@ -113,6 +129,12 @@ function on_load() {
     load_state(); // try to load from local session storage
     save_state();
     setInterval(save_state, 5000); // save state every 5 seconds
+
+    // open welcome menu, if applicable
+    if (!(load_data('_welcome') != null)) {
+        // console.log('opening welcome menu');
+        toggle_welcome(); // open welcome menu
+    }
     
     // update saved state button labels
     for (let i = 0; i < 9; i ++) {

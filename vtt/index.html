@@ -2,6 +2,7 @@
 <head>
     <title>virtual tabletop</title>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="/favicon.png">
     <link rel="stylesheet" href="style/main.css">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <script type="text/javascript">
@@ -18,6 +19,21 @@
 </head>
 <body oncontextmenu="return false;">
     <div id="overlays">
+        <div class="overlay-menu" id="welcome-menu" onclick="toggle_welcome();">
+            <div class="overlay-box" style="height: fit-content;" onclick="event.stopPropagation();">
+                <h2>welcome to virtual tabletop!</h2>
+                <br />
+                <p>this is a tool i made to play simple tabletop games in an ascii-grid fashion.</p>
+                <p>right now it's still in its infancy, but i'd like to keep building it in the future!</p>
+                <p>to edit the background map, click on the tools in the sidebar on the right. you can place walls (█), players (o), wanderers (@), or erase (~). to paint on the map, simply click or touch and drag! use the -/+ icons in the sidebar to change the brush size.</p>
+                <p>someday i'd like to add simple network connectivity to enable connecting to other's maps and playing with friends. but for now, this is a single-player only adventure.</p>
+                <p>for more info and tips, see the (?) menu on the sidebar.</p>
+                <p>i'd love to hear what you think! find me on discord @ j4red#1806</p>
+
+                <p class="exit-menu-text">click anywhere else or press ESCAPE to exit</p>
+            </div>
+        </div>
+        
         <div class="overlay-menu" id="faq" onclick="toggle_faq();">
             <div class="overlay-box" style="height: fit-content;" onclick="event.stopPropagation();">
                 <h2>faq</h2>
@@ -32,6 +48,7 @@
                 <p>hold SHIFT when focusing to focus additional entities</p>
                 <p>move focused entities with W/A/S/D or &uarr;/&larr;/&darr;/&rarr;</p>
                 <p>press DELETE to clear the map or kill focused entities</p>
+                <p>press TAB to toggle fullscreen</p>
                 <p>save/load maps in the IO menu</p>
 
                 <p class="exit-menu-text">click anywhere else or press ESCAPE to exit</p>
