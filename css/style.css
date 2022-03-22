@@ -1951,7 +1951,10 @@ margin: 0 25px;
 padding: 11px 0;
 display: inline-block;
 }
-.social_links li {}
+@media (max-width: 768px)
+.social_links li {
+	margin-top: 9%;
+}
 .contact_section{
 margin:0;
 }
