@@ -137,7 +137,8 @@ button:hover {
     width: 33%;
     height: 50%;
 
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: var(--bg-color);
     border: 1px var(--fg-color) solid;
     top: 0;
     left: 0;
@@ -154,6 +155,10 @@ button:hover {
     justify-content: center;
 
     min-width: 330px;
+}
+
+#settings-box {
+    background-color: var(--bg-color);
 }
 
 #drag-overlay {
@@ -240,6 +245,16 @@ input[type="text"]::placeholder {
     position: absolute; 
     bottom: 10px;
     width: 90%;
+    /* padding-top:20%; */
+}
+
+#io-saves {
+    margin-bottom: 20px;
+}
+
+.io-save-btn {
+    z-index: 50;
+    margin-bottom:5%;
 }
 
 .overlay-box,p {

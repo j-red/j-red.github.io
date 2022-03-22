@@ -149,7 +149,7 @@ var last_keypress = new Date();
 function onKeyDown(event) {
     let time_since_last_keypress = new Date() - last_keypress;
     // console.log(time_since_last_keypress);
-    if (time_since_last_keypress < 150) {
+    if (time_since_last_keypress < 50) {
         // console.debug('Preventing repeated keypresses.');
         return;
     }

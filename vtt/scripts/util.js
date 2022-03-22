@@ -79,6 +79,32 @@ if (typeof(Storage) !== "undefined") {
 }
 
 
+// saved map storage options
+function load_save(index) {
+    let state = localStorage.getItem(`saved_map_${index}`);
+    if (state != null) {
+        // load map
+        import_state(state);
+    } else {
+        // save map
+        localStorage.setItem(`saved_map_${index}`, export_state());
+        $('#io-save-' + index).text('0' + (index + 1));
+    }
+    return;
+}
+
+function clear_save(index, noconfirm = true) {
+    if ($('#io-save-' + index).text() === '--') return;
+
+    if (noconfirm || confirm(`are you sure you wish to delete save 0${index + 1}?`)) {
+        localStorage.clear(`saved_map_${index}`);
+        $('#io-save-' + index).text('--');
+    }
+    return;
+}
+
+
+// page load settings
 var colorsHaveLoaded = false;
 function on_load() {
     /* this function called on page load */
@@ -88,6 +114,11 @@ function on_load() {
     save_state();
     setInterval(save_state, 5000); // save state every 5 seconds
     
+    // update saved state button labels
+    for (let i = 0; i < 9; i ++) {
+        if (localStorage.getItem(`saved_map_${i}`) != null)
+            $('#io-save-' + i).text('0' + (i + 1));
+    }
 
     let loadcssvars = ['--bg-color', '--fg-color', '--focused-color']; 
     for (let i in loadcssvars) {

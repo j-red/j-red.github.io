@@ -131,8 +131,8 @@ function import_state(state = null) {
             // console.log(obj[i]);
             from_json(obj[i]);
         }
-    } catch {
-        console.error("Tried to load invalid state.");
+    } catch (exc) {
+        console.error("Tried to load invalid state: " + exc.description);
     }
 
     if (io_open)

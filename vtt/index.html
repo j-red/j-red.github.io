@@ -68,13 +68,55 @@
                         spellcheck="false"
                     ></textarea>
                 </div>
-    
+
                 <p class="exit-menu-text">click anywhere else or press ESCAPE to exit</p>
+
+                <div id="io-saves">
+                    <p style="margin: 0 0 0 0;">save states</p>
+                    <p style="margin-bottom: 10px; font-size: 10pt;">left click to save/load, right click to clear</p>
+                    <button id="io-save-0" class="io-save-btn" onclick="load_save(0)" oncontextmenu="clear_save(0)">
+                        --
+                    </button>
+
+                    <button id="io-save-1" class="io-save-btn" onclick="load_save(1)" oncontextmenu="clear_save(1)">
+                        --
+                    </button>
+
+                    <button id="io-save-2" class="io-save-btn" onclick="load_save(2)" oncontextmenu="clear_save(2)">
+                        --
+                    </button>
+
+                    <button id="io-save-3" class="io-save-btn" onclick="load_save(3)" oncontextmenu="clear_save(3)">
+                        --
+                    </button>
+
+                    <button id="io-save-4" class="io-save-btn" onclick="load_save(4)" oncontextmenu="clear_save(4)">
+                        --
+                    </button>
+
+                    <button id="io-save-5" class="io-save-btn" onclick="load_save(5)" oncontextmenu="clear_save(5)">
+                        --
+                    </button>
+
+                    <button id="io-save-6" class="io-save-btn" onclick="load_save(6)" oncontextmenu="clear_save(6)">
+                        --
+                    </button>
+
+                    <button id="io-save-7" class="io-save-btn" onclick="load_save(7)" oncontextmenu="clear_save(7)">
+                        --
+                    </button>
+
+                    <button id="io-save-8" class="io-save-btn" onclick="load_save(8)" oncontextmenu="clear_save(8)">
+                        --
+                    </button>
+                </div>
+    
+                
             </div>
         </div>
 
         <div class="overlay-menu" id="settings-menu" onclick="toggle_settings();">
-            <div class="overlay-box" onclick="event.stopPropagation();">
+            <div class="overlay-box" id="settings-box" onclick="event.stopPropagation();">
                 <h2>settings</h2>
                 <h4>(work in progress -- many features not yet implemented)</h4>
                 <br />

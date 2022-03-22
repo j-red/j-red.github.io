@@ -1,4 +1,4 @@
-## TODO: 
+# TODO: 
 * Add `focus` element for selected entity
 * Only control focused entity with directional movement, etc
 * Make borders/window adjust to size of screen
@@ -34,8 +34,11 @@
 * allow pressing `delete` to kill selected objects
 * fix touch screen allowing weird select when tapping (not dragging) different places
 
+* add 0..9 states that can be cached to/loaded at will via buttons in the IO menu. enabling right click to delete cached slots. use confirm() dialog to ensure they are okay with deleting.
+
 ### TO FIX:
 * Erasing entities does not remove only the ones dragged over -- presumably the erase call is made multiple times on the same index before the one is removed? (DONE)
+* If a page is saved, then made smaller, then reloaded from cache, it fails to load all entities as it errors when some are out of bounds.
 
 #### Long-term:
 * Right click context menu for each entity; create popup with name, health, other stats

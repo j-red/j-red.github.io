@@ -125,18 +125,17 @@ class Entity {
         /* ensure Entity is visible in its current cell */
         this.cell = $('#map').find(`.${this.x}_${this.y}`) // reference current cell
         
-        if (this.x == MAX_HEIGHT - 1 || this.y == MAX_WIDTH - 1) return; // don't reveal if overlaps with border
-        
-        this.cell.addClass('entity');
-        this.cell.addClass(this.type);
-        this.cell.text(this.char);
-        
-        if (this.active) {
-            this.cell.addClass("focused");
+        if (this.x > 0 && this.x < MAX_HEIGHT && this.y > 0 && this.y < MAX_WIDTH) {
+            // only reveal if we don't overlap with border
+            this.cell.addClass('entity');
+            this.cell.addClass(this.type);
+            this.cell.text(this.char);
+            
+            if (this.active) {
+                this.cell.addClass("focused");
+            }
         }
-        
-
-        // console.debug("Entity revealed");
+        return;
     }
 
     destroy() {
