@@ -10,8 +10,7 @@
   padding-right: 1em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
-
-  color: $custom-page-text-color
+  color: $custom-page-text-color;
 
   @include breakpoint($x-large) {
     max-width: $x-large;
