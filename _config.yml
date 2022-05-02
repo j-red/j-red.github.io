@@ -11,7 +11,7 @@ locale                   : "en-US"
 # minimal_mistakes_skin    : "dark" # "default", "dark", "neon", see https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 # search                   : true # enable site search
 title                    : "Jared Knofczynski"
-title_separator          : "|"
+title_separator          : "|-"
 name                     : &name "Jared Knofczynski"
 description              : &description "personal description"
 url                      : https://j-red.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"

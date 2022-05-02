@@ -16,8 +16,6 @@ It's so very nice to meet you.
 --------------------
 
 That was a single line. Want to see a double?
-
-Also, is this a heading?
 ==============
 
 ## What about this?

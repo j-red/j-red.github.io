@@ -9,13 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
+[Click here](/files/resume_2022.pdf) for a printable version of this page.
+
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Mathematics, Computer Science, and Music Technology, University of Oregon, 2022
+* Ph.D in Computer Science, University of Oregon, 2024 (expected)
 
-Work experience
+Research and Work experience
 ======
 * Summer 2015: Research Assistant
   * Github University
