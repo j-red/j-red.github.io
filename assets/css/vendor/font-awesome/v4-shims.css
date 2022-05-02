@@ -2,3388 +2,2777 @@
  * Font Awesome Free 5.5.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-/* line 1, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-glass:before {
   content: "\f000";
 }
 
-/* line 3, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-meetup {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 8, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-star-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 12, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-star-o:before {
   content: "\f005";
 }
 
-/* line 14, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-remove:before {
   content: "\f00d";
 }
 
-/* line 16, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-close:before {
   content: "\f00d";
 }
 
-/* line 18, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-gear:before {
   content: "\f013";
 }
 
-/* line 20, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-trash-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 24, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-trash-o:before {
   content: "\f2ed";
 }
 
-/* line 26, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 30, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-o:before {
   content: "\f15b";
 }
 
-/* line 32, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-clock-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 36, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-clock-o:before {
   content: "\f017";
 }
 
-/* line 38, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-arrow-circle-o-down {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 42, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-arrow-circle-o-down:before {
   content: "\f358";
 }
 
-/* line 44, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-arrow-circle-o-up {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 48, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-arrow-circle-o-up:before {
   content: "\f35b";
 }
 
-/* line 50, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-play-circle-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 54, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-play-circle-o:before {
   content: "\f144";
 }
 
-/* line 56, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-repeat:before {
   content: "\f01e";
 }
 
-/* line 58, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-rotate-right:before {
   content: "\f01e";
 }
 
-/* line 60, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-refresh:before {
   content: "\f021";
 }
 
-/* line 62, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-list-alt {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 67, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-dedent:before {
   content: "\f03b";
 }
 
-/* line 69, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-video-camera:before {
   content: "\f03d";
 }
 
-/* line 71, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-picture-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 75, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-picture-o:before {
   content: "\f03e";
 }
 
-/* line 77, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-photo {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 81, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-photo:before {
   content: "\f03e";
 }
 
-/* line 83, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-image {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 87, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-image:before {
   content: "\f03e";
 }
 
-/* line 89, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-pencil:before {
   content: "\f303";
 }
 
-/* line 91, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-map-marker:before {
   content: "\f3c5";
 }
 
-/* line 93, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-pencil-square-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 97, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-pencil-square-o:before {
   content: "\f044";
 }
 
-/* line 99, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-share-square-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 103, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-share-square-o:before {
   content: "\f14d";
 }
 
-/* line 105, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-check-square-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 109, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-check-square-o:before {
   content: "\f14a";
 }
 
-/* line 111, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-arrows:before {
   content: "\f0b2";
 }
 
-/* line 113, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-times-circle-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 117, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-times-circle-o:before {
   content: "\f057";
 }
 
-/* line 119, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-check-circle-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 123, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-check-circle-o:before {
   content: "\f058";
 }
 
-/* line 125, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-mail-forward:before {
   content: "\f064";
 }
 
-/* line 127, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-eye {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 132, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-eye-slash {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 137, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-warning:before {
   content: "\f071";
 }
 
-/* line 139, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-calendar:before {
   content: "\f073";
 }
 
-/* line 141, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-arrows-v:before {
   content: "\f338";
 }
 
-/* line 143, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-arrows-h:before {
   content: "\f337";
 }
 
-/* line 145, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-bar-chart {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 149, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-bar-chart:before {
   content: "\f080";
 }
 
-/* line 151, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-bar-chart-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 155, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-bar-chart-o:before {
   content: "\f080";
 }
 
-/* line 157, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-twitter-square {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 162, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-facebook-square {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 167, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-gears:before {
   content: "\f085";
 }
 
-/* line 169, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-thumbs-o-up {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 173, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-thumbs-o-up:before {
   content: "\f164";
 }
 
-/* line 175, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-thumbs-o-down {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 179, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-thumbs-o-down:before {
   content: "\f165";
 }
 
-/* line 181, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-heart-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 185, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-heart-o:before {
   content: "\f004";
 }
 
-/* line 187, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-sign-out:before {
   content: "\f2f5";
 }
 
-/* line 189, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-linkedin-square {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 193, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-linkedin-square:before {
   content: "\f08c";
 }
 
-/* line 195, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-thumb-tack:before {
   content: "\f08d";
 }
 
-/* line 197, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-external-link:before {
   content: "\f35d";
 }
 
-/* line 199, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-sign-in:before {
   content: "\f2f6";
 }
 
-/* line 201, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-github-square {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 206, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-lemon-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 210, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-lemon-o:before {
   content: "\f094";
 }
 
-/* line 212, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-square-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 216, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-square-o:before {
   content: "\f0c8";
 }
 
-/* line 218, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-bookmark-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 222, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-bookmark-o:before {
   content: "\f02e";
 }
 
-/* line 224, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-twitter {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 229, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-facebook {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 233, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-facebook:before {
   content: "\f39e";
 }
 
-/* line 235, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-facebook-f {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 239, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-facebook-f:before {
   content: "\f39e";
 }
 
-/* line 241, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-github {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 246, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-credit-card {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 251, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-feed:before {
   content: "\f09e";
 }
 
-/* line 253, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hdd-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 257, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hdd-o:before {
   content: "\f0a0";
 }
 
-/* line 259, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hand-o-right {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 263, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hand-o-right:before {
   content: "\f0a4";
 }
 
-/* line 265, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hand-o-left {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 269, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hand-o-left:before {
   content: "\f0a5";
 }
 
-/* line 271, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hand-o-up {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 275, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hand-o-up:before {
   content: "\f0a6";
 }
 
-/* line 277, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hand-o-down {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 281, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hand-o-down:before {
   content: "\f0a7";
 }
 
-/* line 283, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-arrows-alt:before {
   content: "\f31e";
 }
 
-/* line 285, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-group:before {
   content: "\f0c0";
 }
 
-/* line 287, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-chain:before {
   content: "\f0c1";
 }
 
-/* line 289, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-scissors:before {
   content: "\f0c4";
 }
 
-/* line 291, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-files-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 295, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-files-o:before {
   content: "\f0c5";
 }
 
-/* line 297, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-floppy-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 301, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-floppy-o:before {
   content: "\f0c7";
 }
 
-/* line 303, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-navicon:before {
   content: "\f0c9";
 }
 
-/* line 305, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-reorder:before {
   content: "\f0c9";
 }
 
-/* line 307, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-pinterest {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 312, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-pinterest-square {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 317, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-google-plus-square {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 322, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-google-plus {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 326, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-google-plus:before {
   content: "\f0d5";
 }
 
-/* line 328, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-money {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 332, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-money:before {
   content: "\f3d1";
 }
 
-/* line 334, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-unsorted:before {
   content: "\f0dc";
 }
 
-/* line 336, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-sort-desc:before {
   content: "\f0dd";
 }
 
-/* line 338, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-sort-asc:before {
   content: "\f0de";
 }
 
-/* line 340, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-linkedin {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 344, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-linkedin:before {
   content: "\f0e1";
 }
 
-/* line 346, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-rotate-left:before {
   content: "\f0e2";
 }
 
-/* line 348, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-legal:before {
   content: "\f0e3";
 }
 
-/* line 350, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-tachometer:before {
   content: "\f3fd";
 }
 
-/* line 352, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-dashboard:before {
   content: "\f3fd";
 }
 
-/* line 354, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-comment-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 358, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-comment-o:before {
   content: "\f075";
 }
 
-/* line 360, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-comments-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 364, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-comments-o:before {
   content: "\f086";
 }
 
-/* line 366, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-flash:before {
   content: "\f0e7";
 }
 
-/* line 368, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-clipboard {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 373, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-paste {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 377, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-paste:before {
   content: "\f328";
 }
 
-/* line 379, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-lightbulb-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 383, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-lightbulb-o:before {
   content: "\f0eb";
 }
 
-/* line 385, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-exchange:before {
   content: "\f362";
 }
 
-/* line 387, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-cloud-download:before {
   content: "\f381";
 }
 
-/* line 389, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-cloud-upload:before {
   content: "\f382";
 }
 
-/* line 391, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-bell-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 395, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-bell-o:before {
   content: "\f0f3";
 }
 
-/* line 397, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-cutlery:before {
   content: "\f2e7";
 }
 
-/* line 399, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-text-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 403, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-text-o:before {
   content: "\f15c";
 }
 
-/* line 405, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-building-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 409, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-building-o:before {
   content: "\f1ad";
 }
 
-/* line 411, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hospital-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 415, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hospital-o:before {
   content: "\f0f8";
 }
 
-/* line 417, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-tablet:before {
   content: "\f3fa";
 }
 
-/* line 419, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-mobile:before {
   content: "\f3cd";
 }
 
-/* line 421, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-mobile-phone:before {
   content: "\f3cd";
 }
 
-/* line 423, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-circle-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 427, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-circle-o:before {
   content: "\f111";
 }
 
-/* line 429, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-mail-reply:before {
   content: "\f3e5";
 }
 
-/* line 431, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-github-alt {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 436, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-folder-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 440, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-folder-o:before {
   content: "\f07b";
 }
 
-/* line 442, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-folder-open-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 446, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-folder-open-o:before {
   content: "\f07c";
 }
 
-/* line 448, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-smile-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 452, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-smile-o:before {
   content: "\f118";
 }
 
-/* line 454, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-frown-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 458, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-frown-o:before {
   content: "\f119";
 }
 
-/* line 460, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-meh-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 464, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-meh-o:before {
   content: "\f11a";
 }
 
-/* line 466, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-keyboard-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 470, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-keyboard-o:before {
   content: "\f11c";
 }
 
-/* line 472, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-flag-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 476, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-flag-o:before {
   content: "\f024";
 }
 
-/* line 478, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-mail-reply-all:before {
   content: "\f122";
 }
 
-/* line 480, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-star-half-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 484, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-star-half-o:before {
   content: "\f089";
 }
 
-/* line 486, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-star-half-empty {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 490, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-star-half-empty:before {
   content: "\f089";
 }
 
-/* line 492, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-star-half-full {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 496, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-star-half-full:before {
   content: "\f089";
 }
 
-/* line 498, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-code-fork:before {
   content: "\f126";
 }
 
-/* line 500, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-chain-broken:before {
   content: "\f127";
 }
 
-/* line 502, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-shield:before {
   content: "\f3ed";
 }
 
-/* line 504, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-calendar-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 508, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-calendar-o:before {
   content: "\f133";
 }
 
-/* line 510, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-maxcdn {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 515, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-html5 {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 520, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-css3 {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 525, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-ticket:before {
   content: "\f3ff";
 }
 
-/* line 527, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-minus-square-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 531, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-minus-square-o:before {
   content: "\f146";
 }
 
-/* line 533, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-level-up:before {
   content: "\f3bf";
 }
 
-/* line 535, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-level-down:before {
   content: "\f3be";
 }
 
-/* line 537, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-pencil-square:before {
   content: "\f14b";
 }
 
-/* line 539, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-external-link-square:before {
   content: "\f360";
 }
 
-/* line 541, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-compass {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 546, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-caret-square-o-down {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 550, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-caret-square-o-down:before {
   content: "\f150";
 }
 
-/* line 552, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-toggle-down {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 556, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-toggle-down:before {
   content: "\f150";
 }
 
-/* line 558, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-caret-square-o-up {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 562, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-caret-square-o-up:before {
   content: "\f151";
 }
 
-/* line 564, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-toggle-up {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 568, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-toggle-up:before {
   content: "\f151";
 }
 
-/* line 570, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-caret-square-o-right {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 574, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-caret-square-o-right:before {
   content: "\f152";
 }
 
-/* line 576, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-toggle-right {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 580, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-toggle-right:before {
   content: "\f152";
 }
 
-/* line 582, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-eur:before {
   content: "\f153";
 }
 
-/* line 584, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-euro:before {
   content: "\f153";
 }
 
-/* line 586, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-gbp:before {
   content: "\f154";
 }
 
-/* line 588, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-usd:before {
   content: "\f155";
 }
 
-/* line 590, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-dollar:before {
   content: "\f155";
 }
 
-/* line 592, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-inr:before {
   content: "\f156";
 }
 
-/* line 594, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-rupee:before {
   content: "\f156";
 }
 
-/* line 596, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-jpy:before {
   content: "\f157";
 }
 
-/* line 598, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-cny:before {
   content: "\f157";
 }
 
-/* line 600, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-rmb:before {
   content: "\f157";
 }
 
-/* line 602, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-yen:before {
   content: "\f157";
 }
 
-/* line 604, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-rub:before {
   content: "\f158";
 }
 
-/* line 606, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-ruble:before {
   content: "\f158";
 }
 
-/* line 608, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-rouble:before {
   content: "\f158";
 }
 
-/* line 610, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-krw:before {
   content: "\f159";
 }
 
-/* line 612, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-won:before {
   content: "\f159";
 }
 
-/* line 614, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-btc {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 619, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-bitcoin {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 623, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-bitcoin:before {
   content: "\f15a";
 }
 
-/* line 625, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-text:before {
   content: "\f15c";
 }
 
-/* line 627, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-sort-alpha-asc:before {
   content: "\f15d";
 }
 
-/* line 629, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-sort-alpha-desc:before {
   content: "\f15e";
 }
 
-/* line 631, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-sort-amount-asc:before {
   content: "\f160";
 }
 
-/* line 633, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-sort-amount-desc:before {
   content: "\f161";
 }
 
-/* line 635, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-sort-numeric-asc:before {
   content: "\f162";
 }
 
-/* line 637, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-sort-numeric-desc:before {
   content: "\f163";
 }
 
-/* line 639, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-youtube-square {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 644, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-youtube {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 649, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-xing {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 654, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-xing-square {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 659, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-youtube-play {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 663, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-youtube-play:before {
   content: "\f167";
 }
 
-/* line 665, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-dropbox {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 670, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-stack-overflow {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 675, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-instagram {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 680, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-flickr {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 685, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-adn {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 690, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-bitbucket {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 695, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-bitbucket-square {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 699, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-bitbucket-square:before {
   content: "\f171";
 }
 
-/* line 701, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-tumblr {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 706, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-tumblr-square {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 711, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-long-arrow-down:before {
   content: "\f309";
 }
 
-/* line 713, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-long-arrow-up:before {
   content: "\f30c";
 }
 
-/* line 715, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-long-arrow-left:before {
   content: "\f30a";
 }
 
-/* line 717, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-long-arrow-right:before {
   content: "\f30b";
 }
 
-/* line 719, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-apple {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 724, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-windows {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 729, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-android {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 734, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-linux {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 739, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-dribbble {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 744, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-skype {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 749, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-foursquare {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 754, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-trello {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 759, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-gratipay {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 764, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-gittip {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 768, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-gittip:before {
   content: "\f184";
 }
 
-/* line 770, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-sun-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 774, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-sun-o:before {
   content: "\f185";
 }
 
-/* line 776, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-moon-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 780, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-moon-o:before {
   content: "\f186";
 }
 
-/* line 782, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-vk {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 787, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-weibo {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 792, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-renren {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 797, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-pagelines {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 802, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-stack-exchange {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 807, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-arrow-circle-o-right {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 811, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-arrow-circle-o-right:before {
   content: "\f35a";
 }
 
-/* line 813, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-arrow-circle-o-left {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 817, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-arrow-circle-o-left:before {
   content: "\f359";
 }
 
-/* line 819, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-caret-square-o-left {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 823, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-caret-square-o-left:before {
   content: "\f191";
 }
 
-/* line 825, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-toggle-left {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 829, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-toggle-left:before {
   content: "\f191";
 }
 
-/* line 831, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-dot-circle-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 835, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-dot-circle-o:before {
   content: "\f192";
 }
 
-/* line 837, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-vimeo-square {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 842, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-try:before {
   content: "\f195";
 }
 
-/* line 844, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-turkish-lira:before {
   content: "\f195";
 }
 
-/* line 846, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-plus-square-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 850, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-plus-square-o:before {
   content: "\f0fe";
 }
 
-/* line 852, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-slack {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 857, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-wordpress {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 862, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-openid {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 867, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-institution:before {
   content: "\f19c";
 }
 
-/* line 869, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-bank:before {
   content: "\f19c";
 }
 
-/* line 871, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-mortar-board:before {
   content: "\f19d";
 }
 
-/* line 873, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-yahoo {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 878, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-google {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 883, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-reddit {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 888, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-reddit-square {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 893, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-stumbleupon-circle {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 898, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-stumbleupon {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 903, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-delicious {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 908, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-digg {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 913, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-pied-piper-pp {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 918, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-pied-piper-alt {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 923, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-drupal {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 928, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-joomla {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 933, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-spoon:before {
   content: "\f2e5";
 }
 
-/* line 935, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-behance {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 940, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-behance-square {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 945, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-steam {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 950, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-steam-square {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 955, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-automobile:before {
   content: "\f1b9";
 }
 
-/* line 957, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-cab:before {
   content: "\f1ba";
 }
 
-/* line 959, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-envelope-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 963, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-envelope-o:before {
   content: "\f0e0";
 }
 
-/* line 965, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-deviantart {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 970, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-soundcloud {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 975, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-pdf-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 979, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-pdf-o:before {
   content: "\f1c1";
 }
 
-/* line 981, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-word-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 985, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-word-o:before {
   content: "\f1c2";
 }
 
-/* line 987, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-excel-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 991, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-excel-o:before {
   content: "\f1c3";
 }
 
-/* line 993, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-powerpoint-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 997, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-powerpoint-o:before {
   content: "\f1c4";
 }
 
-/* line 999, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-image-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1003, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-image-o:before {
   content: "\f1c5";
 }
 
-/* line 1005, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-photo-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1009, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-photo-o:before {
   content: "\f1c5";
 }
 
-/* line 1011, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-picture-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1015, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-picture-o:before {
   content: "\f1c5";
 }
 
-/* line 1017, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-archive-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1021, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-archive-o:before {
   content: "\f1c6";
 }
 
-/* line 1023, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-zip-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1027, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-zip-o:before {
   content: "\f1c6";
 }
 
-/* line 1029, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-audio-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1033, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-audio-o:before {
   content: "\f1c7";
 }
 
-/* line 1035, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-sound-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1039, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-sound-o:before {
   content: "\f1c7";
 }
 
-/* line 1041, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-video-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1045, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-video-o:before {
   content: "\f1c8";
 }
 
-/* line 1047, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-movie-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1051, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-movie-o:before {
   content: "\f1c8";
 }
 
-/* line 1053, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-code-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1057, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-file-code-o:before {
   content: "\f1c9";
 }
 
-/* line 1059, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-vine {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1064, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-codepen {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1069, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-jsfiddle {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1074, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-life-ring {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1079, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-life-bouy {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1083, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-life-bouy:before {
   content: "\f1cd";
 }
 
-/* line 1085, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-life-buoy {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1089, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-life-buoy:before {
   content: "\f1cd";
 }
 
-/* line 1091, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-life-saver {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1095, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-life-saver:before {
   content: "\f1cd";
 }
 
-/* line 1097, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-support {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1101, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-support:before {
   content: "\f1cd";
 }
 
-/* line 1103, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-circle-o-notch:before {
   content: "\f1ce";
 }
 
-/* line 1105, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-rebel {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1110, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-ra {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1114, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-ra:before {
   content: "\f1d0";
 }
 
-/* line 1116, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-resistance {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1120, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-resistance:before {
   content: "\f1d0";
 }
 
-/* line 1122, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-empire {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1127, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-ge {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1131, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-ge:before {
   content: "\f1d1";
 }
 
-/* line 1133, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-git-square {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1138, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-git {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1143, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hacker-news {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1148, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-y-combinator-square {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1152, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-y-combinator-square:before {
   content: "\f1d4";
 }
 
-/* line 1154, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-yc-square {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1158, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-yc-square:before {
   content: "\f1d4";
 }
 
-/* line 1160, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-tencent-weibo {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1165, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-qq {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1170, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-weixin {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1175, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-wechat {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1179, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-wechat:before {
   content: "\f1d7";
 }
 
-/* line 1181, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-send:before {
   content: "\f1d8";
 }
 
-/* line 1183, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-paper-plane-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1187, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-paper-plane-o:before {
   content: "\f1d8";
 }
 
-/* line 1189, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-send-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1193, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-send-o:before {
   content: "\f1d8";
 }
 
-/* line 1195, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-circle-thin {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1199, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-circle-thin:before {
   content: "\f111";
 }
 
-/* line 1201, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-header:before {
   content: "\f1dc";
 }
 
-/* line 1203, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-sliders:before {
   content: "\f1de";
 }
 
-/* line 1205, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-futbol-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1209, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-futbol-o:before {
   content: "\f1e3";
 }
 
-/* line 1211, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-soccer-ball-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1215, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-soccer-ball-o:before {
   content: "\f1e3";
 }
 
-/* line 1217, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-slideshare {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1222, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-twitch {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1227, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-yelp {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1232, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-newspaper-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1236, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-newspaper-o:before {
   content: "\f1ea";
 }
 
-/* line 1238, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-paypal {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1243, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-google-wallet {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1248, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-cc-visa {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1253, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-cc-mastercard {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1258, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-cc-discover {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1263, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-cc-amex {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1268, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-cc-paypal {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1273, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-cc-stripe {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1278, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-bell-slash-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1282, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-bell-slash-o:before {
   content: "\f1f6";
 }
 
-/* line 1284, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-trash:before {
   content: "\f2ed";
 }
 
-/* line 1286, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-copyright {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1291, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-eyedropper:before {
   content: "\f1fb";
 }
 
-/* line 1293, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-area-chart:before {
   content: "\f1fe";
 }
 
-/* line 1295, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-pie-chart:before {
   content: "\f200";
 }
 
-/* line 1297, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-line-chart:before {
   content: "\f201";
 }
 
-/* line 1299, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-lastfm {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1304, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-lastfm-square {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1309, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-ioxhost {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1314, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-angellist {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1319, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-cc {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1323, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-cc:before {
   content: "\f20a";
 }
 
-/* line 1325, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-ils:before {
   content: "\f20b";
 }
 
-/* line 1327, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-shekel:before {
   content: "\f20b";
 }
 
-/* line 1329, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-sheqel:before {
   content: "\f20b";
 }
 
-/* line 1331, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-meanpath {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1335, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-meanpath:before {
   content: "\f2b4";
 }
 
-/* line 1337, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-buysellads {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1342, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-connectdevelop {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1347, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-dashcube {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1352, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-forumbee {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1357, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-leanpub {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1362, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-sellsy {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1367, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-shirtsinbulk {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1372, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-simplybuilt {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1377, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-skyatlas {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1382, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-diamond {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1386, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-diamond:before {
   content: "\f3a5";
 }
 
-/* line 1388, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-intersex:before {
   content: "\f224";
 }
 
-/* line 1390, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-facebook-official {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1394, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-facebook-official:before {
   content: "\f09a";
 }
 
-/* line 1396, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-pinterest-p {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1401, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-whatsapp {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1406, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hotel:before {
   content: "\f236";
 }
 
-/* line 1408, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-viacoin {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1413, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-medium {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1418, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-y-combinator {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1423, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-yc {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1427, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-yc:before {
   content: "\f23b";
 }
 
-/* line 1429, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-optin-monster {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1434, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-opencart {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1439, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-expeditedssl {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1444, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-battery-4:before {
   content: "\f240";
 }
 
-/* line 1446, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-battery:before {
   content: "\f240";
 }
 
-/* line 1448, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-battery-3:before {
   content: "\f241";
 }
 
-/* line 1450, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-battery-2:before {
   content: "\f242";
 }
 
-/* line 1452, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-battery-1:before {
   content: "\f243";
 }
 
-/* line 1454, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-battery-0:before {
   content: "\f244";
 }
 
-/* line 1456, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-object-group {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1461, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-object-ungroup {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1466, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-sticky-note-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1470, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-sticky-note-o:before {
   content: "\f249";
 }
 
-/* line 1472, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-cc-jcb {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1477, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-cc-diners-club {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1482, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-clone {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1487, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hourglass-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1491, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hourglass-o:before {
   content: "\f254";
 }
 
-/* line 1493, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hourglass-1:before {
   content: "\f251";
 }
 
-/* line 1495, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hourglass-2:before {
   content: "\f252";
 }
 
-/* line 1497, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hourglass-3:before {
   content: "\f253";
 }
 
-/* line 1499, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hand-rock-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1503, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hand-rock-o:before {
   content: "\f255";
 }
 
-/* line 1505, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hand-grab-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1509, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hand-grab-o:before {
   content: "\f255";
 }
 
-/* line 1511, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hand-paper-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1515, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hand-paper-o:before {
   content: "\f256";
 }
 
-/* line 1517, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hand-stop-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1521, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hand-stop-o:before {
   content: "\f256";
 }
 
-/* line 1523, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hand-scissors-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1527, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hand-scissors-o:before {
   content: "\f257";
 }
 
-/* line 1529, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hand-lizard-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1533, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hand-lizard-o:before {
   content: "\f258";
 }
 
-/* line 1535, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hand-spock-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1539, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hand-spock-o:before {
   content: "\f259";
 }
 
-/* line 1541, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hand-pointer-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1545, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hand-pointer-o:before {
   content: "\f25a";
 }
 
-/* line 1547, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hand-peace-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1551, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hand-peace-o:before {
   content: "\f25b";
 }
 
-/* line 1553, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-registered {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1558, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-creative-commons {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1563, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-gg {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1568, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-gg-circle {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1573, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-tripadvisor {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1578, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-odnoklassniki {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1583, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-odnoklassniki-square {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1588, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-get-pocket {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1593, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-wikipedia-w {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1598, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-safari {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1603, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-chrome {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1608, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-firefox {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1613, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-opera {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1618, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-internet-explorer {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1623, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-television:before {
   content: "\f26c";
 }
 
-/* line 1625, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-contao {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1630, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-500px {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1635, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-amazon {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1640, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-calendar-plus-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1644, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-calendar-plus-o:before {
   content: "\f271";
 }
 
-/* line 1646, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-calendar-minus-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1650, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-calendar-minus-o:before {
   content: "\f272";
 }
 
-/* line 1652, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-calendar-times-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1656, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-calendar-times-o:before {
   content: "\f273";
 }
 
-/* line 1658, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-calendar-check-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1662, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-calendar-check-o:before {
   content: "\f274";
 }
 
-/* line 1664, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-map-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1668, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-map-o:before {
   content: "\f279";
 }
 
-/* line 1670, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-commenting:before {
   content: "\f4ad";
 }
 
-/* line 1672, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-commenting-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1676, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-commenting-o:before {
   content: "\f4ad";
 }
 
-/* line 1678, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-houzz {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1683, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-vimeo {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1687, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-vimeo:before {
   content: "\f27d";
 }
 
-/* line 1689, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-black-tie {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1694, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-fonticons {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1699, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-reddit-alien {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1704, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-edge {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1709, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-credit-card-alt:before {
   content: "\f09d";
 }
 
-/* line 1711, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-codiepie {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1716, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-modx {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1721, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-fort-awesome {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1726, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-usb {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1731, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-product-hunt {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1736, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-mixcloud {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1741, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-scribd {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1746, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-pause-circle-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1750, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-pause-circle-o:before {
   content: "\f28b";
 }
 
-/* line 1752, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-stop-circle-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1756, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-stop-circle-o:before {
   content: "\f28d";
 }
 
-/* line 1758, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-bluetooth {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1763, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-bluetooth-b {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1768, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-gitlab {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1773, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-wpbeginner {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1778, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-wpforms {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1783, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-envira {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1788, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-wheelchair-alt {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1792, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-wheelchair-alt:before {
   content: "\f368";
 }
 
-/* line 1794, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-question-circle-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1798, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-question-circle-o:before {
   content: "\f059";
 }
 
-/* line 1800, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-volume-control-phone:before {
   content: "\f2a0";
 }
 
-/* line 1802, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-asl-interpreting:before {
   content: "\f2a3";
 }
 
-/* line 1804, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-deafness:before {
   content: "\f2a4";
 }
 
-/* line 1806, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-hard-of-hearing:before {
   content: "\f2a4";
 }
 
-/* line 1808, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-glide {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1813, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-glide-g {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1818, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-signing:before {
   content: "\f2a7";
 }
 
-/* line 1820, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-viadeo {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1825, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-viadeo-square {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1830, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-snapchat {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1835, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-snapchat-ghost {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1840, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-snapchat-square {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1845, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-pied-piper {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1850, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-first-order {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1855, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-yoast {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1860, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-themeisle {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1865, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-google-plus-official {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1869, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-google-plus-official:before {
   content: "\f2b3";
 }
 
-/* line 1871, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-google-plus-circle {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1875, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-google-plus-circle:before {
   content: "\f2b3";
 }
 
-/* line 1877, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-font-awesome {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1882, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-fa {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1886, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-fa:before {
   content: "\f2b4";
 }
 
-/* line 1888, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-handshake-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1892, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-handshake-o:before {
   content: "\f2b5";
 }
 
-/* line 1894, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-envelope-open-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1898, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-envelope-open-o:before {
   content: "\f2b6";
 }
 
-/* line 1900, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-linode {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1905, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-address-book-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1909, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-address-book-o:before {
   content: "\f2b9";
 }
 
-/* line 1911, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-vcard:before {
   content: "\f2bb";
 }
 
-/* line 1913, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-address-card-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1917, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-address-card-o:before {
   content: "\f2bb";
 }
 
-/* line 1919, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-vcard-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1923, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-vcard-o:before {
   content: "\f2bb";
 }
 
-/* line 1925, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-user-circle-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1929, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-user-circle-o:before {
   content: "\f2bd";
 }
 
-/* line 1931, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-user-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1935, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-user-o:before {
   content: "\f007";
 }
 
-/* line 1937, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-id-badge {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1942, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-drivers-license:before {
   content: "\f2c2";
 }
 
-/* line 1944, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-id-card-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1948, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-id-card-o:before {
   content: "\f2c2";
 }
 
-/* line 1950, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-drivers-license-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1954, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-drivers-license-o:before {
   content: "\f2c2";
 }
 
-/* line 1956, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-quora {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1961, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-free-code-camp {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1966, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-telegram {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 1971, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-thermometer-4:before {
   content: "\f2c7";
 }
 
-/* line 1973, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-thermometer:before {
   content: "\f2c7";
 }
 
-/* line 1975, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-thermometer-3:before {
   content: "\f2c8";
 }
 
-/* line 1977, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-thermometer-2:before {
   content: "\f2c9";
 }
 
-/* line 1979, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-thermometer-1:before {
   content: "\f2ca";
 }
 
-/* line 1981, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-thermometer-0:before {
   content: "\f2cb";
 }
 
-/* line 1983, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-bathtub:before {
   content: "\f2cd";
 }
 
-/* line 1985, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-s15:before {
   content: "\f2cd";
 }
 
-/* line 1987, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-window-maximize {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1992, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-window-restore {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 1997, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-times-rectangle:before {
   content: "\f410";
 }
 
-/* line 1999, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-window-close-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 2003, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-window-close-o:before {
   content: "\f410";
 }
 
-/* line 2005, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-times-rectangle-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 2009, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-times-rectangle-o:before {
   content: "\f410";
 }
 
-/* line 2011, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-bandcamp {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 2016, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-grav {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 2021, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-etsy {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 2026, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-imdb {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 2031, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-ravelry {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 2036, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-eercast {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 2040, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-eercast:before {
   content: "\f2da";
 }
 
-/* line 2042, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-snowflake-o {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
-/* line 2046, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-snowflake-o:before {
   content: "\f2dc";
 }
 
-/* line 2048, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-superpowers {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 2053, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-wpexplorer {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-/* line 2058, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_shims.scss */
 .fa.fa-spotify {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 

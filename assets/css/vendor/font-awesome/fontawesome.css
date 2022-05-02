@@ -2,7 +2,6 @@
  * Font Awesome Free 5.5.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-/* line 4, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_core.scss */
 .fa,
 .fas,
 .far,
@@ -17,92 +16,74 @@
   line-height: 1;
 }
 
-/* line 5, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_larger.scss */
 .fa-lg {
-  font-size: 1.33333em;
+  font-size: 1.3333333333em;
   line-height: 0.75em;
-  vertical-align: -.0667em;
+  vertical-align: -0.0667em;
 }
 
-/* line 11, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_larger.scss */
 .fa-xs {
-  font-size: .75em;
+  font-size: 0.75em;
 }
 
-/* line 15, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_larger.scss */
 .fa-sm {
-  font-size: .875em;
+  font-size: 0.875em;
 }
 
-/* line 20, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_larger.scss */
 .fa-1x {
   font-size: 1em;
 }
 
-/* line 20, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_larger.scss */
 .fa-2x {
   font-size: 2em;
 }
 
-/* line 20, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_larger.scss */
 .fa-3x {
   font-size: 3em;
 }
 
-/* line 20, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_larger.scss */
 .fa-4x {
   font-size: 4em;
 }
 
-/* line 20, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_larger.scss */
 .fa-5x {
   font-size: 5em;
 }
 
-/* line 20, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_larger.scss */
 .fa-6x {
   font-size: 6em;
 }
 
-/* line 20, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_larger.scss */
 .fa-7x {
   font-size: 7em;
 }
 
-/* line 20, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_larger.scss */
 .fa-8x {
   font-size: 8em;
 }
 
-/* line 20, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_larger.scss */
 .fa-9x {
   font-size: 9em;
 }
 
-/* line 20, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_larger.scss */
 .fa-10x {
   font-size: 10em;
 }
 
-/* line 3, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_fixed-width.scss */
 .fa-fw {
   text-align: center;
   width: 1.25em;
 }
 
-/* line 4, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_list.scss */
 .fa-ul {
   list-style-type: none;
   margin-left: 2.5em;
   padding-left: 0;
 }
-
-/* line 9, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_list.scss */
 .fa-ul > li {
   position: relative;
 }
 
-/* line 12, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_list.scss */
 .fa-li {
   left: -2em;
   position: absolute;
@@ -111,47 +92,39 @@
   line-height: inherit;
 }
 
-/* line 4, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_bordered-pulled.scss */
 .fa-border {
   border: solid 0.08em #eee;
-  border-radius: .1em;
-  padding: .2em .25em .15em;
+  border-radius: 0.1em;
+  padding: 0.2em 0.25em 0.15em;
 }
 
-/* line 10, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_bordered-pulled.scss */
 .fa-pull-left {
   float: left;
 }
 
-/* line 11, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_bordered-pulled.scss */
 .fa-pull-right {
   float: right;
 }
 
-/* line 18, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_bordered-pulled.scss */
 .fa.fa-pull-left,
 .fas.fa-pull-left,
 .far.fa-pull-left,
 .fal.fa-pull-left,
 .fab.fa-pull-left {
-  margin-right: .3em;
+  margin-right: 0.3em;
 }
-
-/* line 19, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_bordered-pulled.scss */
 .fa.fa-pull-right,
 .fas.fa-pull-right,
 .far.fa-pull-right,
 .fal.fa-pull-right,
 .fab.fa-pull-right {
-  margin-left: .3em;
+  margin-left: 0.3em;
 }
 
-/* line 4, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_animated.scss */
 .fa-spin {
   animation: fa-spin 2s infinite linear;
 }
 
-/* line 8, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_animated.scss */
 .fa-pulse {
   animation: fa-spin 1s infinite steps(8);
 }
@@ -164,44 +137,36 @@
     transform: rotate(360deg);
   }
 }
-
-/* line 4, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_rotated-flipped.scss */
 .fa-rotate-90 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
   transform: rotate(90deg);
 }
 
-/* line 5, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_rotated-flipped.scss */
 .fa-rotate-180 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
   transform: rotate(180deg);
 }
 
-/* line 6, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_rotated-flipped.scss */
 .fa-rotate-270 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
   transform: rotate(270deg);
 }
 
-/* line 8, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_rotated-flipped.scss */
 .fa-flip-horizontal {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
   transform: scale(-1, 1);
 }
 
-/* line 9, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_rotated-flipped.scss */
 .fa-flip-vertical {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   transform: scale(1, -1);
 }
 
-/* line 10, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_rotated-flipped.scss */
 .fa-flip-horizontal.fa-flip-vertical {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   transform: scale(-1, -1);
 }
 
-/* line 16, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_rotated-flipped.scss */
 :root .fa-rotate-90,
 :root .fa-rotate-180,
 :root .fa-rotate-270,
@@ -210,7 +175,6 @@
   filter: none;
 }
 
-/* line 4, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_stacked.scss */
 .fa-stack {
   display: inline-block;
   height: 2em;
@@ -220,7 +184,6 @@
   width: 2.5em;
 }
 
-/* line 13, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_stacked.scss */
 .fa-stack-1x,
 .fa-stack-2x {
   left: 0;
@@ -229,6319 +192,5056 @@
   width: 100%;
 }
 
-/* line 21, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_stacked.scss */
 .fa-stack-1x {
   line-height: inherit;
 }
 
-/* line 25, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_stacked.scss */
 .fa-stack-2x {
   font-size: 2em;
 }
 
-/* line 29, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_stacked.scss */
 .fa-inverse {
   color: #fff;
 }
 
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
 readers do not read off random characters that represent icons */
-/* line 4, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-500px:before {
   content: "\f26e";
 }
 
-/* line 5, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-accessible-icon:before {
   content: "\f368";
 }
 
-/* line 6, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-accusoft:before {
   content: "\f369";
 }
 
-/* line 7, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-acquisitions-incorporated:before {
   content: "\f6af";
 }
 
-/* line 8, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-ad:before {
   content: "\f641";
 }
 
-/* line 9, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-address-book:before {
   content: "\f2b9";
 }
 
-/* line 10, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-address-card:before {
   content: "\f2bb";
 }
 
-/* line 11, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-adjust:before {
   content: "\f042";
 }
 
-/* line 12, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-adn:before {
   content: "\f170";
 }
 
-/* line 13, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-adversal:before {
   content: "\f36a";
 }
 
-/* line 14, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-affiliatetheme:before {
   content: "\f36b";
 }
 
-/* line 15, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-air-freshener:before {
   content: "\f5d0";
 }
 
-/* line 16, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-algolia:before {
   content: "\f36c";
 }
 
-/* line 17, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-align-center:before {
   content: "\f037";
 }
 
-/* line 18, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-align-justify:before {
   content: "\f039";
 }
 
-/* line 19, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-align-left:before {
   content: "\f036";
 }
 
-/* line 20, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-align-right:before {
   content: "\f038";
 }
 
-/* line 21, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-alipay:before {
   content: "\f642";
 }
 
-/* line 22, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-allergies:before {
   content: "\f461";
 }
 
-/* line 23, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-amazon:before {
   content: "\f270";
 }
 
-/* line 24, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-amazon-pay:before {
   content: "\f42c";
 }
 
-/* line 25, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-ambulance:before {
   content: "\f0f9";
 }
 
-/* line 26, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-american-sign-language-interpreting:before {
   content: "\f2a3";
 }
 
-/* line 27, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-amilia:before {
   content: "\f36d";
 }
 
-/* line 28, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-anchor:before {
   content: "\f13d";
 }
 
-/* line 29, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-android:before {
   content: "\f17b";
 }
 
-/* line 30, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-angellist:before {
   content: "\f209";
 }
 
-/* line 31, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-angle-double-down:before {
   content: "\f103";
 }
 
-/* line 32, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-angle-double-left:before {
   content: "\f100";
 }
 
-/* line 33, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-angle-double-right:before {
   content: "\f101";
 }
 
-/* line 34, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-angle-double-up:before {
   content: "\f102";
 }
 
-/* line 35, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-angle-down:before {
   content: "\f107";
 }
 
-/* line 36, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-angle-left:before {
   content: "\f104";
 }
 
-/* line 37, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-angle-right:before {
   content: "\f105";
 }
 
-/* line 38, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-angle-up:before {
   content: "\f106";
 }
 
-/* line 39, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-angry:before {
   content: "\f556";
 }
 
-/* line 40, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-angrycreative:before {
   content: "\f36e";
 }
 
-/* line 41, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-angular:before {
   content: "\f420";
 }
 
-/* line 42, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-ankh:before {
   content: "\f644";
 }
 
-/* line 43, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-app-store:before {
   content: "\f36f";
 }
 
-/* line 44, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-app-store-ios:before {
   content: "\f370";
 }
 
-/* line 45, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-apper:before {
   content: "\f371";
 }
 
-/* line 46, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-apple:before {
   content: "\f179";
 }
 
-/* line 47, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-apple-alt:before {
   content: "\f5d1";
 }
 
-/* line 48, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-apple-pay:before {
   content: "\f415";
 }
 
-/* line 49, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-archive:before {
   content: "\f187";
 }
 
-/* line 50, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-archway:before {
   content: "\f557";
 }
 
-/* line 51, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-arrow-alt-circle-down:before {
   content: "\f358";
 }
 
-/* line 52, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-arrow-alt-circle-left:before {
   content: "\f359";
 }
 
-/* line 53, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-arrow-alt-circle-right:before {
   content: "\f35a";
 }
 
-/* line 54, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-arrow-alt-circle-up:before {
   content: "\f35b";
 }
 
-/* line 55, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-arrow-circle-down:before {
   content: "\f0ab";
 }
 
-/* line 56, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-arrow-circle-left:before {
   content: "\f0a8";
 }
 
-/* line 57, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-arrow-circle-right:before {
   content: "\f0a9";
 }
 
-/* line 58, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-arrow-circle-up:before {
   content: "\f0aa";
 }
 
-/* line 59, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-arrow-down:before {
   content: "\f063";
 }
 
-/* line 60, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-arrow-left:before {
   content: "\f060";
 }
 
-/* line 61, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-arrow-right:before {
   content: "\f061";
 }
 
-/* line 62, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-arrow-up:before {
   content: "\f062";
 }
 
-/* line 63, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-arrows-alt:before {
   content: "\f0b2";
 }
 
-/* line 64, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-arrows-alt-h:before {
   content: "\f337";
 }
 
-/* line 65, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-arrows-alt-v:before {
   content: "\f338";
 }
 
-/* line 66, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-assistive-listening-systems:before {
   content: "\f2a2";
 }
 
-/* line 67, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-asterisk:before {
   content: "\f069";
 }
 
-/* line 68, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-asymmetrik:before {
   content: "\f372";
 }
 
-/* line 69, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-at:before {
   content: "\f1fa";
 }
 
-/* line 70, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-atlas:before {
   content: "\f558";
 }
 
-/* line 71, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-atom:before {
   content: "\f5d2";
 }
 
-/* line 72, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-audible:before {
   content: "\f373";
 }
 
-/* line 73, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-audio-description:before {
   content: "\f29e";
 }
 
-/* line 74, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-autoprefixer:before {
   content: "\f41c";
 }
 
-/* line 75, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-avianex:before {
   content: "\f374";
 }
 
-/* line 76, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-aviato:before {
   content: "\f421";
 }
 
-/* line 77, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-award:before {
   content: "\f559";
 }
 
-/* line 78, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-aws:before {
   content: "\f375";
 }
 
-/* line 79, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-backspace:before {
   content: "\f55a";
 }
 
-/* line 80, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-backward:before {
   content: "\f04a";
 }
 
-/* line 81, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-balance-scale:before {
   content: "\f24e";
 }
 
-/* line 82, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-ban:before {
   content: "\f05e";
 }
 
-/* line 83, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-band-aid:before {
   content: "\f462";
 }
 
-/* line 84, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bandcamp:before {
   content: "\f2d5";
 }
 
-/* line 85, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-barcode:before {
   content: "\f02a";
 }
 
-/* line 86, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bars:before {
   content: "\f0c9";
 }
 
-/* line 87, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-baseball-ball:before {
   content: "\f433";
 }
 
-/* line 88, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-basketball-ball:before {
   content: "\f434";
 }
 
-/* line 89, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bath:before {
   content: "\f2cd";
 }
 
-/* line 90, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-battery-empty:before {
   content: "\f244";
 }
 
-/* line 91, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-battery-full:before {
   content: "\f240";
 }
 
-/* line 92, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-battery-half:before {
   content: "\f242";
 }
 
-/* line 93, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-battery-quarter:before {
   content: "\f243";
 }
 
-/* line 94, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-battery-three-quarters:before {
   content: "\f241";
 }
 
-/* line 95, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bed:before {
   content: "\f236";
 }
 
-/* line 96, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-beer:before {
   content: "\f0fc";
 }
 
-/* line 97, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-behance:before {
   content: "\f1b4";
 }
 
-/* line 98, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-behance-square:before {
   content: "\f1b5";
 }
 
-/* line 99, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bell:before {
   content: "\f0f3";
 }
 
-/* line 100, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bell-slash:before {
   content: "\f1f6";
 }
 
-/* line 101, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bezier-curve:before {
   content: "\f55b";
 }
 
-/* line 102, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bible:before {
   content: "\f647";
 }
 
-/* line 103, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bicycle:before {
   content: "\f206";
 }
 
-/* line 104, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bimobject:before {
   content: "\f378";
 }
 
-/* line 105, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-binoculars:before {
   content: "\f1e5";
 }
 
-/* line 106, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-birthday-cake:before {
   content: "\f1fd";
 }
 
-/* line 107, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bitbucket:before {
   content: "\f171";
 }
 
-/* line 108, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bitcoin:before {
   content: "\f379";
 }
 
-/* line 109, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bity:before {
   content: "\f37a";
 }
 
-/* line 110, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-black-tie:before {
   content: "\f27e";
 }
 
-/* line 111, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-blackberry:before {
   content: "\f37b";
 }
 
-/* line 112, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-blender:before {
   content: "\f517";
 }
 
-/* line 113, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-blender-phone:before {
   content: "\f6b6";
 }
 
-/* line 114, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-blind:before {
   content: "\f29d";
 }
 
-/* line 115, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-blogger:before {
   content: "\f37c";
 }
 
-/* line 116, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-blogger-b:before {
   content: "\f37d";
 }
 
-/* line 117, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bluetooth:before {
   content: "\f293";
 }
 
-/* line 118, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bluetooth-b:before {
   content: "\f294";
 }
 
-/* line 119, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bold:before {
   content: "\f032";
 }
 
-/* line 120, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bolt:before {
   content: "\f0e7";
 }
 
-/* line 121, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bomb:before {
   content: "\f1e2";
 }
 
-/* line 122, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bone:before {
   content: "\f5d7";
 }
 
-/* line 123, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bong:before {
   content: "\f55c";
 }
 
-/* line 124, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-book:before {
   content: "\f02d";
 }
 
-/* line 125, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-book-dead:before {
   content: "\f6b7";
 }
 
-/* line 126, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-book-open:before {
   content: "\f518";
 }
 
-/* line 127, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-book-reader:before {
   content: "\f5da";
 }
 
-/* line 128, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bookmark:before {
   content: "\f02e";
 }
 
-/* line 129, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bowling-ball:before {
   content: "\f436";
 }
 
-/* line 130, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-box:before {
   content: "\f466";
 }
 
-/* line 131, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-box-open:before {
   content: "\f49e";
 }
 
-/* line 132, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-boxes:before {
   content: "\f468";
 }
 
-/* line 133, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-braille:before {
   content: "\f2a1";
 }
 
-/* line 134, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-brain:before {
   content: "\f5dc";
 }
 
-/* line 135, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-briefcase:before {
   content: "\f0b1";
 }
 
-/* line 136, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-briefcase-medical:before {
   content: "\f469";
 }
 
-/* line 137, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-broadcast-tower:before {
   content: "\f519";
 }
 
-/* line 138, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-broom:before {
   content: "\f51a";
 }
 
-/* line 139, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-brush:before {
   content: "\f55d";
 }
 
-/* line 140, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-btc:before {
   content: "\f15a";
 }
 
-/* line 141, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bug:before {
   content: "\f188";
 }
 
-/* line 142, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-building:before {
   content: "\f1ad";
 }
 
-/* line 143, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bullhorn:before {
   content: "\f0a1";
 }
 
-/* line 144, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bullseye:before {
   content: "\f140";
 }
 
-/* line 145, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-burn:before {
   content: "\f46a";
 }
 
-/* line 146, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-buromobelexperte:before {
   content: "\f37f";
 }
 
-/* line 147, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bus:before {
   content: "\f207";
 }
 
-/* line 148, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-bus-alt:before {
   content: "\f55e";
 }
 
-/* line 149, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-business-time:before {
   content: "\f64a";
 }
 
-/* line 150, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-buysellads:before {
   content: "\f20d";
 }
 
-/* line 151, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-calculator:before {
   content: "\f1ec";
 }
 
-/* line 152, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-calendar:before {
   content: "\f133";
 }
 
-/* line 153, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-calendar-alt:before {
   content: "\f073";
 }
 
-/* line 154, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-calendar-check:before {
   content: "\f274";
 }
 
-/* line 155, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-calendar-minus:before {
   content: "\f272";
 }
 
-/* line 156, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-calendar-plus:before {
   content: "\f271";
 }
 
-/* line 157, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-calendar-times:before {
   content: "\f273";
 }
 
-/* line 158, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-camera:before {
   content: "\f030";
 }
 
-/* line 159, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-camera-retro:before {
   content: "\f083";
 }
 
-/* line 160, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-campground:before {
   content: "\f6bb";
 }
 
-/* line 161, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cannabis:before {
   content: "\f55f";
 }
 
-/* line 162, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-capsules:before {
   content: "\f46b";
 }
 
-/* line 163, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-car:before {
   content: "\f1b9";
 }
 
-/* line 164, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-car-alt:before {
   content: "\f5de";
 }
 
-/* line 165, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-car-battery:before {
   content: "\f5df";
 }
 
-/* line 166, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-car-crash:before {
   content: "\f5e1";
 }
 
-/* line 167, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-car-side:before {
   content: "\f5e4";
 }
 
-/* line 168, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-caret-down:before {
   content: "\f0d7";
 }
 
-/* line 169, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-caret-left:before {
   content: "\f0d9";
 }
 
-/* line 170, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-caret-right:before {
   content: "\f0da";
 }
 
-/* line 171, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-caret-square-down:before {
   content: "\f150";
 }
 
-/* line 172, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-caret-square-left:before {
   content: "\f191";
 }
 
-/* line 173, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-caret-square-right:before {
   content: "\f152";
 }
 
-/* line 174, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-caret-square-up:before {
   content: "\f151";
 }
 
-/* line 175, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-caret-up:before {
   content: "\f0d8";
 }
 
-/* line 176, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cart-arrow-down:before {
   content: "\f218";
 }
 
-/* line 177, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cart-plus:before {
   content: "\f217";
 }
 
-/* line 178, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cat:before {
   content: "\f6be";
 }
 
-/* line 179, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cc-amazon-pay:before {
   content: "\f42d";
 }
 
-/* line 180, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cc-amex:before {
   content: "\f1f3";
 }
 
-/* line 181, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cc-apple-pay:before {
   content: "\f416";
 }
 
-/* line 182, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cc-diners-club:before {
   content: "\f24c";
 }
 
-/* line 183, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cc-discover:before {
   content: "\f1f2";
 }
 
-/* line 184, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cc-jcb:before {
   content: "\f24b";
 }
 
-/* line 185, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cc-mastercard:before {
   content: "\f1f1";
 }
 
-/* line 186, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cc-paypal:before {
   content: "\f1f4";
 }
 
-/* line 187, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cc-stripe:before {
   content: "\f1f5";
 }
 
-/* line 188, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cc-visa:before {
   content: "\f1f0";
 }
 
-/* line 189, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-centercode:before {
   content: "\f380";
 }
 
-/* line 190, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-certificate:before {
   content: "\f0a3";
 }
 
-/* line 191, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-chair:before {
   content: "\f6c0";
 }
 
-/* line 192, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-chalkboard:before {
   content: "\f51b";
 }
 
-/* line 193, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-chalkboard-teacher:before {
   content: "\f51c";
 }
 
-/* line 194, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-charging-station:before {
   content: "\f5e7";
 }
 
-/* line 195, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-chart-area:before {
   content: "\f1fe";
 }
 
-/* line 196, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-chart-bar:before {
   content: "\f080";
 }
 
-/* line 197, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-chart-line:before {
   content: "\f201";
 }
 
-/* line 198, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-chart-pie:before {
   content: "\f200";
 }
 
-/* line 199, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-check:before {
   content: "\f00c";
 }
 
-/* line 200, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-check-circle:before {
   content: "\f058";
 }
 
-/* line 201, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-check-double:before {
   content: "\f560";
 }
 
-/* line 202, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-check-square:before {
   content: "\f14a";
 }
 
-/* line 203, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-chess:before {
   content: "\f439";
 }
 
-/* line 204, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-chess-bishop:before {
   content: "\f43a";
 }
 
-/* line 205, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-chess-board:before {
   content: "\f43c";
 }
 
-/* line 206, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-chess-king:before {
   content: "\f43f";
 }
 
-/* line 207, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-chess-knight:before {
   content: "\f441";
 }
 
-/* line 208, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-chess-pawn:before {
   content: "\f443";
 }
 
-/* line 209, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-chess-queen:before {
   content: "\f445";
 }
 
-/* line 210, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-chess-rook:before {
   content: "\f447";
 }
 
-/* line 211, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-chevron-circle-down:before {
   content: "\f13a";
 }
 
-/* line 212, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-chevron-circle-left:before {
   content: "\f137";
 }
 
-/* line 213, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-chevron-circle-right:before {
   content: "\f138";
 }
 
-/* line 214, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-chevron-circle-up:before {
   content: "\f139";
 }
 
-/* line 215, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-chevron-down:before {
   content: "\f078";
 }
 
-/* line 216, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-chevron-left:before {
   content: "\f053";
 }
 
-/* line 217, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-chevron-right:before {
   content: "\f054";
 }
 
-/* line 218, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-chevron-up:before {
   content: "\f077";
 }
 
-/* line 219, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-child:before {
   content: "\f1ae";
 }
 
-/* line 220, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-chrome:before {
   content: "\f268";
 }
 
-/* line 221, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-church:before {
   content: "\f51d";
 }
 
-/* line 222, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-circle:before {
   content: "\f111";
 }
 
-/* line 223, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-circle-notch:before {
   content: "\f1ce";
 }
 
-/* line 224, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-city:before {
   content: "\f64f";
 }
 
-/* line 225, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-clipboard:before {
   content: "\f328";
 }
 
-/* line 226, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-clipboard-check:before {
   content: "\f46c";
 }
 
-/* line 227, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-clipboard-list:before {
   content: "\f46d";
 }
 
-/* line 228, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-clock:before {
   content: "\f017";
 }
 
-/* line 229, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-clone:before {
   content: "\f24d";
 }
 
-/* line 230, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-closed-captioning:before {
   content: "\f20a";
 }
 
-/* line 231, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cloud:before {
   content: "\f0c2";
 }
 
-/* line 232, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cloud-download-alt:before {
   content: "\f381";
 }
 
-/* line 233, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cloud-meatball:before {
   content: "\f73b";
 }
 
-/* line 234, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cloud-moon:before {
   content: "\f6c3";
 }
 
-/* line 235, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cloud-moon-rain:before {
   content: "\f73c";
 }
 
-/* line 236, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cloud-rain:before {
   content: "\f73d";
 }
 
-/* line 237, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cloud-showers-heavy:before {
   content: "\f740";
 }
 
-/* line 238, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cloud-sun:before {
   content: "\f6c4";
 }
 
-/* line 239, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cloud-sun-rain:before {
   content: "\f743";
 }
 
-/* line 240, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cloud-upload-alt:before {
   content: "\f382";
 }
 
-/* line 241, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cloudscale:before {
   content: "\f383";
 }
 
-/* line 242, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cloudsmith:before {
   content: "\f384";
 }
 
-/* line 243, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cloudversify:before {
   content: "\f385";
 }
 
-/* line 244, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cocktail:before {
   content: "\f561";
 }
 
-/* line 245, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-code:before {
   content: "\f121";
 }
 
-/* line 246, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-code-branch:before {
   content: "\f126";
 }
 
-/* line 247, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-codepen:before {
   content: "\f1cb";
 }
 
-/* line 248, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-codiepie:before {
   content: "\f284";
 }
 
-/* line 249, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-coffee:before {
   content: "\f0f4";
 }
 
-/* line 250, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cog:before {
   content: "\f013";
 }
 
-/* line 251, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cogs:before {
   content: "\f085";
 }
 
-/* line 252, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-coins:before {
   content: "\f51e";
 }
 
-/* line 253, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-columns:before {
   content: "\f0db";
 }
 
-/* line 254, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-comment:before {
   content: "\f075";
 }
 
-/* line 255, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-comment-alt:before {
   content: "\f27a";
 }
 
-/* line 256, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-comment-dollar:before {
   content: "\f651";
 }
 
-/* line 257, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-comment-dots:before {
   content: "\f4ad";
 }
 
-/* line 258, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-comment-slash:before {
   content: "\f4b3";
 }
 
-/* line 259, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-comments:before {
   content: "\f086";
 }
 
-/* line 260, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-comments-dollar:before {
   content: "\f653";
 }
 
-/* line 261, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-compact-disc:before {
   content: "\f51f";
 }
 
-/* line 262, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-compass:before {
   content: "\f14e";
 }
 
-/* line 263, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-compress:before {
   content: "\f066";
 }
 
-/* line 264, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-concierge-bell:before {
   content: "\f562";
 }
 
-/* line 265, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-connectdevelop:before {
   content: "\f20e";
 }
 
-/* line 266, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-contao:before {
   content: "\f26d";
 }
 
-/* line 267, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cookie:before {
   content: "\f563";
 }
 
-/* line 268, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cookie-bite:before {
   content: "\f564";
 }
 
-/* line 269, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-copy:before {
   content: "\f0c5";
 }
 
-/* line 270, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-copyright:before {
   content: "\f1f9";
 }
 
-/* line 271, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-couch:before {
   content: "\f4b8";
 }
 
-/* line 272, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cpanel:before {
   content: "\f388";
 }
 
-/* line 273, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-creative-commons:before {
   content: "\f25e";
 }
 
-/* line 274, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-creative-commons-by:before {
   content: "\f4e7";
 }
 
-/* line 275, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-creative-commons-nc:before {
   content: "\f4e8";
 }
 
-/* line 276, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-creative-commons-nc-eu:before {
   content: "\f4e9";
 }
 
-/* line 277, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-creative-commons-nc-jp:before {
   content: "\f4ea";
 }
 
-/* line 278, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-creative-commons-nd:before {
   content: "\f4eb";
 }
 
-/* line 279, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-creative-commons-pd:before {
   content: "\f4ec";
 }
 
-/* line 280, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-creative-commons-pd-alt:before {
   content: "\f4ed";
 }
 
-/* line 281, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-creative-commons-remix:before {
   content: "\f4ee";
 }
 
-/* line 282, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-creative-commons-sa:before {
   content: "\f4ef";
 }
 
-/* line 283, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-creative-commons-sampling:before {
   content: "\f4f0";
 }
 
-/* line 284, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-creative-commons-sampling-plus:before {
   content: "\f4f1";
 }
 
-/* line 285, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-creative-commons-share:before {
   content: "\f4f2";
 }
 
-/* line 286, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-creative-commons-zero:before {
   content: "\f4f3";
 }
 
-/* line 287, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-credit-card:before {
   content: "\f09d";
 }
 
-/* line 288, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-critical-role:before {
   content: "\f6c9";
 }
 
-/* line 289, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-crop:before {
   content: "\f125";
 }
 
-/* line 290, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-crop-alt:before {
   content: "\f565";
 }
 
-/* line 291, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cross:before {
   content: "\f654";
 }
 
-/* line 292, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-crosshairs:before {
   content: "\f05b";
 }
 
-/* line 293, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-crow:before {
   content: "\f520";
 }
 
-/* line 294, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-crown:before {
   content: "\f521";
 }
 
-/* line 295, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-css3:before {
   content: "\f13c";
 }
 
-/* line 296, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-css3-alt:before {
   content: "\f38b";
 }
 
-/* line 297, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cube:before {
   content: "\f1b2";
 }
 
-/* line 298, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cubes:before {
   content: "\f1b3";
 }
 
-/* line 299, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cut:before {
   content: "\f0c4";
 }
 
-/* line 300, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-cuttlefish:before {
   content: "\f38c";
 }
 
-/* line 301, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-d-and-d:before {
   content: "\f38d";
 }
 
-/* line 302, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-d-and-d-beyond:before {
   content: "\f6ca";
 }
 
-/* line 303, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dashcube:before {
   content: "\f210";
 }
 
-/* line 304, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-database:before {
   content: "\f1c0";
 }
 
-/* line 305, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-deaf:before {
   content: "\f2a4";
 }
 
-/* line 306, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-delicious:before {
   content: "\f1a5";
 }
 
-/* line 307, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-democrat:before {
   content: "\f747";
 }
 
-/* line 308, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-deploydog:before {
   content: "\f38e";
 }
 
-/* line 309, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-deskpro:before {
   content: "\f38f";
 }
 
-/* line 310, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-desktop:before {
   content: "\f108";
 }
 
-/* line 311, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dev:before {
   content: "\f6cc";
 }
 
-/* line 312, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-deviantart:before {
   content: "\f1bd";
 }
 
-/* line 313, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dharmachakra:before {
   content: "\f655";
 }
 
-/* line 314, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-diagnoses:before {
   content: "\f470";
 }
 
-/* line 315, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dice:before {
   content: "\f522";
 }
 
-/* line 316, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dice-d20:before {
   content: "\f6cf";
 }
 
-/* line 317, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dice-d6:before {
   content: "\f6d1";
 }
 
-/* line 318, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dice-five:before {
   content: "\f523";
 }
 
-/* line 319, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dice-four:before {
   content: "\f524";
 }
 
-/* line 320, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dice-one:before {
   content: "\f525";
 }
 
-/* line 321, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dice-six:before {
   content: "\f526";
 }
 
-/* line 322, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dice-three:before {
   content: "\f527";
 }
 
-/* line 323, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dice-two:before {
   content: "\f528";
 }
 
-/* line 324, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-digg:before {
   content: "\f1a6";
 }
 
-/* line 325, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-digital-ocean:before {
   content: "\f391";
 }
 
-/* line 326, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-digital-tachograph:before {
   content: "\f566";
 }
 
-/* line 327, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-directions:before {
   content: "\f5eb";
 }
 
-/* line 328, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-discord:before {
   content: "\f392";
 }
 
-/* line 329, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-discourse:before {
   content: "\f393";
 }
 
-/* line 330, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-divide:before {
   content: "\f529";
 }
 
-/* line 331, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dizzy:before {
   content: "\f567";
 }
 
-/* line 332, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dna:before {
   content: "\f471";
 }
 
-/* line 333, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dochub:before {
   content: "\f394";
 }
 
-/* line 334, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-docker:before {
   content: "\f395";
 }
 
-/* line 335, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dog:before {
   content: "\f6d3";
 }
 
-/* line 336, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dollar-sign:before {
   content: "\f155";
 }
 
-/* line 337, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dolly:before {
   content: "\f472";
 }
 
-/* line 338, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dolly-flatbed:before {
   content: "\f474";
 }
 
-/* line 339, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-donate:before {
   content: "\f4b9";
 }
 
-/* line 340, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-door-closed:before {
   content: "\f52a";
 }
 
-/* line 341, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-door-open:before {
   content: "\f52b";
 }
 
-/* line 342, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dot-circle:before {
   content: "\f192";
 }
 
-/* line 343, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dove:before {
   content: "\f4ba";
 }
 
-/* line 344, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-download:before {
   content: "\f019";
 }
 
-/* line 345, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-draft2digital:before {
   content: "\f396";
 }
 
-/* line 346, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-drafting-compass:before {
   content: "\f568";
 }
 
-/* line 347, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dragon:before {
   content: "\f6d5";
 }
 
-/* line 348, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-draw-polygon:before {
   content: "\f5ee";
 }
 
-/* line 349, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dribbble:before {
   content: "\f17d";
 }
 
-/* line 350, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dribbble-square:before {
   content: "\f397";
 }
 
-/* line 351, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dropbox:before {
   content: "\f16b";
 }
 
-/* line 352, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-drum:before {
   content: "\f569";
 }
 
-/* line 353, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-drum-steelpan:before {
   content: "\f56a";
 }
 
-/* line 354, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-drumstick-bite:before {
   content: "\f6d7";
 }
 
-/* line 355, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-drupal:before {
   content: "\f1a9";
 }
 
-/* line 356, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dumbbell:before {
   content: "\f44b";
 }
 
-/* line 357, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dungeon:before {
   content: "\f6d9";
 }
 
-/* line 358, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-dyalog:before {
   content: "\f399";
 }
 
-/* line 359, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-earlybirds:before {
   content: "\f39a";
 }
 
-/* line 360, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-ebay:before {
   content: "\f4f4";
 }
 
-/* line 361, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-edge:before {
   content: "\f282";
 }
 
-/* line 362, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-edit:before {
   content: "\f044";
 }
 
-/* line 363, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-eject:before {
   content: "\f052";
 }
 
-/* line 364, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-elementor:before {
   content: "\f430";
 }
 
-/* line 365, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-ellipsis-h:before {
   content: "\f141";
 }
 
-/* line 366, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-ellipsis-v:before {
   content: "\f142";
 }
 
-/* line 367, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-ello:before {
   content: "\f5f1";
 }
 
-/* line 368, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-ember:before {
   content: "\f423";
 }
 
-/* line 369, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-empire:before {
   content: "\f1d1";
 }
 
-/* line 370, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-envelope:before {
   content: "\f0e0";
 }
 
-/* line 371, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-envelope-open:before {
   content: "\f2b6";
 }
 
-/* line 372, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-envelope-open-text:before {
   content: "\f658";
 }
 
-/* line 373, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-envelope-square:before {
   content: "\f199";
 }
 
-/* line 374, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-envira:before {
   content: "\f299";
 }
 
-/* line 375, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-equals:before {
   content: "\f52c";
 }
 
-/* line 376, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-eraser:before {
   content: "\f12d";
 }
 
-/* line 377, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-erlang:before {
   content: "\f39d";
 }
 
-/* line 378, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-ethereum:before {
   content: "\f42e";
 }
 
-/* line 379, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-etsy:before {
   content: "\f2d7";
 }
 
-/* line 380, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-euro-sign:before {
   content: "\f153";
 }
 
-/* line 381, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-exchange-alt:before {
   content: "\f362";
 }
 
-/* line 382, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-exclamation:before {
   content: "\f12a";
 }
 
-/* line 383, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-exclamation-circle:before {
   content: "\f06a";
 }
 
-/* line 384, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-exclamation-triangle:before {
   content: "\f071";
 }
 
-/* line 385, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-expand:before {
   content: "\f065";
 }
 
-/* line 386, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-expand-arrows-alt:before {
   content: "\f31e";
 }
 
-/* line 387, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-expeditedssl:before {
   content: "\f23e";
 }
 
-/* line 388, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-external-link-alt:before {
   content: "\f35d";
 }
 
-/* line 389, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-external-link-square-alt:before {
   content: "\f360";
 }
 
-/* line 390, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-eye:before {
   content: "\f06e";
 }
 
-/* line 391, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-eye-dropper:before {
   content: "\f1fb";
 }
 
-/* line 392, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-eye-slash:before {
   content: "\f070";
 }
 
-/* line 393, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-facebook:before {
   content: "\f09a";
 }
 
-/* line 394, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-facebook-f:before {
   content: "\f39e";
 }
 
-/* line 395, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-facebook-messenger:before {
   content: "\f39f";
 }
 
-/* line 396, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-facebook-square:before {
   content: "\f082";
 }
 
-/* line 397, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-fantasy-flight-games:before {
   content: "\f6dc";
 }
 
-/* line 398, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-fast-backward:before {
   content: "\f049";
 }
 
-/* line 399, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-fast-forward:before {
   content: "\f050";
 }
 
-/* line 400, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-fax:before {
   content: "\f1ac";
 }
 
-/* line 401, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-feather:before {
   content: "\f52d";
 }
 
-/* line 402, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-feather-alt:before {
   content: "\f56b";
 }
 
-/* line 403, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-female:before {
   content: "\f182";
 }
 
-/* line 404, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-fighter-jet:before {
   content: "\f0fb";
 }
 
-/* line 405, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-file:before {
   content: "\f15b";
 }
 
-/* line 406, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-file-alt:before {
   content: "\f15c";
 }
 
-/* line 407, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-file-archive:before {
   content: "\f1c6";
 }
 
-/* line 408, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-file-audio:before {
   content: "\f1c7";
 }
 
-/* line 409, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-file-code:before {
   content: "\f1c9";
 }
 
-/* line 410, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-file-contract:before {
   content: "\f56c";
 }
 
-/* line 411, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-file-csv:before {
   content: "\f6dd";
 }
 
-/* line 412, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-file-download:before {
   content: "\f56d";
 }
 
-/* line 413, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-file-excel:before {
   content: "\f1c3";
 }
 
-/* line 414, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-file-export:before {
   content: "\f56e";
 }
 
-/* line 415, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-file-image:before {
   content: "\f1c5";
 }
 
-/* line 416, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-file-import:before {
   content: "\f56f";
 }
 
-/* line 417, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-file-invoice:before {
   content: "\f570";
 }
 
-/* line 418, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-file-invoice-dollar:before {
   content: "\f571";
 }
 
-/* line 419, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-file-medical:before {
   content: "\f477";
 }
 
-/* line 420, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-file-medical-alt:before {
   content: "\f478";
 }
 
-/* line 421, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-file-pdf:before {
   content: "\f1c1";
 }
 
-/* line 422, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-file-powerpoint:before {
   content: "\f1c4";
 }
 
-/* line 423, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-file-prescription:before {
   content: "\f572";
 }
 
-/* line 424, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-file-signature:before {
   content: "\f573";
 }
 
-/* line 425, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-file-upload:before {
   content: "\f574";
 }
 
-/* line 426, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-file-video:before {
   content: "\f1c8";
 }
 
-/* line 427, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-file-word:before {
   content: "\f1c2";
 }
 
-/* line 428, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-fill:before {
   content: "\f575";
 }
 
-/* line 429, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-fill-drip:before {
   content: "\f576";
 }
 
-/* line 430, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-film:before {
   content: "\f008";
 }
 
-/* line 431, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-filter:before {
   content: "\f0b0";
 }
 
-/* line 432, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-fingerprint:before {
   content: "\f577";
 }
 
-/* line 433, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-fire:before {
   content: "\f06d";
 }
 
-/* line 434, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-fire-extinguisher:before {
   content: "\f134";
 }
 
-/* line 435, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-firefox:before {
   content: "\f269";
 }
 
-/* line 436, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-first-aid:before {
   content: "\f479";
 }
 
-/* line 437, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-first-order:before {
   content: "\f2b0";
 }
 
-/* line 438, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-first-order-alt:before {
   content: "\f50a";
 }
 
-/* line 439, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-firstdraft:before {
   content: "\f3a1";
 }
 
-/* line 440, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-fish:before {
   content: "\f578";
 }
 
-/* line 441, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-fist-raised:before {
   content: "\f6de";
 }
 
-/* line 442, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-flag:before {
   content: "\f024";
 }
 
-/* line 443, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-flag-checkered:before {
   content: "\f11e";
 }
 
-/* line 444, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-flag-usa:before {
   content: "\f74d";
 }
 
-/* line 445, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-flask:before {
   content: "\f0c3";
 }
 
-/* line 446, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-flickr:before {
   content: "\f16e";
 }
 
-/* line 447, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-flipboard:before {
   content: "\f44d";
 }
 
-/* line 448, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-flushed:before {
   content: "\f579";
 }
 
-/* line 449, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-fly:before {
   content: "\f417";
 }
 
-/* line 450, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-folder:before {
   content: "\f07b";
 }
 
-/* line 451, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-folder-minus:before {
   content: "\f65d";
 }
 
-/* line 452, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-folder-open:before {
   content: "\f07c";
 }
 
-/* line 453, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-folder-plus:before {
   content: "\f65e";
 }
 
-/* line 454, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-font:before {
   content: "\f031";
 }
 
-/* line 455, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-font-awesome:before {
   content: "\f2b4";
 }
 
-/* line 456, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-font-awesome-alt:before {
   content: "\f35c";
 }
 
-/* line 457, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-font-awesome-flag:before {
   content: "\f425";
 }
 
-/* line 458, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-font-awesome-logo-full:before {
   content: "\f4e6";
 }
 
-/* line 459, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-fonticons:before {
   content: "\f280";
 }
 
-/* line 460, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-fonticons-fi:before {
   content: "\f3a2";
 }
 
-/* line 461, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-football-ball:before {
   content: "\f44e";
 }
 
-/* line 462, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-fort-awesome:before {
   content: "\f286";
 }
 
-/* line 463, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-fort-awesome-alt:before {
   content: "\f3a3";
 }
 
-/* line 464, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-forumbee:before {
   content: "\f211";
 }
 
-/* line 465, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-forward:before {
   content: "\f04e";
 }
 
-/* line 466, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-foursquare:before {
   content: "\f180";
 }
 
-/* line 467, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-free-code-camp:before {
   content: "\f2c5";
 }
 
-/* line 468, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-freebsd:before {
   content: "\f3a4";
 }
 
-/* line 469, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-frog:before {
   content: "\f52e";
 }
 
-/* line 470, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-frown:before {
   content: "\f119";
 }
 
-/* line 471, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-frown-open:before {
   content: "\f57a";
 }
 
-/* line 472, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-fulcrum:before {
   content: "\f50b";
 }
 
-/* line 473, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-funnel-dollar:before {
   content: "\f662";
 }
 
-/* line 474, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-futbol:before {
   content: "\f1e3";
 }
 
-/* line 475, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-galactic-republic:before {
   content: "\f50c";
 }
 
-/* line 476, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-galactic-senate:before {
   content: "\f50d";
 }
 
-/* line 477, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-gamepad:before {
   content: "\f11b";
 }
 
-/* line 478, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-gas-pump:before {
   content: "\f52f";
 }
 
-/* line 479, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-gavel:before {
   content: "\f0e3";
 }
 
-/* line 480, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-gem:before {
   content: "\f3a5";
 }
 
-/* line 481, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-genderless:before {
   content: "\f22d";
 }
 
-/* line 482, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-get-pocket:before {
   content: "\f265";
 }
 
-/* line 483, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-gg:before {
   content: "\f260";
 }
 
-/* line 484, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-gg-circle:before {
   content: "\f261";
 }
 
-/* line 485, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-ghost:before {
   content: "\f6e2";
 }
 
-/* line 486, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-gift:before {
   content: "\f06b";
 }
 
-/* line 487, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-git:before {
   content: "\f1d3";
 }
 
-/* line 488, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-git-square:before {
   content: "\f1d2";
 }
 
-/* line 489, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-github:before {
   content: "\f09b";
 }
 
-/* line 490, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-github-alt:before {
   content: "\f113";
 }
 
-/* line 491, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-github-square:before {
   content: "\f092";
 }
 
-/* line 492, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-gitkraken:before {
   content: "\f3a6";
 }
 
-/* line 493, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-gitlab:before {
   content: "\f296";
 }
 
-/* line 494, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-gitter:before {
   content: "\f426";
 }
 
-/* line 495, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-glass-martini:before {
   content: "\f000";
 }
 
-/* line 496, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-glass-martini-alt:before {
   content: "\f57b";
 }
 
-/* line 497, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-glasses:before {
   content: "\f530";
 }
 
-/* line 498, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-glide:before {
   content: "\f2a5";
 }
 
-/* line 499, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-glide-g:before {
   content: "\f2a6";
 }
 
-/* line 500, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-globe:before {
   content: "\f0ac";
 }
 
-/* line 501, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-globe-africa:before {
   content: "\f57c";
 }
 
-/* line 502, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-globe-americas:before {
   content: "\f57d";
 }
 
-/* line 503, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-globe-asia:before {
   content: "\f57e";
 }
 
-/* line 504, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-gofore:before {
   content: "\f3a7";
 }
 
-/* line 505, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-golf-ball:before {
   content: "\f450";
 }
 
-/* line 506, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-goodreads:before {
   content: "\f3a8";
 }
 
-/* line 507, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-goodreads-g:before {
   content: "\f3a9";
 }
 
-/* line 508, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-google:before {
   content: "\f1a0";
 }
 
-/* line 509, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-google-drive:before {
   content: "\f3aa";
 }
 
-/* line 510, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-google-play:before {
   content: "\f3ab";
 }
 
-/* line 511, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-google-plus:before {
   content: "\f2b3";
 }
 
-/* line 512, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-google-plus-g:before {
   content: "\f0d5";
 }
 
-/* line 513, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-google-plus-square:before {
   content: "\f0d4";
 }
 
-/* line 514, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-google-wallet:before {
   content: "\f1ee";
 }
 
-/* line 515, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-gopuram:before {
   content: "\f664";
 }
 
-/* line 516, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-graduation-cap:before {
   content: "\f19d";
 }
 
-/* line 517, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-gratipay:before {
   content: "\f184";
 }
 
-/* line 518, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-grav:before {
   content: "\f2d6";
 }
 
-/* line 519, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-greater-than:before {
   content: "\f531";
 }
 
-/* line 520, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-greater-than-equal:before {
   content: "\f532";
 }
 
-/* line 521, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-grimace:before {
   content: "\f57f";
 }
 
-/* line 522, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-grin:before {
   content: "\f580";
 }
 
-/* line 523, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-grin-alt:before {
   content: "\f581";
 }
 
-/* line 524, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-grin-beam:before {
   content: "\f582";
 }
 
-/* line 525, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-grin-beam-sweat:before {
   content: "\f583";
 }
 
-/* line 526, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-grin-hearts:before {
   content: "\f584";
 }
 
-/* line 527, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-grin-squint:before {
   content: "\f585";
 }
 
-/* line 528, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-grin-squint-tears:before {
   content: "\f586";
 }
 
-/* line 529, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-grin-stars:before {
   content: "\f587";
 }
 
-/* line 530, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-grin-tears:before {
   content: "\f588";
 }
 
-/* line 531, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-grin-tongue:before {
   content: "\f589";
 }
 
-/* line 532, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-grin-tongue-squint:before {
   content: "\f58a";
 }
 
-/* line 533, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-grin-tongue-wink:before {
   content: "\f58b";
 }
 
-/* line 534, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-grin-wink:before {
   content: "\f58c";
 }
 
-/* line 535, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-grip-horizontal:before {
   content: "\f58d";
 }
 
-/* line 536, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-grip-vertical:before {
   content: "\f58e";
 }
 
-/* line 537, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-gripfire:before {
   content: "\f3ac";
 }
 
-/* line 538, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-grunt:before {
   content: "\f3ad";
 }
 
-/* line 539, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-gulp:before {
   content: "\f3ae";
 }
 
-/* line 540, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-h-square:before {
   content: "\f0fd";
 }
 
-/* line 541, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hacker-news:before {
   content: "\f1d4";
 }
 
-/* line 542, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hacker-news-square:before {
   content: "\f3af";
 }
 
-/* line 543, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hackerrank:before {
   content: "\f5f7";
 }
 
-/* line 544, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hammer:before {
   content: "\f6e3";
 }
 
-/* line 545, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hamsa:before {
   content: "\f665";
 }
 
-/* line 546, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hand-holding:before {
   content: "\f4bd";
 }
 
-/* line 547, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hand-holding-heart:before {
   content: "\f4be";
 }
 
-/* line 548, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hand-holding-usd:before {
   content: "\f4c0";
 }
 
-/* line 549, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hand-lizard:before {
   content: "\f258";
 }
 
-/* line 550, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hand-paper:before {
   content: "\f256";
 }
 
-/* line 551, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hand-peace:before {
   content: "\f25b";
 }
 
-/* line 552, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hand-point-down:before {
   content: "\f0a7";
 }
 
-/* line 553, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hand-point-left:before {
   content: "\f0a5";
 }
 
-/* line 554, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hand-point-right:before {
   content: "\f0a4";
 }
 
-/* line 555, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hand-point-up:before {
   content: "\f0a6";
 }
 
-/* line 556, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hand-pointer:before {
   content: "\f25a";
 }
 
-/* line 557, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hand-rock:before {
   content: "\f255";
 }
 
-/* line 558, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hand-scissors:before {
   content: "\f257";
 }
 
-/* line 559, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hand-spock:before {
   content: "\f259";
 }
 
-/* line 560, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hands:before {
   content: "\f4c2";
 }
 
-/* line 561, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hands-helping:before {
   content: "\f4c4";
 }
 
-/* line 562, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-handshake:before {
   content: "\f2b5";
 }
 
-/* line 563, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hanukiah:before {
   content: "\f6e6";
 }
 
-/* line 564, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hashtag:before {
   content: "\f292";
 }
 
-/* line 565, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hat-wizard:before {
   content: "\f6e8";
 }
 
-/* line 566, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-haykal:before {
   content: "\f666";
 }
 
-/* line 567, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hdd:before {
   content: "\f0a0";
 }
 
-/* line 568, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-heading:before {
   content: "\f1dc";
 }
 
-/* line 569, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-headphones:before {
   content: "\f025";
 }
 
-/* line 570, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-headphones-alt:before {
   content: "\f58f";
 }
 
-/* line 571, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-headset:before {
   content: "\f590";
 }
 
-/* line 572, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-heart:before {
   content: "\f004";
 }
 
-/* line 573, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-heartbeat:before {
   content: "\f21e";
 }
 
-/* line 574, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-helicopter:before {
   content: "\f533";
 }
 
-/* line 575, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-highlighter:before {
   content: "\f591";
 }
 
-/* line 576, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hiking:before {
   content: "\f6ec";
 }
 
-/* line 577, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hippo:before {
   content: "\f6ed";
 }
 
-/* line 578, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hips:before {
   content: "\f452";
 }
 
-/* line 579, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hire-a-helper:before {
   content: "\f3b0";
 }
 
-/* line 580, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-history:before {
   content: "\f1da";
 }
 
-/* line 581, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hockey-puck:before {
   content: "\f453";
 }
 
-/* line 582, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-home:before {
   content: "\f015";
 }
 
-/* line 583, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hooli:before {
   content: "\f427";
 }
 
-/* line 584, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hornbill:before {
   content: "\f592";
 }
 
-/* line 585, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-horse:before {
   content: "\f6f0";
 }
 
-/* line 586, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hospital:before {
   content: "\f0f8";
 }
 
-/* line 587, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hospital-alt:before {
   content: "\f47d";
 }
 
-/* line 588, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hospital-symbol:before {
   content: "\f47e";
 }
 
-/* line 589, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hot-tub:before {
   content: "\f593";
 }
 
-/* line 590, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hotel:before {
   content: "\f594";
 }
 
-/* line 591, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hotjar:before {
   content: "\f3b1";
 }
 
-/* line 592, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hourglass:before {
   content: "\f254";
 }
 
-/* line 593, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hourglass-end:before {
   content: "\f253";
 }
 
-/* line 594, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hourglass-half:before {
   content: "\f252";
 }
 
-/* line 595, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hourglass-start:before {
   content: "\f251";
 }
 
-/* line 596, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-house-damage:before {
   content: "\f6f1";
 }
 
-/* line 597, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-houzz:before {
   content: "\f27c";
 }
 
-/* line 598, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hryvnia:before {
   content: "\f6f2";
 }
 
-/* line 599, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-html5:before {
   content: "\f13b";
 }
 
-/* line 600, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-hubspot:before {
   content: "\f3b2";
 }
 
-/* line 601, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-i-cursor:before {
   content: "\f246";
 }
 
-/* line 602, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-id-badge:before {
   content: "\f2c1";
 }
 
-/* line 603, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-id-card:before {
   content: "\f2c2";
 }
 
-/* line 604, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-id-card-alt:before {
   content: "\f47f";
 }
 
-/* line 605, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-image:before {
   content: "\f03e";
 }
 
-/* line 606, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-images:before {
   content: "\f302";
 }
 
-/* line 607, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-imdb:before {
   content: "\f2d8";
 }
 
-/* line 608, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-inbox:before {
   content: "\f01c";
 }
 
-/* line 609, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-indent:before {
   content: "\f03c";
 }
 
-/* line 610, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-industry:before {
   content: "\f275";
 }
 
-/* line 611, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-infinity:before {
   content: "\f534";
 }
 
-/* line 612, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-info:before {
   content: "\f129";
 }
 
-/* line 613, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-info-circle:before {
   content: "\f05a";
 }
 
-/* line 614, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-instagram:before {
   content: "\f16d";
 }
 
-/* line 615, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-internet-explorer:before {
   content: "\f26b";
 }
 
-/* line 616, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-ioxhost:before {
   content: "\f208";
 }
 
-/* line 617, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-italic:before {
   content: "\f033";
 }
 
-/* line 618, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-itunes:before {
   content: "\f3b4";
 }
 
-/* line 619, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-itunes-note:before {
   content: "\f3b5";
 }
 
-/* line 620, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-java:before {
   content: "\f4e4";
 }
 
-/* line 621, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-jedi:before {
   content: "\f669";
 }
 
-/* line 622, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-jedi-order:before {
   content: "\f50e";
 }
 
-/* line 623, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-jenkins:before {
   content: "\f3b6";
 }
 
-/* line 624, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-joget:before {
   content: "\f3b7";
 }
 
-/* line 625, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-joint:before {
   content: "\f595";
 }
 
-/* line 626, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-joomla:before {
   content: "\f1aa";
 }
 
-/* line 627, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-journal-whills:before {
   content: "\f66a";
 }
 
-/* line 628, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-js:before {
   content: "\f3b8";
 }
 
-/* line 629, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-js-square:before {
   content: "\f3b9";
 }
 
-/* line 630, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-jsfiddle:before {
   content: "\f1cc";
 }
 
-/* line 631, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-kaaba:before {
   content: "\f66b";
 }
 
-/* line 632, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-kaggle:before {
   content: "\f5fa";
 }
 
-/* line 633, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-key:before {
   content: "\f084";
 }
 
-/* line 634, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-keybase:before {
   content: "\f4f5";
 }
 
-/* line 635, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-keyboard:before {
   content: "\f11c";
 }
 
-/* line 636, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-keycdn:before {
   content: "\f3ba";
 }
 
-/* line 637, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-khanda:before {
   content: "\f66d";
 }
 
-/* line 638, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-kickstarter:before {
   content: "\f3bb";
 }
 
-/* line 639, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-kickstarter-k:before {
   content: "\f3bc";
 }
 
-/* line 640, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-kiss:before {
   content: "\f596";
 }
 
-/* line 641, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-kiss-beam:before {
   content: "\f597";
 }
 
-/* line 642, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-kiss-wink-heart:before {
   content: "\f598";
 }
 
-/* line 643, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-kiwi-bird:before {
   content: "\f535";
 }
 
-/* line 644, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-korvue:before {
   content: "\f42f";
 }
 
-/* line 645, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-landmark:before {
   content: "\f66f";
 }
 
-/* line 646, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-language:before {
   content: "\f1ab";
 }
 
-/* line 647, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-laptop:before {
   content: "\f109";
 }
 
-/* line 648, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-laptop-code:before {
   content: "\f5fc";
 }
 
-/* line 649, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-laravel:before {
   content: "\f3bd";
 }
 
-/* line 650, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-lastfm:before {
   content: "\f202";
 }
 
-/* line 651, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-lastfm-square:before {
   content: "\f203";
 }
 
-/* line 652, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-laugh:before {
   content: "\f599";
 }
 
-/* line 653, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-laugh-beam:before {
   content: "\f59a";
 }
 
-/* line 654, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-laugh-squint:before {
   content: "\f59b";
 }
 
-/* line 655, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-laugh-wink:before {
   content: "\f59c";
 }
 
-/* line 656, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-layer-group:before {
   content: "\f5fd";
 }
 
-/* line 657, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-leaf:before {
   content: "\f06c";
 }
 
-/* line 658, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-leanpub:before {
   content: "\f212";
 }
 
-/* line 659, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-lemon:before {
   content: "\f094";
 }
 
-/* line 660, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-less:before {
   content: "\f41d";
 }
 
-/* line 661, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-less-than:before {
   content: "\f536";
 }
 
-/* line 662, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-less-than-equal:before {
   content: "\f537";
 }
 
-/* line 663, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-level-down-alt:before {
   content: "\f3be";
 }
 
-/* line 664, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-level-up-alt:before {
   content: "\f3bf";
 }
 
-/* line 665, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-life-ring:before {
   content: "\f1cd";
 }
 
-/* line 666, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-lightbulb:before {
   content: "\f0eb";
 }
 
-/* line 667, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-line:before {
   content: "\f3c0";
 }
 
-/* line 668, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-link:before {
   content: "\f0c1";
 }
 
-/* line 669, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-linkedin:before {
   content: "\f08c";
 }
 
-/* line 670, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-linkedin-in:before {
   content: "\f0e1";
 }
 
-/* line 671, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-linode:before {
   content: "\f2b8";
 }
 
-/* line 672, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-linux:before {
   content: "\f17c";
 }
 
-/* line 673, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-lira-sign:before {
   content: "\f195";
 }
 
-/* line 674, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-list:before {
   content: "\f03a";
 }
 
-/* line 675, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-list-alt:before {
   content: "\f022";
 }
 
-/* line 676, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-list-ol:before {
   content: "\f0cb";
 }
 
-/* line 677, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-list-ul:before {
   content: "\f0ca";
 }
 
-/* line 678, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-location-arrow:before {
   content: "\f124";
 }
 
-/* line 679, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-lock:before {
   content: "\f023";
 }
 
-/* line 680, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-lock-open:before {
   content: "\f3c1";
 }
 
-/* line 681, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-long-arrow-alt-down:before {
   content: "\f309";
 }
 
-/* line 682, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-long-arrow-alt-left:before {
   content: "\f30a";
 }
 
-/* line 683, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-long-arrow-alt-right:before {
   content: "\f30b";
 }
 
-/* line 684, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-long-arrow-alt-up:before {
   content: "\f30c";
 }
 
-/* line 685, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-low-vision:before {
   content: "\f2a8";
 }
 
-/* line 686, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-luggage-cart:before {
   content: "\f59d";
 }
 
-/* line 687, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-lyft:before {
   content: "\f3c3";
 }
 
-/* line 688, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-magento:before {
   content: "\f3c4";
 }
 
-/* line 689, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-magic:before {
   content: "\f0d0";
 }
 
-/* line 690, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-magnet:before {
   content: "\f076";
 }
 
-/* line 691, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-mail-bulk:before {
   content: "\f674";
 }
 
-/* line 692, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-mailchimp:before {
   content: "\f59e";
 }
 
-/* line 693, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-male:before {
   content: "\f183";
 }
 
-/* line 694, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-mandalorian:before {
   content: "\f50f";
 }
 
-/* line 695, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-map:before {
   content: "\f279";
 }
 
-/* line 696, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-map-marked:before {
   content: "\f59f";
 }
 
-/* line 697, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-map-marked-alt:before {
   content: "\f5a0";
 }
 
-/* line 698, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-map-marker:before {
   content: "\f041";
 }
 
-/* line 699, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-map-marker-alt:before {
   content: "\f3c5";
 }
 
-/* line 700, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-map-pin:before {
   content: "\f276";
 }
 
-/* line 701, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-map-signs:before {
   content: "\f277";
 }
 
-/* line 702, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-markdown:before {
   content: "\f60f";
 }
 
-/* line 703, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-marker:before {
   content: "\f5a1";
 }
 
-/* line 704, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-mars:before {
   content: "\f222";
 }
 
-/* line 705, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-mars-double:before {
   content: "\f227";
 }
 
-/* line 706, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-mars-stroke:before {
   content: "\f229";
 }
 
-/* line 707, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-mars-stroke-h:before {
   content: "\f22b";
 }
 
-/* line 708, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-mars-stroke-v:before {
   content: "\f22a";
 }
 
-/* line 709, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-mask:before {
   content: "\f6fa";
 }
 
-/* line 710, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-mastodon:before {
   content: "\f4f6";
 }
 
-/* line 711, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-maxcdn:before {
   content: "\f136";
 }
 
-/* line 712, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-medal:before {
   content: "\f5a2";
 }
 
-/* line 713, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-medapps:before {
   content: "\f3c6";
 }
 
-/* line 714, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-medium:before {
   content: "\f23a";
 }
 
-/* line 715, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-medium-m:before {
   content: "\f3c7";
 }
 
-/* line 716, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-medkit:before {
   content: "\f0fa";
 }
 
-/* line 717, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-medrt:before {
   content: "\f3c8";
 }
 
-/* line 718, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-meetup:before {
   content: "\f2e0";
 }
 
-/* line 719, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-megaport:before {
   content: "\f5a3";
 }
 
-/* line 720, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-meh:before {
   content: "\f11a";
 }
 
-/* line 721, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-meh-blank:before {
   content: "\f5a4";
 }
 
-/* line 722, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-meh-rolling-eyes:before {
   content: "\f5a5";
 }
 
-/* line 723, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-memory:before {
   content: "\f538";
 }
 
-/* line 724, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-menorah:before {
   content: "\f676";
 }
 
-/* line 725, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-mercury:before {
   content: "\f223";
 }
 
-/* line 726, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-meteor:before {
   content: "\f753";
 }
 
-/* line 727, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-microchip:before {
   content: "\f2db";
 }
 
-/* line 728, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-microphone:before {
   content: "\f130";
 }
 
-/* line 729, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-microphone-alt:before {
   content: "\f3c9";
 }
 
-/* line 730, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-microphone-alt-slash:before {
   content: "\f539";
 }
 
-/* line 731, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-microphone-slash:before {
   content: "\f131";
 }
 
-/* line 732, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-microscope:before {
   content: "\f610";
 }
 
-/* line 733, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-microsoft:before {
   content: "\f3ca";
 }
 
-/* line 734, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-minus:before {
   content: "\f068";
 }
 
-/* line 735, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-minus-circle:before {
   content: "\f056";
 }
 
-/* line 736, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-minus-square:before {
   content: "\f146";
 }
 
-/* line 737, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-mix:before {
   content: "\f3cb";
 }
 
-/* line 738, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-mixcloud:before {
   content: "\f289";
 }
 
-/* line 739, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-mizuni:before {
   content: "\f3cc";
 }
 
-/* line 740, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-mobile:before {
   content: "\f10b";
 }
 
-/* line 741, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-mobile-alt:before {
   content: "\f3cd";
 }
 
-/* line 742, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-modx:before {
   content: "\f285";
 }
 
-/* line 743, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-monero:before {
   content: "\f3d0";
 }
 
-/* line 744, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-money-bill:before {
   content: "\f0d6";
 }
 
-/* line 745, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-money-bill-alt:before {
   content: "\f3d1";
 }
 
-/* line 746, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-money-bill-wave:before {
   content: "\f53a";
 }
 
-/* line 747, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-money-bill-wave-alt:before {
   content: "\f53b";
 }
 
-/* line 748, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-money-check:before {
   content: "\f53c";
 }
 
-/* line 749, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-money-check-alt:before {
   content: "\f53d";
 }
 
-/* line 750, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-monument:before {
   content: "\f5a6";
 }
 
-/* line 751, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-moon:before {
   content: "\f186";
 }
 
-/* line 752, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-mortar-pestle:before {
   content: "\f5a7";
 }
 
-/* line 753, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-mosque:before {
   content: "\f678";
 }
 
-/* line 754, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-motorcycle:before {
   content: "\f21c";
 }
 
-/* line 755, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-mountain:before {
   content: "\f6fc";
 }
 
-/* line 756, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-mouse-pointer:before {
   content: "\f245";
 }
 
-/* line 757, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-music:before {
   content: "\f001";
 }
 
-/* line 758, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-napster:before {
   content: "\f3d2";
 }
 
-/* line 759, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-neos:before {
   content: "\f612";
 }
 
-/* line 760, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-network-wired:before {
   content: "\f6ff";
 }
 
-/* line 761, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-neuter:before {
   content: "\f22c";
 }
 
-/* line 762, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-newspaper:before {
   content: "\f1ea";
 }
 
-/* line 763, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-nimblr:before {
   content: "\f5a8";
 }
 
-/* line 764, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-nintendo-switch:before {
   content: "\f418";
 }
 
-/* line 765, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-node:before {
   content: "\f419";
 }
 
-/* line 766, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-node-js:before {
   content: "\f3d3";
 }
 
-/* line 767, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-not-equal:before {
   content: "\f53e";
 }
 
-/* line 768, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-notes-medical:before {
   content: "\f481";
 }
 
-/* line 769, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-npm:before {
   content: "\f3d4";
 }
 
-/* line 770, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-ns8:before {
   content: "\f3d5";
 }
 
-/* line 771, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-nutritionix:before {
   content: "\f3d6";
 }
 
-/* line 772, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-object-group:before {
   content: "\f247";
 }
 
-/* line 773, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-object-ungroup:before {
   content: "\f248";
 }
 
-/* line 774, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-odnoklassniki:before {
   content: "\f263";
 }
 
-/* line 775, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-odnoklassniki-square:before {
   content: "\f264";
 }
 
-/* line 776, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-oil-can:before {
   content: "\f613";
 }
 
-/* line 777, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-old-republic:before {
   content: "\f510";
 }
 
-/* line 778, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-om:before {
   content: "\f679";
 }
 
-/* line 779, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-opencart:before {
   content: "\f23d";
 }
 
-/* line 780, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-openid:before {
   content: "\f19b";
 }
 
-/* line 781, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-opera:before {
   content: "\f26a";
 }
 
-/* line 782, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-optin-monster:before {
   content: "\f23c";
 }
 
-/* line 783, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-osi:before {
   content: "\f41a";
 }
 
-/* line 784, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-otter:before {
   content: "\f700";
 }
 
-/* line 785, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-outdent:before {
   content: "\f03b";
 }
 
-/* line 786, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-page4:before {
   content: "\f3d7";
 }
 
-/* line 787, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-pagelines:before {
   content: "\f18c";
 }
 
-/* line 788, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-paint-brush:before {
   content: "\f1fc";
 }
 
-/* line 789, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-paint-roller:before {
   content: "\f5aa";
 }
 
-/* line 790, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-palette:before {
   content: "\f53f";
 }
 
-/* line 791, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-palfed:before {
   content: "\f3d8";
 }
 
-/* line 792, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-pallet:before {
   content: "\f482";
 }
 
-/* line 793, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-paper-plane:before {
   content: "\f1d8";
 }
 
-/* line 794, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-paperclip:before {
   content: "\f0c6";
 }
 
-/* line 795, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-parachute-box:before {
   content: "\f4cd";
 }
 
-/* line 796, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-paragraph:before {
   content: "\f1dd";
 }
 
-/* line 797, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-parking:before {
   content: "\f540";
 }
 
-/* line 798, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-passport:before {
   content: "\f5ab";
 }
 
-/* line 799, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-pastafarianism:before {
   content: "\f67b";
 }
 
-/* line 800, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-paste:before {
   content: "\f0ea";
 }
 
-/* line 801, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-patreon:before {
   content: "\f3d9";
 }
 
-/* line 802, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-pause:before {
   content: "\f04c";
 }
 
-/* line 803, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-pause-circle:before {
   content: "\f28b";
 }
 
-/* line 804, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-paw:before {
   content: "\f1b0";
 }
 
-/* line 805, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-paypal:before {
   content: "\f1ed";
 }
 
-/* line 806, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-peace:before {
   content: "\f67c";
 }
 
-/* line 807, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-pen:before {
   content: "\f304";
 }
 
-/* line 808, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-pen-alt:before {
   content: "\f305";
 }
 
-/* line 809, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-pen-fancy:before {
   content: "\f5ac";
 }
 
-/* line 810, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-pen-nib:before {
   content: "\f5ad";
 }
 
-/* line 811, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-pen-square:before {
   content: "\f14b";
 }
 
-/* line 812, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-pencil-alt:before {
   content: "\f303";
 }
 
-/* line 813, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-pencil-ruler:before {
   content: "\f5ae";
 }
 
-/* line 814, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-penny-arcade:before {
   content: "\f704";
 }
 
-/* line 815, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-people-carry:before {
   content: "\f4ce";
 }
 
-/* line 816, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-percent:before {
   content: "\f295";
 }
 
-/* line 817, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-percentage:before {
   content: "\f541";
 }
 
-/* line 818, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-periscope:before {
   content: "\f3da";
 }
 
-/* line 819, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-person-booth:before {
   content: "\f756";
 }
 
-/* line 820, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-phabricator:before {
   content: "\f3db";
 }
 
-/* line 821, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-phoenix-framework:before {
   content: "\f3dc";
 }
 
-/* line 822, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-phoenix-squadron:before {
   content: "\f511";
 }
 
-/* line 823, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-phone:before {
   content: "\f095";
 }
 
-/* line 824, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-phone-slash:before {
   content: "\f3dd";
 }
 
-/* line 825, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-phone-square:before {
   content: "\f098";
 }
 
-/* line 826, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-phone-volume:before {
   content: "\f2a0";
 }
 
-/* line 827, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-php:before {
   content: "\f457";
 }
 
-/* line 828, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-pied-piper:before {
   content: "\f2ae";
 }
 
-/* line 829, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-pied-piper-alt:before {
   content: "\f1a8";
 }
 
-/* line 830, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-pied-piper-hat:before {
   content: "\f4e5";
 }
 
-/* line 831, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-pied-piper-pp:before {
   content: "\f1a7";
 }
 
-/* line 832, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-piggy-bank:before {
   content: "\f4d3";
 }
 
-/* line 833, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-pills:before {
   content: "\f484";
 }
 
-/* line 834, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-pinterest:before {
   content: "\f0d2";
 }
 
-/* line 835, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-pinterest-p:before {
   content: "\f231";
 }
 
-/* line 836, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-pinterest-square:before {
   content: "\f0d3";
 }
 
-/* line 837, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-place-of-worship:before {
   content: "\f67f";
 }
 
-/* line 838, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-plane:before {
   content: "\f072";
 }
 
-/* line 839, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-plane-arrival:before {
   content: "\f5af";
 }
 
-/* line 840, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-plane-departure:before {
   content: "\f5b0";
 }
 
-/* line 841, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-play:before {
   content: "\f04b";
 }
 
-/* line 842, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-play-circle:before {
   content: "\f144";
 }
 
-/* line 843, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-playstation:before {
   content: "\f3df";
 }
 
-/* line 844, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-plug:before {
   content: "\f1e6";
 }
 
-/* line 845, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-plus:before {
   content: "\f067";
 }
 
-/* line 846, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-plus-circle:before {
   content: "\f055";
 }
 
-/* line 847, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-plus-square:before {
   content: "\f0fe";
 }
 
-/* line 848, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-podcast:before {
   content: "\f2ce";
 }
 
-/* line 849, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-poll:before {
   content: "\f681";
 }
 
-/* line 850, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-poll-h:before {
   content: "\f682";
 }
 
-/* line 851, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-poo:before {
   content: "\f2fe";
 }
 
-/* line 852, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-poo-storm:before {
   content: "\f75a";
 }
 
-/* line 853, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-poop:before {
   content: "\f619";
 }
 
-/* line 854, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-portrait:before {
   content: "\f3e0";
 }
 
-/* line 855, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-pound-sign:before {
   content: "\f154";
 }
 
-/* line 856, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-power-off:before {
   content: "\f011";
 }
 
-/* line 857, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-pray:before {
   content: "\f683";
 }
 
-/* line 858, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-praying-hands:before {
   content: "\f684";
 }
 
-/* line 859, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-prescription:before {
   content: "\f5b1";
 }
 
-/* line 860, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-prescription-bottle:before {
   content: "\f485";
 }
 
-/* line 861, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-prescription-bottle-alt:before {
   content: "\f486";
 }
 
-/* line 862, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-print:before {
   content: "\f02f";
 }
 
-/* line 863, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-procedures:before {
   content: "\f487";
 }
 
-/* line 864, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-product-hunt:before {
   content: "\f288";
 }
 
-/* line 865, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-project-diagram:before {
   content: "\f542";
 }
 
-/* line 866, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-pushed:before {
   content: "\f3e1";
 }
 
-/* line 867, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-puzzle-piece:before {
   content: "\f12e";
 }
 
-/* line 868, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-python:before {
   content: "\f3e2";
 }
 
-/* line 869, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-qq:before {
   content: "\f1d6";
 }
 
-/* line 870, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-qrcode:before {
   content: "\f029";
 }
 
-/* line 871, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-question:before {
   content: "\f128";
 }
 
-/* line 872, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-question-circle:before {
   content: "\f059";
 }
 
-/* line 873, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-quidditch:before {
   content: "\f458";
 }
 
-/* line 874, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-quinscape:before {
   content: "\f459";
 }
 
-/* line 875, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-quora:before {
   content: "\f2c4";
 }
 
-/* line 876, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-quote-left:before {
   content: "\f10d";
 }
 
-/* line 877, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-quote-right:before {
   content: "\f10e";
 }
 
-/* line 878, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-quran:before {
   content: "\f687";
 }
 
-/* line 879, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-r-project:before {
   content: "\f4f7";
 }
 
-/* line 880, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-rainbow:before {
   content: "\f75b";
 }
 
-/* line 881, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-random:before {
   content: "\f074";
 }
 
-/* line 882, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-ravelry:before {
   content: "\f2d9";
 }
 
-/* line 883, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-react:before {
   content: "\f41b";
 }
 
-/* line 884, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-reacteurope:before {
   content: "\f75d";
 }
 
-/* line 885, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-readme:before {
   content: "\f4d5";
 }
 
-/* line 886, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-rebel:before {
   content: "\f1d0";
 }
 
-/* line 887, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-receipt:before {
   content: "\f543";
 }
 
-/* line 888, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-recycle:before {
   content: "\f1b8";
 }
 
-/* line 889, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-red-river:before {
   content: "\f3e3";
 }
 
-/* line 890, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-reddit:before {
   content: "\f1a1";
 }
 
-/* line 891, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-reddit-alien:before {
   content: "\f281";
 }
 
-/* line 892, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-reddit-square:before {
   content: "\f1a2";
 }
 
-/* line 893, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-redo:before {
   content: "\f01e";
 }
 
-/* line 894, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-redo-alt:before {
   content: "\f2f9";
 }
 
-/* line 895, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-registered:before {
   content: "\f25d";
 }
 
-/* line 896, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-renren:before {
   content: "\f18b";
 }
 
-/* line 897, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-reply:before {
   content: "\f3e5";
 }
 
-/* line 898, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-reply-all:before {
   content: "\f122";
 }
 
-/* line 899, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-replyd:before {
   content: "\f3e6";
 }
 
-/* line 900, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-republican:before {
   content: "\f75e";
 }
 
-/* line 901, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-researchgate:before {
   content: "\f4f8";
 }
 
-/* line 902, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-resolving:before {
   content: "\f3e7";
 }
 
-/* line 903, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-retweet:before {
   content: "\f079";
 }
 
-/* line 904, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-rev:before {
   content: "\f5b2";
 }
 
-/* line 905, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-ribbon:before {
   content: "\f4d6";
 }
 
-/* line 906, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-ring:before {
   content: "\f70b";
 }
 
-/* line 907, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-road:before {
   content: "\f018";
 }
 
-/* line 908, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-robot:before {
   content: "\f544";
 }
 
-/* line 909, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-rocket:before {
   content: "\f135";
 }
 
-/* line 910, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-rocketchat:before {
   content: "\f3e8";
 }
 
-/* line 911, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-rockrms:before {
   content: "\f3e9";
 }
 
-/* line 912, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-route:before {
   content: "\f4d7";
 }
 
-/* line 913, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-rss:before {
   content: "\f09e";
 }
 
-/* line 914, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-rss-square:before {
   content: "\f143";
 }
 
-/* line 915, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-ruble-sign:before {
   content: "\f158";
 }
 
-/* line 916, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-ruler:before {
   content: "\f545";
 }
 
-/* line 917, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-ruler-combined:before {
   content: "\f546";
 }
 
-/* line 918, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-ruler-horizontal:before {
   content: "\f547";
 }
 
-/* line 919, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-ruler-vertical:before {
   content: "\f548";
 }
 
-/* line 920, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-running:before {
   content: "\f70c";
 }
 
-/* line 921, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-rupee-sign:before {
   content: "\f156";
 }
 
-/* line 922, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sad-cry:before {
   content: "\f5b3";
 }
 
-/* line 923, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sad-tear:before {
   content: "\f5b4";
 }
 
-/* line 924, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-safari:before {
   content: "\f267";
 }
 
-/* line 925, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sass:before {
   content: "\f41e";
 }
 
-/* line 926, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-save:before {
   content: "\f0c7";
 }
 
-/* line 927, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-schlix:before {
   content: "\f3ea";
 }
 
-/* line 928, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-school:before {
   content: "\f549";
 }
 
-/* line 929, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-screwdriver:before {
   content: "\f54a";
 }
 
-/* line 930, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-scribd:before {
   content: "\f28a";
 }
 
-/* line 931, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-scroll:before {
   content: "\f70e";
 }
 
-/* line 932, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-search:before {
   content: "\f002";
 }
 
-/* line 933, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-search-dollar:before {
   content: "\f688";
 }
 
-/* line 934, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-search-location:before {
   content: "\f689";
 }
 
-/* line 935, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-search-minus:before {
   content: "\f010";
 }
 
-/* line 936, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-search-plus:before {
   content: "\f00e";
 }
 
-/* line 937, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-searchengin:before {
   content: "\f3eb";
 }
 
-/* line 938, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-seedling:before {
   content: "\f4d8";
 }
 
-/* line 939, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sellcast:before {
   content: "\f2da";
 }
 
-/* line 940, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sellsy:before {
   content: "\f213";
 }
 
-/* line 941, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-server:before {
   content: "\f233";
 }
 
-/* line 942, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-servicestack:before {
   content: "\f3ec";
 }
 
-/* line 943, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-shapes:before {
   content: "\f61f";
 }
 
-/* line 944, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-share:before {
   content: "\f064";
 }
 
-/* line 945, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-share-alt:before {
   content: "\f1e0";
 }
 
-/* line 946, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-share-alt-square:before {
   content: "\f1e1";
 }
 
-/* line 947, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-share-square:before {
   content: "\f14d";
 }
 
-/* line 948, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-shekel-sign:before {
   content: "\f20b";
 }
 
-/* line 949, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-shield-alt:before {
   content: "\f3ed";
 }
 
-/* line 950, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-ship:before {
   content: "\f21a";
 }
 
-/* line 951, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-shipping-fast:before {
   content: "\f48b";
 }
 
-/* line 952, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-shirtsinbulk:before {
   content: "\f214";
 }
 
-/* line 953, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-shoe-prints:before {
   content: "\f54b";
 }
 
-/* line 954, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-shopping-bag:before {
   content: "\f290";
 }
 
-/* line 955, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-shopping-basket:before {
   content: "\f291";
 }
 
-/* line 956, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-shopping-cart:before {
   content: "\f07a";
 }
 
-/* line 957, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-shopware:before {
   content: "\f5b5";
 }
 
-/* line 958, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-shower:before {
   content: "\f2cc";
 }
 
-/* line 959, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-shuttle-van:before {
   content: "\f5b6";
 }
 
-/* line 960, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sign:before {
   content: "\f4d9";
 }
 
-/* line 961, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sign-in-alt:before {
   content: "\f2f6";
 }
 
-/* line 962, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sign-language:before {
   content: "\f2a7";
 }
 
-/* line 963, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sign-out-alt:before {
   content: "\f2f5";
 }
 
-/* line 964, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-signal:before {
   content: "\f012";
 }
 
-/* line 965, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-signature:before {
   content: "\f5b7";
 }
 
-/* line 966, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-simplybuilt:before {
   content: "\f215";
 }
 
-/* line 967, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sistrix:before {
   content: "\f3ee";
 }
 
-/* line 968, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sitemap:before {
   content: "\f0e8";
 }
 
-/* line 969, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sith:before {
   content: "\f512";
 }
 
-/* line 970, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-skull:before {
   content: "\f54c";
 }
 
-/* line 971, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-skull-crossbones:before {
   content: "\f714";
 }
 
-/* line 972, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-skyatlas:before {
   content: "\f216";
 }
 
-/* line 973, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-skype:before {
   content: "\f17e";
 }
 
-/* line 974, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-slack:before {
   content: "\f198";
 }
 
-/* line 975, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-slack-hash:before {
   content: "\f3ef";
 }
 
-/* line 976, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-slash:before {
   content: "\f715";
 }
 
-/* line 977, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sliders-h:before {
   content: "\f1de";
 }
 
-/* line 978, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-slideshare:before {
   content: "\f1e7";
 }
 
-/* line 979, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-smile:before {
   content: "\f118";
 }
 
-/* line 980, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-smile-beam:before {
   content: "\f5b8";
 }
 
-/* line 981, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-smile-wink:before {
   content: "\f4da";
 }
 
-/* line 982, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-smog:before {
   content: "\f75f";
 }
 
-/* line 983, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-smoking:before {
   content: "\f48d";
 }
 
-/* line 984, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-smoking-ban:before {
   content: "\f54d";
 }
 
-/* line 985, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-snapchat:before {
   content: "\f2ab";
 }
 
-/* line 986, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-snapchat-ghost:before {
   content: "\f2ac";
 }
 
-/* line 987, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-snapchat-square:before {
   content: "\f2ad";
 }
 
-/* line 988, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-snowflake:before {
   content: "\f2dc";
 }
 
-/* line 989, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-socks:before {
   content: "\f696";
 }
 
-/* line 990, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-solar-panel:before {
   content: "\f5ba";
 }
 
-/* line 991, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sort:before {
   content: "\f0dc";
 }
 
-/* line 992, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sort-alpha-down:before {
   content: "\f15d";
 }
 
-/* line 993, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sort-alpha-up:before {
   content: "\f15e";
 }
 
-/* line 994, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sort-amount-down:before {
   content: "\f160";
 }
 
-/* line 995, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sort-amount-up:before {
   content: "\f161";
 }
 
-/* line 996, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sort-down:before {
   content: "\f0dd";
 }
 
-/* line 997, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sort-numeric-down:before {
   content: "\f162";
 }
 
-/* line 998, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sort-numeric-up:before {
   content: "\f163";
 }
 
-/* line 999, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sort-up:before {
   content: "\f0de";
 }
 
-/* line 1000, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-soundcloud:before {
   content: "\f1be";
 }
 
-/* line 1001, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-spa:before {
   content: "\f5bb";
 }
 
-/* line 1002, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-space-shuttle:before {
   content: "\f197";
 }
 
-/* line 1003, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-speakap:before {
   content: "\f3f3";
 }
 
-/* line 1004, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-spider:before {
   content: "\f717";
 }
 
-/* line 1005, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-spinner:before {
   content: "\f110";
 }
 
-/* line 1006, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-splotch:before {
   content: "\f5bc";
 }
 
-/* line 1007, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-spotify:before {
   content: "\f1bc";
 }
 
-/* line 1008, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-spray-can:before {
   content: "\f5bd";
 }
 
-/* line 1009, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-square:before {
   content: "\f0c8";
 }
 
-/* line 1010, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-square-full:before {
   content: "\f45c";
 }
 
-/* line 1011, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-square-root-alt:before {
   content: "\f698";
 }
 
-/* line 1012, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-squarespace:before {
   content: "\f5be";
 }
 
-/* line 1013, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-stack-exchange:before {
   content: "\f18d";
 }
 
-/* line 1014, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-stack-overflow:before {
   content: "\f16c";
 }
 
-/* line 1015, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-stamp:before {
   content: "\f5bf";
 }
 
-/* line 1016, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-star:before {
   content: "\f005";
 }
 
-/* line 1017, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-star-and-crescent:before {
   content: "\f699";
 }
 
-/* line 1018, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-star-half:before {
   content: "\f089";
 }
 
-/* line 1019, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-star-half-alt:before {
   content: "\f5c0";
 }
 
-/* line 1020, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-star-of-david:before {
   content: "\f69a";
 }
 
-/* line 1021, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-star-of-life:before {
   content: "\f621";
 }
 
-/* line 1022, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-staylinked:before {
   content: "\f3f5";
 }
 
-/* line 1023, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-steam:before {
   content: "\f1b6";
 }
 
-/* line 1024, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-steam-square:before {
   content: "\f1b7";
 }
 
-/* line 1025, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-steam-symbol:before {
   content: "\f3f6";
 }
 
-/* line 1026, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-step-backward:before {
   content: "\f048";
 }
 
-/* line 1027, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-step-forward:before {
   content: "\f051";
 }
 
-/* line 1028, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-stethoscope:before {
   content: "\f0f1";
 }
 
-/* line 1029, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sticker-mule:before {
   content: "\f3f7";
 }
 
-/* line 1030, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sticky-note:before {
   content: "\f249";
 }
 
-/* line 1031, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-stop:before {
   content: "\f04d";
 }
 
-/* line 1032, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-stop-circle:before {
   content: "\f28d";
 }
 
-/* line 1033, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-stopwatch:before {
   content: "\f2f2";
 }
 
-/* line 1034, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-store:before {
   content: "\f54e";
 }
 
-/* line 1035, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-store-alt:before {
   content: "\f54f";
 }
 
-/* line 1036, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-strava:before {
   content: "\f428";
 }
 
-/* line 1037, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-stream:before {
   content: "\f550";
 }
 
-/* line 1038, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-street-view:before {
   content: "\f21d";
 }
 
-/* line 1039, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-strikethrough:before {
   content: "\f0cc";
 }
 
-/* line 1040, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-stripe:before {
   content: "\f429";
 }
 
-/* line 1041, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-stripe-s:before {
   content: "\f42a";
 }
 
-/* line 1042, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-stroopwafel:before {
   content: "\f551";
 }
 
-/* line 1043, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-studiovinari:before {
   content: "\f3f8";
 }
 
-/* line 1044, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-stumbleupon:before {
   content: "\f1a4";
 }
 
-/* line 1045, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-stumbleupon-circle:before {
   content: "\f1a3";
 }
 
-/* line 1046, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-subscript:before {
   content: "\f12c";
 }
 
-/* line 1047, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-subway:before {
   content: "\f239";
 }
 
-/* line 1048, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-suitcase:before {
   content: "\f0f2";
 }
 
-/* line 1049, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-suitcase-rolling:before {
   content: "\f5c1";
 }
 
-/* line 1050, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sun:before {
   content: "\f185";
 }
 
-/* line 1051, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-superpowers:before {
   content: "\f2dd";
 }
 
-/* line 1052, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-superscript:before {
   content: "\f12b";
 }
 
-/* line 1053, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-supple:before {
   content: "\f3f9";
 }
 
-/* line 1054, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-surprise:before {
   content: "\f5c2";
 }
 
-/* line 1055, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-swatchbook:before {
   content: "\f5c3";
 }
 
-/* line 1056, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-swimmer:before {
   content: "\f5c4";
 }
 
-/* line 1057, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-swimming-pool:before {
   content: "\f5c5";
 }
 
-/* line 1058, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-synagogue:before {
   content: "\f69b";
 }
 
-/* line 1059, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sync:before {
   content: "\f021";
 }
 
-/* line 1060, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-sync-alt:before {
   content: "\f2f1";
 }
 
-/* line 1061, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-syringe:before {
   content: "\f48e";
 }
 
-/* line 1062, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-table:before {
   content: "\f0ce";
 }
 
-/* line 1063, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-table-tennis:before {
   content: "\f45d";
 }
 
-/* line 1064, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-tablet:before {
   content: "\f10a";
 }
 
-/* line 1065, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-tablet-alt:before {
   content: "\f3fa";
 }
 
-/* line 1066, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-tablets:before {
   content: "\f490";
 }
 
-/* line 1067, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-tachometer-alt:before {
   content: "\f3fd";
 }
 
-/* line 1068, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-tag:before {
   content: "\f02b";
 }
 
-/* line 1069, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-tags:before {
   content: "\f02c";
 }
 
-/* line 1070, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-tape:before {
   content: "\f4db";
 }
 
-/* line 1071, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-tasks:before {
   content: "\f0ae";
 }
 
-/* line 1072, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-taxi:before {
   content: "\f1ba";
 }
 
-/* line 1073, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-teamspeak:before {
   content: "\f4f9";
 }
 
-/* line 1074, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-teeth:before {
   content: "\f62e";
 }
 
-/* line 1075, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-teeth-open:before {
   content: "\f62f";
 }
 
-/* line 1076, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-telegram:before {
   content: "\f2c6";
 }
 
-/* line 1077, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-telegram-plane:before {
   content: "\f3fe";
 }
 
-/* line 1078, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-temperature-high:before {
   content: "\f769";
 }
 
-/* line 1079, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-temperature-low:before {
   content: "\f76b";
 }
 
-/* line 1080, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-tencent-weibo:before {
   content: "\f1d5";
 }
 
-/* line 1081, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-terminal:before {
   content: "\f120";
 }
 
-/* line 1082, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-text-height:before {
   content: "\f034";
 }
 
-/* line 1083, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-text-width:before {
   content: "\f035";
 }
 
-/* line 1084, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-th:before {
   content: "\f00a";
 }
 
-/* line 1085, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-th-large:before {
   content: "\f009";
 }
 
-/* line 1086, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-th-list:before {
   content: "\f00b";
 }
 
-/* line 1087, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-the-red-yeti:before {
   content: "\f69d";
 }
 
-/* line 1088, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-theater-masks:before {
   content: "\f630";
 }
 
-/* line 1089, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-themeco:before {
   content: "\f5c6";
 }
 
-/* line 1090, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-themeisle:before {
   content: "\f2b2";
 }
 
-/* line 1091, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-thermometer:before {
   content: "\f491";
 }
 
-/* line 1092, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-thermometer-empty:before {
   content: "\f2cb";
 }
 
-/* line 1093, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-thermometer-full:before {
   content: "\f2c7";
 }
 
-/* line 1094, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-thermometer-half:before {
   content: "\f2c9";
 }
 
-/* line 1095, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-thermometer-quarter:before {
   content: "\f2ca";
 }
 
-/* line 1096, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-thermometer-three-quarters:before {
   content: "\f2c8";
 }
 
-/* line 1097, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-think-peaks:before {
   content: "\f731";
 }
 
-/* line 1098, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-thumbs-down:before {
   content: "\f165";
 }
 
-/* line 1099, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-thumbs-up:before {
   content: "\f164";
 }
 
-/* line 1100, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-thumbtack:before {
   content: "\f08d";
 }
 
-/* line 1101, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-ticket-alt:before {
   content: "\f3ff";
 }
 
-/* line 1102, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-times:before {
   content: "\f00d";
 }
 
-/* line 1103, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-times-circle:before {
   content: "\f057";
 }
 
-/* line 1104, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-tint:before {
   content: "\f043";
 }
 
-/* line 1105, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-tint-slash:before {
   content: "\f5c7";
 }
 
-/* line 1106, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-tired:before {
   content: "\f5c8";
 }
 
-/* line 1107, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-toggle-off:before {
   content: "\f204";
 }
 
-/* line 1108, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-toggle-on:before {
   content: "\f205";
 }
 
-/* line 1109, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-toilet-paper:before {
   content: "\f71e";
 }
 
-/* line 1110, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-toolbox:before {
   content: "\f552";
 }
 
-/* line 1111, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-tooth:before {
   content: "\f5c9";
 }
 
-/* line 1112, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-torah:before {
   content: "\f6a0";
 }
 
-/* line 1113, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-torii-gate:before {
   content: "\f6a1";
 }
 
-/* line 1114, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-tractor:before {
   content: "\f722";
 }
 
-/* line 1115, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-trade-federation:before {
   content: "\f513";
 }
 
-/* line 1116, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-trademark:before {
   content: "\f25c";
 }
 
-/* line 1117, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-traffic-light:before {
   content: "\f637";
 }
 
-/* line 1118, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-train:before {
   content: "\f238";
 }
 
-/* line 1119, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-transgender:before {
   content: "\f224";
 }
 
-/* line 1120, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-transgender-alt:before {
   content: "\f225";
 }
 
-/* line 1121, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-trash:before {
   content: "\f1f8";
 }
 
-/* line 1122, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-trash-alt:before {
   content: "\f2ed";
 }
 
-/* line 1123, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-tree:before {
   content: "\f1bb";
 }
 
-/* line 1124, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-trello:before {
   content: "\f181";
 }
 
-/* line 1125, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-tripadvisor:before {
   content: "\f262";
 }
 
-/* line 1126, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-trophy:before {
   content: "\f091";
 }
 
-/* line 1127, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-truck:before {
   content: "\f0d1";
 }
 
-/* line 1128, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-truck-loading:before {
   content: "\f4de";
 }
 
-/* line 1129, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-truck-monster:before {
   content: "\f63b";
 }
 
-/* line 1130, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-truck-moving:before {
   content: "\f4df";
 }
 
-/* line 1131, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-truck-pickup:before {
   content: "\f63c";
 }
 
-/* line 1132, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-tshirt:before {
   content: "\f553";
 }
 
-/* line 1133, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-tty:before {
   content: "\f1e4";
 }
 
-/* line 1134, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-tumblr:before {
   content: "\f173";
 }
 
-/* line 1135, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-tumblr-square:before {
   content: "\f174";
 }
 
-/* line 1136, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-tv:before {
   content: "\f26c";
 }
 
-/* line 1137, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-twitch:before {
   content: "\f1e8";
 }
 
-/* line 1138, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-twitter:before {
   content: "\f099";
 }
 
-/* line 1139, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-twitter-square:before {
   content: "\f081";
 }
 
-/* line 1140, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-typo3:before {
   content: "\f42b";
 }
 
-/* line 1141, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-uber:before {
   content: "\f402";
 }
 
-/* line 1142, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-uikit:before {
   content: "\f403";
 }
 
-/* line 1143, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-umbrella:before {
   content: "\f0e9";
 }
 
-/* line 1144, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-umbrella-beach:before {
   content: "\f5ca";
 }
 
-/* line 1145, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-underline:before {
   content: "\f0cd";
 }
 
-/* line 1146, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-undo:before {
   content: "\f0e2";
 }
 
-/* line 1147, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-undo-alt:before {
   content: "\f2ea";
 }
 
-/* line 1148, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-uniregistry:before {
   content: "\f404";
 }
 
-/* line 1149, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-universal-access:before {
   content: "\f29a";
 }
 
-/* line 1150, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-university:before {
   content: "\f19c";
 }
 
-/* line 1151, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-unlink:before {
   content: "\f127";
 }
 
-/* line 1152, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-unlock:before {
   content: "\f09c";
 }
 
-/* line 1153, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-unlock-alt:before {
   content: "\f13e";
 }
 
-/* line 1154, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-untappd:before {
   content: "\f405";
 }
 
-/* line 1155, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-upload:before {
   content: "\f093";
 }
 
-/* line 1156, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-usb:before {
   content: "\f287";
 }
 
-/* line 1157, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-user:before {
   content: "\f007";
 }
 
-/* line 1158, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-user-alt:before {
   content: "\f406";
 }
 
-/* line 1159, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-user-alt-slash:before {
   content: "\f4fa";
 }
 
-/* line 1160, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-user-astronaut:before {
   content: "\f4fb";
 }
 
-/* line 1161, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-user-check:before {
   content: "\f4fc";
 }
 
-/* line 1162, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-user-circle:before {
   content: "\f2bd";
 }
 
-/* line 1163, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-user-clock:before {
   content: "\f4fd";
 }
 
-/* line 1164, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-user-cog:before {
   content: "\f4fe";
 }
 
-/* line 1165, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-user-edit:before {
   content: "\f4ff";
 }
 
-/* line 1166, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-user-friends:before {
   content: "\f500";
 }
 
-/* line 1167, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-user-graduate:before {
   content: "\f501";
 }
 
-/* line 1168, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-user-injured:before {
   content: "\f728";
 }
 
-/* line 1169, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-user-lock:before {
   content: "\f502";
 }
 
-/* line 1170, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-user-md:before {
   content: "\f0f0";
 }
 
-/* line 1171, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-user-minus:before {
   content: "\f503";
 }
 
-/* line 1172, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-user-ninja:before {
   content: "\f504";
 }
 
-/* line 1173, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-user-plus:before {
   content: "\f234";
 }
 
-/* line 1174, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-user-secret:before {
   content: "\f21b";
 }
 
-/* line 1175, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-user-shield:before {
   content: "\f505";
 }
 
-/* line 1176, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-user-slash:before {
   content: "\f506";
 }
 
-/* line 1177, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-user-tag:before {
   content: "\f507";
 }
 
-/* line 1178, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-user-tie:before {
   content: "\f508";
 }
 
-/* line 1179, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-user-times:before {
   content: "\f235";
 }
 
-/* line 1180, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-users:before {
   content: "\f0c0";
 }
 
-/* line 1181, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-users-cog:before {
   content: "\f509";
 }
 
-/* line 1182, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-ussunnah:before {
   content: "\f407";
 }
 
-/* line 1183, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-utensil-spoon:before {
   content: "\f2e5";
 }
 
-/* line 1184, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-utensils:before {
   content: "\f2e7";
 }
 
-/* line 1185, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-vaadin:before {
   content: "\f408";
 }
 
-/* line 1186, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-vector-square:before {
   content: "\f5cb";
 }
 
-/* line 1187, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-venus:before {
   content: "\f221";
 }
 
-/* line 1188, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-venus-double:before {
   content: "\f226";
 }
 
-/* line 1189, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-venus-mars:before {
   content: "\f228";
 }
 
-/* line 1190, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-viacoin:before {
   content: "\f237";
 }
 
-/* line 1191, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-viadeo:before {
   content: "\f2a9";
 }
 
-/* line 1192, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-viadeo-square:before {
   content: "\f2aa";
 }
 
-/* line 1193, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-vial:before {
   content: "\f492";
 }
 
-/* line 1194, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-vials:before {
   content: "\f493";
 }
 
-/* line 1195, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-viber:before {
   content: "\f409";
 }
 
-/* line 1196, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-video:before {
   content: "\f03d";
 }
 
-/* line 1197, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-video-slash:before {
   content: "\f4e2";
 }
 
-/* line 1198, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-vihara:before {
   content: "\f6a7";
 }
 
-/* line 1199, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-vimeo:before {
   content: "\f40a";
 }
 
-/* line 1200, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-vimeo-square:before {
   content: "\f194";
 }
 
-/* line 1201, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-vimeo-v:before {
   content: "\f27d";
 }
 
-/* line 1202, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-vine:before {
   content: "\f1ca";
 }
 
-/* line 1203, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-vk:before {
   content: "\f189";
 }
 
-/* line 1204, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-vnv:before {
   content: "\f40b";
 }
 
-/* line 1205, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-volleyball-ball:before {
   content: "\f45f";
 }
 
-/* line 1206, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-volume-down:before {
   content: "\f027";
 }
 
-/* line 1207, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-volume-mute:before {
   content: "\f6a9";
 }
 
-/* line 1208, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-volume-off:before {
   content: "\f026";
 }
 
-/* line 1209, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-volume-up:before {
   content: "\f028";
 }
 
-/* line 1210, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-vote-yea:before {
   content: "\f772";
 }
 
-/* line 1211, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-vr-cardboard:before {
   content: "\f729";
 }
 
-/* line 1212, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-vuejs:before {
   content: "\f41f";
 }
 
-/* line 1213, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-walking:before {
   content: "\f554";
 }
 
-/* line 1214, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-wallet:before {
   content: "\f555";
 }
 
-/* line 1215, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-warehouse:before {
   content: "\f494";
 }
 
-/* line 1216, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-water:before {
   content: "\f773";
 }
 
-/* line 1217, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-weebly:before {
   content: "\f5cc";
 }
 
-/* line 1218, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-weibo:before {
   content: "\f18a";
 }
 
-/* line 1219, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-weight:before {
   content: "\f496";
 }
 
-/* line 1220, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-weight-hanging:before {
   content: "\f5cd";
 }
 
-/* line 1221, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-weixin:before {
   content: "\f1d7";
 }
 
-/* line 1222, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-whatsapp:before {
   content: "\f232";
 }
 
-/* line 1223, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-whatsapp-square:before {
   content: "\f40c";
 }
 
-/* line 1224, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-wheelchair:before {
   content: "\f193";
 }
 
-/* line 1225, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-whmcs:before {
   content: "\f40d";
 }
 
-/* line 1226, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-wifi:before {
   content: "\f1eb";
 }
 
-/* line 1227, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-wikipedia-w:before {
   content: "\f266";
 }
 
-/* line 1228, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-wind:before {
   content: "\f72e";
 }
 
-/* line 1229, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-window-close:before {
   content: "\f410";
 }
 
-/* line 1230, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-window-maximize:before {
   content: "\f2d0";
 }
 
-/* line 1231, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-window-minimize:before {
   content: "\f2d1";
 }
 
-/* line 1232, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-window-restore:before {
   content: "\f2d2";
 }
 
-/* line 1233, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-windows:before {
   content: "\f17a";
 }
 
-/* line 1234, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-wine-bottle:before {
   content: "\f72f";
 }
 
-/* line 1235, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-wine-glass:before {
   content: "\f4e3";
 }
 
-/* line 1236, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-wine-glass-alt:before {
   content: "\f5ce";
 }
 
-/* line 1237, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-wix:before {
   content: "\f5cf";
 }
 
-/* line 1238, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-wizards-of-the-coast:before {
   content: "\f730";
 }
 
-/* line 1239, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-wolf-pack-battalion:before {
   content: "\f514";
 }
 
-/* line 1240, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-won-sign:before {
   content: "\f159";
 }
 
-/* line 1241, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-wordpress:before {
   content: "\f19a";
 }
 
-/* line 1242, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-wordpress-simple:before {
   content: "\f411";
 }
 
-/* line 1243, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-wpbeginner:before {
   content: "\f297";
 }
 
-/* line 1244, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-wpexplorer:before {
   content: "\f2de";
 }
 
-/* line 1245, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-wpforms:before {
   content: "\f298";
 }
 
-/* line 1246, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-wpressr:before {
   content: "\f3e4";
 }
 
-/* line 1247, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-wrench:before {
   content: "\f0ad";
 }
 
-/* line 1248, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-x-ray:before {
   content: "\f497";
 }
 
-/* line 1249, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-xbox:before {
   content: "\f412";
 }
 
-/* line 1250, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-xing:before {
   content: "\f168";
 }
 
-/* line 1251, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-xing-square:before {
   content: "\f169";
 }
 
-/* line 1252, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-y-combinator:before {
   content: "\f23b";
 }
 
-/* line 1253, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-yahoo:before {
   content: "\f19e";
 }
 
-/* line 1254, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-yandex:before {
   content: "\f413";
 }
 
-/* line 1255, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-yandex-international:before {
   content: "\f414";
 }
 
-/* line 1256, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-yelp:before {
   content: "\f1e9";
 }
 
-/* line 1257, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-yen-sign:before {
   content: "\f157";
 }
 
-/* line 1258, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-yin-yang:before {
   content: "\f6ad";
 }
 
-/* line 1259, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-yoast:before {
   content: "\f2b1";
 }
 
-/* line 1260, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-youtube:before {
   content: "\f167";
 }
 
-/* line 1261, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-youtube-square:before {
   content: "\f431";
 }
 
-/* line 1262, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_icons.scss */
 .fa-zhihu:before {
   content: "\f63f";
 }
 
-/* line 4, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_screen-reader.scss */
 .sr-only {
   border: 0;
   clip: rect(0, 0, 0, 0);
@@ -6553,7 +5253,6 @@ readers do not read off random characters that represent icons */
   width: 1px;
 }
 
-/* line 48, ../../jared/Documents/GitHub/j-red.github.io/_sass/vendor/font-awesome/_mixins.scss */
 .sr-only-focusable:active, .sr-only-focusable:focus {
   clip: auto;
   height: auto;
