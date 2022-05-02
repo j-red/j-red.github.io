@@ -1,7 +1,7 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Inhuman Resources"
+excerpt: "Inhuman Resources -- A Playable Vignette<br/><img src='/images/inhr.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+A playable vignette built for CIS 510 Game Design at the University of Oregon, Spring 2020. Play it yourself at [https://j4red.itch.io/inhuman-resources](https://j4red.itch.io/inhuman-resources)!
