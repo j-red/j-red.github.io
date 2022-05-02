@@ -7,12 +7,6 @@
    ========================================================================== */
 
 .sidebar {
-  background-color: $custom-page-bg-color;
-  padding: 16px !important;
-  border-radius: 20px;
-  // border: #1a1c1e 1px solid;
-  box-shadow: rgb(0 0 0 / 10%) 0px 5px 5px 5px;
-
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
 
@@ -116,9 +110,6 @@
 
 .author__name {
   margin: 0;
-  text-transform: uppercase;
-  text-align: center;
-
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -132,7 +123,6 @@
 
 .author__bio {
   margin: 0;
-  text-align: left;
 
   @include breakpoint($large) {
     margin-top: 10px;
