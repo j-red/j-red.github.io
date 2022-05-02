@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Click here](/files/resume_2022.pdf) for a printable version of this page.
+[Click here](/files/resume.pdf) for a printable version of this page.
 
 Education
 ======
@@ -18,7 +18,8 @@ Education
 
 Research and Work experience
 ======
-* Summer 2015: Research Assistant
+Work in progress -- check back soon! For now, you can find my current CV [here](/files/resume.pdf).
+<!-- * Summer 2015: Research Assistant
   * Github University
   * Duties included: Tagging issues
   * Supervisor: Professor Git
@@ -26,16 +27,17 @@ Research and Work experience
 * Fall 2015: Research Assistant
   * Github University
   * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+  * Supervisor: Professor Hub -->
   
 Skills
 ======
-* Skill 1
+Coming soon
+<!-- * Skill 1
 * Skill 2
   * Sub-skill 2.1
   * Sub-skill 2.2
   * Sub-skill 2.3
-* Skill 3
+* Skill 3 -->
 
 Publications
 ======
@@ -54,7 +56,7 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
+
+<!-- Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->

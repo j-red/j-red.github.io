@@ -22,7 +22,7 @@ That was a single line. Want to see a double?
 ========
 
 
-||Pretty cool, right?||
+|Table entry 1 |table 2| col 3|
 
-~That's what I thought, too.~
+~~That's what I thought, too.~~
 Signing off.
