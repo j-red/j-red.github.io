@@ -118,8 +118,8 @@
 .author__name {
   margin: 0;
   // TODO: Fix
-  // text-transform: uppercase;
-  // text-align: center;
+  text-transform: uppercase;
+  text-align: center;
 
 
   @include breakpoint($large) {
