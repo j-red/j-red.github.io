@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-theme                    : minimal-mistakes-jekyll
-minimal_mistakes_skin    : "dark" # "default", "dark", "neon", see https://mmistakes.github.io/minimal-mistakes/docs/configuration/
-search                   : true # enable site search
+# theme                    : minimal-mistakes-jekyll
+# minimal_mistakes_skin    : "dark" # "default", "dark", "neon", see https://mmistakes.github.io/minimal-mistakes/docs/configuration/
+# search                   : true # enable site search
 title                    : "Jared Knofczynski"
 title_separator          : "|"
 name                     : &name "Jared Knofczynski"
