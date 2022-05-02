@@ -1,6 +1,6 @@
 ---
 title: 'Hello, world!'
-date: 2015-08-14
+date: 2022-05-01
 permalink: /posts/2022/05/hello-world/
 tags:
   - cool posts
