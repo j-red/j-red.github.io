@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "CV"
-permalink: /cv/
+permalink: /cv
 author_profile: true
 redirect_from:
   - /resume
@@ -16,10 +16,12 @@ Education
 * B.S. in Mathematics, Computer Science, and Music Technology, University of Oregon, 2022
 * Ph.D in Computer Science, University of Oregon, 2024 (expected)
 
-Research and Work experience
+Research and Work Experience
 ======
 Work in progress -- check back soon! For now, you can find my current CV [here](/files/resume.pdf).
-<!-- * Summer 2015: Research Assistant
+
+<!-- 
+* Summer 2015: Research Assistant
   * Github University
   * Duties included: Tagging issues
   * Supervisor: Professor Git
@@ -27,17 +29,21 @@ Work in progress -- check back soon! For now, you can find my current CV [here](
 * Fall 2015: Research Assistant
   * Github University
   * Duties included: Merging pull requests
-  * Supervisor: Professor Hub -->
+  * Supervisor: Professor Hub 
+  -->
   
 Skills
 ======
 Coming soon
-<!-- * Skill 1
+
+<!-- 
+* Skill 1
 * Skill 2
   * Sub-skill 2.1
   * Sub-skill 2.2
   * Sub-skill 2.3
-* Skill 3 -->
+* Skill 3 
+-->
 
 Publications
 ======
@@ -57,6 +63,8 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-<!-- Service and leadership
+<!-- 
+Service and leadership
 ======
-* Currently signed in to 43 different slack teams -->
+* Currently signed in to 43 different slack teams 
+-->
