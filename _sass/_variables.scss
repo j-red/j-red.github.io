@@ -47,6 +47,19 @@ $type-size-8                : 0.625em;  // ~10px
    Colors
    ========================================================================== */
 
+// custom
+$custom-bg-color            : #1d232c;
+$custom-page-bg-color       : #272b32;
+$custom-inner-page-bg-color : #1c2025;
+$custom-border-radius       : 8px;
+$custom-footer-bg-color     : #1b1f24;
+$custom-footer-border-color : #0e1013;
+$custom-page-padding        : 15px;
+$custom-page-text-color     : #cfcfcf;
+$custom-masthead-link-color : #aab2b9;
+$custom-masthead-link-color-hover : #fff;
+// end custom
+
 $gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);

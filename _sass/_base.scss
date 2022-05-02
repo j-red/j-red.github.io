@@ -5,6 +5,8 @@ html {
   /* sticky footer fix */
   position: relative;
   min-height: 100%;
+  
+  background-color: $custom-bg-color;
 }
 
 body {

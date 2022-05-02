@@ -11,6 +11,8 @@
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
+  color: $custom-page-text-color
+
   @include breakpoint($x-large) {
     max-width: $x-large;
   }
@@ -31,6 +33,11 @@
     .page__share {
       @include full();
     }
+
+    border-radius: $custom-border-radius;
+    background-color: $custom-inner-page-bg-color;
+    padding: $custom-page-padding;
+
   }
 }
 
