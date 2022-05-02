@@ -9,6 +9,7 @@
 locale                   : "en-US"
 theme                    : minimal-mistakes-jekyll
 minimal_mistakes_skin    : "dark" # "default", "dark", "neon", see https://mmistakes.github.io/minimal-mistakes/docs/configuration/
+search                   : true # enable site search
 title                    : "Jared Knofczynski"
 title_separator          : "|"
 name                     : &name "Jared Knofczynski"
@@ -50,8 +51,6 @@ staticman:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  # hide: true # use this to hide the RSS feed option
-search: true
 
 # SEO Related
 google_site_verification :
