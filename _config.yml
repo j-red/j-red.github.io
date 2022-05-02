@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jared Knofczynski - PhD Student"
+title                    : "Jared Knofczynski"
 title_separator          : "-"
 name                     : &name "Jared Knofczynski"
 description              : &description "personal description"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Jared Knofczynski"
   avatar           : "profile.png"
-  bio              : "PhD Student, Internet Data Scientist, Hobbyist Musician, and Breaker of Circuitboards."
+  bio              : "PhD Student, Internet Data Scientist, Hobbyist Musician, and Solderer of Circuitboards."
   location         : "Eugene, Oregon"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
