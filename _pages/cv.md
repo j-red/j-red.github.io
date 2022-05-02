@@ -11,22 +11,19 @@ redirect_from:
 
 [Click here](/files/resume.pdf) for a printable version of this page.
 
+-----------
+
 Education
 ======
 * B.S. in Mathematics, Computer Science, and Music Technology, University of Oregon, 2022
 * Ph.D in Computer Science, University of Oregon, 2024 (expected)
 
+-----------
+
 Research and Work Experience
 ======
 Coming soon --- For now, you can find my current CV [here](/files/resume.pdf).
-<!-- 
-<details>
-<summary>Experience</summary>
 
-Work in progress -- check back soon! For now, you can find my current CV [here](/files/resume.pdf).
-
-</details> 
--->
 
 <!-- 
 * Summer 2015: Research Assistant
@@ -38,8 +35,10 @@ Work in progress -- check back soon! For now, you can find my current CV [here](
   * Github University
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub 
-  -->
-  
+-->
+
+-----------
+
 Skills
 ======
 Coming soon
@@ -53,18 +52,24 @@ Coming soon
 * Skill 3 
 -->
 
+-----------
+
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
+-----------
+
 Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
+
+-----------
+
 Teaching Experience
 ======
   <ul>{% for post in site.teaching %}
