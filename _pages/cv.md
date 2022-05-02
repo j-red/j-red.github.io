@@ -18,13 +18,15 @@ Education
 
 Research and Work Experience
 ======
-
+Coming soon --- For now, you can find my current CV [here](/files/resume.pdf).
+<!-- 
 <details>
 <summary>Experience</summary>
 
 Work in progress -- check back soon! For now, you can find my current CV [here](/files/resume.pdf).
 
-</details>
+</details> 
+-->
 
 <!-- 
 * Summer 2015: Research Assistant

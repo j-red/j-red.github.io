@@ -8,10 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-Jared Knofczynski is a PhD student in the University of Oregon Department of Computer Science studying machine learning for networking applications. Jared received his B.S. in Mathematics, Computer Science, and Music Technology from the University of Oregon in March 2022, graduating <i>summa cum laude</i> with Departmental and University Honors. 
-Jared has been recognized with several fellowships and grants, including the [UO VPRI Fellowship](https://research.uoregon.edu/apply/apply-internal-funding/vpri-fellowship), the [Ripple UBRI Scholarship](https://ubri.ripple.com/), the [Phillip Seeley Graduate Fellowship](https://cs.uoregon.edu/activities/awards-and-honors/phillip-seeley-scholarship-computer-and-information-science), and [more](/awards).
+<div style="text-align: justify;"> 
+Jared Knofczynski is a PhD student in the University of Oregon Department of Computer Science studying machine learning for networking applications. 
+Jared received his B.S. in Mathematics, Computer Science, and Music Technology from the University of Oregon in March 2022, graduating <i>summa cum laude</i> with Departmental and University Honors. 
+Jared has been recognized with several fellowships and grants, including the 
+<a href="https://cs.uoregon.edu/activities/awards-and-honors/phillip-seeley-graduate-fellowship" target="_blank">Phillip Seeley Graduate Fellowship</a>, the 
+<a href="https://ubri.ripple.com/" target="_blank">Ripple UBRI Scholarship</a>, the
+<a href="https://research.uoregon.edu/apply/apply-internal-funding/vpri-fellowship" target="_blank">UO VPRI Fellowship</a>, and 
+<a href="/awards" target="_blank">more</a>.
 
-See [here](/files/resume.pdf) for a current resume.
+See <a href="/files/resume.pdf" target="_blank">here</a> for a current resume.
+</div>
 
 <!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
 
