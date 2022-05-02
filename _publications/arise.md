@@ -1,7 +1,7 @@
 ---
 title: "ARISE: A Multi-Task Weak Supervision Framework for Network Measurements"
 collection: publications
-permalink: /publication/2022-07-01-arise
+permalink: /publication/arise
 excerpt: 'A weakly-supervised multi-task learning framework for Internet traffic classification.'
 date: 2022-07-01
 venue: 'IEEE Journal on Selected Areas in Communications'
