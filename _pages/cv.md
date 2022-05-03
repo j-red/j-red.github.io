@@ -41,16 +41,58 @@ Coming soon --- For now, you can find my current CV [here](/files/resume.pdf).
 
 Skills
 ======
-Coming soon
+<details><summary>Programming Languages</summary>
+  <ul>
+    <li>Python</li>
+    <li>C, C#, C++</li>
+    <li>Bash scripting</li>
+    <li>HTML/CSS, JavaScript</li>
+  </ul>
+</details>
 
-<!-- 
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3 
--->
+<details><summary>Game Development</summary>
+  <ul>
+    <li>Unity (4+ years experience)</li>
+    <li><a href="https://j4red.itch.io/inhuman-resources">Inhuman Resources</a>, a game I developed as part of a team in Unity for CIS 410 Game Design. Source code available <a href="https://github.com/j-red/Inhuman-Resources">here</a>.</li>
+    <li>Limited experience in, and strong desire to learn more about, other game engines such as Unreal and Godot.</li>
+  </ul>
+</details>
+
+<details><summary>Music, Art, and Design</summary>
+  <ul>
+    <li>3D Modeling:</li>
+    <ul>
+      <li>Blender (6+ years experience)</li>
+      <li>Maya</li>
+      <li>Adobe Substance Painter</li>
+    </ul>
+    <li>Audio:</li>
+    <ul>
+      <li>Ableton Live</li>
+      <li>Audacity</li>
+      <li>Logic Pro</li>
+      <li>Max/MSP</li>
+      <li>PureData</li>
+      <li>JUCE</li>
+    </ul>
+    <li>Graphic Design:</li>
+    <ul>
+      <li>Adobe Creative Suite (PhotoShop, Illustrator) (4+ years experience)</li>
+      <li>Krita, paint.net</li>
+    </ul>
+  </ul>
+</details>
+
+
+<details><summary>Dev Ops</summary>
+  <ul>
+    <li>Linux/Ubuntu OS</li>
+    <li>Docker</li>
+    <li>MongoDB, SQL/NoSQL database management</li>
+    <li>Confluence</li>
+    <li>REST APIs</li>
+  </ul>
+</details>
 
 -----------
 
