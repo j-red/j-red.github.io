@@ -8,8 +8,8 @@ venue: 'Teuscher Labs'
 paperurl: 'https://archives.pdx.edu/ds/psu/33611'
 citation: 'J. Knofczynski, A. Killebrew Bruehl, B. Warner, and R. Shelton, Combating COVID on College Campuses: The Impact of Structural Changes on Viral Transmissions,&quot; <i>Portland State University Teuscher Labs</i>, August 2020.&quot;'
 ---
-A computational modeling simulation of airborne pathogen transmission in academic spaces demonstrating the importance of ventilation and social distancing in scholastic settings.
+A computational modeling simulation of airborne pathogen transmission in academic spaces demonstrating the importance of ventilation and social distancing in scholastic settings. Research conducted as part of the Summer 2020 altREU program at Portland State University.
 
 Published document available [here](https://archives.pdx.edu/ds/psu/33611).
 
-Recommended citation: J. Knofczynski, A. Killebrew Bruehl, B. Warner, and R. Shelton, Combating COVID on College Campuses: The Impact of Structural Changes on Viral Transmissions," <i>Portland State University Teuscher Labs</i>, August 2020."
+Recommended citation: J. Knofczynski, A. Killebrew Bruehl, B. Warner, and R. Shelton, "Combating COVID on College Campuses: The Impact of Structural Changes on Viral Transmissions," <i>Portland State University Teuscher Labs</i>, August 2020."
