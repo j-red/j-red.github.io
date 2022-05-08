@@ -20,6 +20,6 @@ Below are some additional examples of 3D projects I have created. All of these p
 
 ![A stylized, sci-fi hard-surface mask.](/images/3D/hard_surface_mask.png)
 
-<video width="320" height="240" controls>
+<video width="100%" controls loop>
   <source src="/images/3D/eye_colors.mp4" type="video/mp4">
 </video>
