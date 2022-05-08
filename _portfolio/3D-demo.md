@@ -12,14 +12,14 @@ A collection of my recent works made in Blender 3D.
 
 Below are some additional examples of 3D projects I have created. All of these projects were created in Blender 3D with some additional texture and asset creation done in Substance Painter. Reach out if you have any questions!
 
-![A realistic 3D rendering of an aerial ocean view.](../images/3D/ocean.png)
+![A realistic 3D rendering of an aerial ocean view.](/images/3D/ocean.png)
 
-![A still image of a stylized water shater.](../images/3D/water.png)
+![A still image of a stylized water shater.](/images/3D/water.png)
 
-![A realistic Nintendo GameBoy rendering.](../images/3D/gameboy.png)
+![A realistic Nintendo GameBoy rendering.](/images/3D/gameboy.png)
 
-![A stylized, sci-fi hard-surface mask.](../images/3D/hard_surface_mask.png)
+![A stylized, sci-fi hard-surface mask.](/images/3D/hard_surface_mask.png)
 
 <video width="320" height="240" controls>
-  <source src="../images/3D/eye_colors.mp4" type="video/mp4">
+  <source src="/images/3D/eye_colors.mp4" type="video/mp4">
 </video>
