@@ -1,6 +1,6 @@
 ---
 title: "3D Demo Reel (2022)"
-excerpt: "A collection of my recent works made in Blender 3D. <br/><a href="/portfolio/3D-demo"><img src='/images/3D/ocean.png'></a>"
+excerpt: "A collection of my recent works made in Blender 3D. <br/><img src='/images/3D/ocean.png'>"
 collection: portfolio
 date: 2022-04-01
 ---
