@@ -28,7 +28,13 @@ I create this NPR (non-photorealistic rendering) stylized sci-fi mask to further
 
 ![A stylized, sci-fi hard-surface mask.](/images/3D/hard_surface_mask.png)
 
-I also created a 2D looping animation of rotating eyes. While this was nowhere near the most complex 3D rendering I've done to date, it was still an interesting project, as I used only one instance of the eye mesh and used post-process scripting to separate the R, G, and B channels and rotate them about the origin.
+I also tried a simple turnaround render with this mask using some materials I created in Substance Painter.
+
+<video width="100%" controls loop>
+  <source src="/images/3D/scifimaskpbr.mp4" type="video/mp4">
+</video>
+
+And lastly, I created a 2D looping animation of rotating eyes. While this was nowhere near the most complex 3D rendering I've done to date, it was still an interesting project, as I used only one instance of the eye mesh and used post-process scripting to separate the R, G, and B channels and rotate them about the origin.
 
 <video width="100%" controls loop>
   <source src="/images/3D/eye_colors.mp4" type="video/mp4">
