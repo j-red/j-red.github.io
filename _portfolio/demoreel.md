@@ -2,7 +2,7 @@
 title: "3D Demo Reel (2022)"
 excerpt: "A collection of my recent works made in Blender 3D. <br/><img src='/images/3D/ocean.png'>"
 collection: portfolio
-date: 2022-04-01
+date: 2022-05-01
 ---
 
 A collection of my recent works made in Blender 3D.
