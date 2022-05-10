@@ -102,7 +102,7 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
+  <ul style="margin-block-start:-2em;">{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
@@ -110,7 +110,7 @@ Publications
 
 Talks
 ======
-  <ul>{% for post in site.talks reversed %}
+  <ul style="margin-block-start:-2em;">{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 
@@ -118,6 +118,6 @@ Talks
 
 Teaching Experience
 ======
-  <ul>{% for post in site.teaching reversed %}
+  <ul style="margin-block-start:-2em;">{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
