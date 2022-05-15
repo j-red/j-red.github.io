@@ -20,6 +20,10 @@ I also created this stylized water shader in Blender, this time using layers of 
 
 ![A still image of a stylized water shater.](/images/3D/water.png)
 
+This scene low-poly scene made heavy use of Blender's Shader-to-RGB node, which helped create the specular highlights on the glass bottle.
+
+![A tiny little man in a jar!](/images/3D/homunculus.png)
+
 I created this model of a classic Nintendo GameBoy to try my hand at hard-surface modeling and photorealistic rendering. Using technical blueprints from [dimensions.com](https://www.dimensions.com/element/game-boy), I was able to create a model from scratch that served as a to-scale 3D replica. I then textured the model in Substance Painter, with some additional textures used for the fingerprint smudging on the screen.
 
 ![A realistic Nintendo GameBoy rendering.](/images/3D/gameboy.png)
