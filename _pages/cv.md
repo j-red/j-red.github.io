@@ -16,7 +16,6 @@ A shorter resume focused on my **technical art** is available [here](/files/resu
 -----------
 
 Education
-
 ======
 
 * Ph.D in Computer Science, University of Oregon, 2024 (expected)
@@ -25,7 +24,6 @@ Education
 -----------
 
 Research and Work Experience
-
 ======
 
 Listed below are some of my most recent positions -- for more information, see my CV [here](/files/cv.pdf).
@@ -42,7 +40,6 @@ Listed below are some of my most recent positions -- for more information, see m
 -----------
 
 Skills
-
 ======
 <details><summary>Programming Languages</summary>
   <ul>
@@ -101,27 +98,26 @@ Skills
 
 -----------
 
-Publications
+<!-- These are Jekyll/Liquid loop templates. -->
 
+Publications
 ======
-  <ul>{% for post in site.publications %}
+  <ul style="margin-block-start:-2em;">{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
 -----------
 
 Talks
-
 ======
-  <ul>{% for post in site.talks %}
+  <ul style="margin-block-start:-2em;">{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 
 -----------
 
 Teaching Experience
-
 ======
-  <ul>{% for post in site.teaching %}
+  <ul style="margin-block-start:-2em;">{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
