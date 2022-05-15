@@ -12,6 +12,7 @@ redirect_from:
 
 Jared has been recognized with several awards, including:
 
+* Membership in the [Phi Beta Kappa](https://www.pbk.org/) Honors Society.
 * The [Phillip Seeley Graduate Fellowship](https://cs.uoregon.edu/activities/awards-and-honors/phillip-seeley-graduate-fellowship), 2022.
 * The [Ripple UBRI Scholarship](https://ubri.ripple.com/) in 2020, 2021, and 2022.
 * The [UO VPRI Fellowship](https://research.uoregon.edu/apply/apply-internal-funding/vpri-fellowship), 2021.
