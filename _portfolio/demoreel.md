@@ -12,6 +12,10 @@ A collection of my recent works made in Blender 3D.
 
 Below are some additional examples of 3D projects I have created. All of these projects were created in Blender 3D with some additional texture and asset creation done in Substance Painter. Reach out if you have any questions!
 
+My most recent project, this was a set of stereo headphones inspired by the 1969 Panasonic FM Stereo Headset RF-60 Model. I created and UV mapped the model in Blender, and designed the textures in substance painter.
+
+<div class="sketchfab-embed-wrapper"> <iframe title="Panasonic FM Stereo Headset RF-60 Model (1969)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/f430e1eaad424903bc282ced28da32a8/embed?ui_theme=dark&dnt=1"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/panasonic-fm-stereo-headset-rf-60-model-1969-f430e1eaad424903bc282ced28da32a8?utm_medium=embed&utm_campaign=share-popup&utm_content=f430e1eaad424903bc282ced28da32a8" target="_blank" style="font-weight: bold; color: #1CAAD9;"> Panasonic FM Stereo Headset RF-60 Model (1969) </a> by <a href="https://sketchfab.com/j4red?utm_medium=embed&utm_campaign=share-popup&utm_content=f430e1eaad424903bc282ced28da32a8" target="_blank" style="font-weight: bold; color: #1CAAD9;"> j4red </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=f430e1eaad424903bc282ced28da32a8" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+
 I created this realistic ocean scene using a combination of EXR wave displacement data and several layers of procedural noise to control the clumping and intensity of the waves. The scene was rendered in Cycles in Blender 3D overnight on a laptop that was not very happy with me!
 
 ![A realistic 3D rendering of an aerial ocean view.](/images/3D/ocean.png)
