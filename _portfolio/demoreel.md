@@ -18,6 +18,10 @@ My most recent project, this was a set of stereo headphones inspired by the 1969
 <iframe style="margin: auto;" width="100%" height="480px" title="Panasonic FM Stereo Headset RF-60 Model (1969)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/f430e1eaad424903bc282ced28da32a8/embed?ui_theme=dark&dnt=1"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/panasonic-fm-stereo-headset-rf-60-model-1969-f430e1eaad424903bc282ced28da32a8?utm_medium=embed&utm_campaign=share-popup&utm_content=f430e1eaad424903bc282ced28da32a8" target="_blank" style="font-weight: bold; color: #1CAAD9;"> Panasonic FM Stereo Headset RF-60 Model (1969) </a> by <a href="https://sketchfab.com/j4red?utm_medium=embed&utm_campaign=share-popup&utm_content=f430e1eaad424903bc282ced28da32a8" target="_blank" style="font-weight: bold; color: #1CAAD9;"> j4red </a></p>
 </div>
 
+A more stylized attempt at rendering an airship using Blender's freestyle and grease pencil tools. 
+
+![](/images/3D/fightership.png)
+
 I created this realistic ocean scene using a combination of EXR wave displacement data and several layers of procedural noise to control the clumping and intensity of the waves. The scene was rendered in Cycles in Blender 3D overnight on a laptop that was not very happy with me!
 
 ![A realistic 3D rendering of an aerial ocean view.](/images/3D/ocean.png)
