@@ -21,7 +21,7 @@ My most recent project, a more stylized attempt at rendering an airship using Bl
 This was a set of stereo headphones inspired by the 1969 Panasonic FM Stereo Headset RF-60 Model. I created and UV mapped the model in Blender, and designed the textures in Substance Painter.
 
 <div class="sketchfab-embed-wrapper">
-<iframe style="margin: auto;" width="100%" height="480px" title="Panasonic FM Stereo Headset RF-60 Model (1969)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/f430e1eaad424903bc282ced28da32a8/embed?ui_theme=dark&dnt=1"> </iframe></div>
+<iframe style="margin: auto; margin-bottom:1em;" width="100%" height="480px" title="Panasonic FM Stereo Headset RF-60 Model (1969)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/f430e1eaad424903bc282ced28da32a8/embed?ui_theme=dark&dnt=1"> </iframe></div>
 
 I created this realistic ocean scene using a combination of EXR wave displacement data and several layers of procedural noise to control the clumping and intensity of the waves. The scene was rendered in Cycles in Blender 3D overnight on a laptop that was not very happy with me!
 
