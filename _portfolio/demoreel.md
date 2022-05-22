@@ -14,7 +14,7 @@ Below are some additional examples of 3D projects I have created. All of these p
 
 My most recent project, a more stylized attempt at rendering an airship using Blender's freestyle and grease pencil tools.
 
-<div class="sketchfab-embed-wrapper"> <iframe title="Stylized Fighter Aircraft" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/afa2411ab5784029963aced6482ff7bc/embed?ui_theme=dark"> </iframe> </div>
+<div class="sketchfab-embed-wrapper"> <iframe title="Stylized Fighter Aircraft" style="margin: auto; width: 100%; margin-bottom: 1em;" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/afa2411ab5784029963aced6482ff7bc/embed?ui_theme=dark"> </iframe> </div>
 
 ![](/images/3D/fightership.png)
 
