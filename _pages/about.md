@@ -18,5 +18,5 @@ Jared has been recognized with several honors, fellowships, and grants, includin
 <a href="https://research.uoregon.edu/apply/apply-internal-funding/vpri-fellowship" target="_blank">UO VPRI Fellowship</a>, and 
 <a href="/awards" target="_blank">more</a>.</p>
 
-<p>See <a href="/files/resume.pdf" target="_blank">here</a> for a current resume or my <a href="">portfolio page</a> to see a collection of my recent work.</p>
+<p>See <a href="/files/resume.pdf" target="_blank">here</a> for a current resume or my <a href="/portfolio">portfolio page</a> to see a collection of my recent work.</p>
 </div>
