@@ -31,17 +31,20 @@ Well, that's pretty much what I've done.
 * Apicula is under the 0BSD license (a Free Public License with no liabilities or restrictions)
 * Once the files are dumped, attempt to parse all of them as .dae files with 
   * `apicula convert <TARGET DIR>/* <MODEL OUTPUT DIR>`
-* Then, target this new output dir in the blender addon and run! Change the configuration settings for textures, etc., as you see fit
+
+## Tool development
+
+During this process, I also wrote several smaller scripts to help facilitate the organization/viewport performance across different scenes. As the ROM that I used had nearly 6000 models (each with their own materials, textures, and rigging information!), it was important that the viewport be performant.
+
+### NDS Importer
+
+* To bring the `DAE` files into Blender, target this new output dir in the Blender importer script and run! Change the configuration settings for textures, etc., as you see fit
 * The script does several things, including:
   * Imports the model and renames it according to the apicula file that was extracted (important for organization instead of having hundreds of `Armature.001`s clogging up the scene)
   * Automatically links the input texture alpha to the materials in the viewport
   * Automatically enables transparency with Alpha Clip for both opaque and transparent surfaces
   * Automatically sets the texture interpolation to any of Blender's available options (I chose "Closest", meaning no interpolation, as the other options would make the pixel art less crisp.)
 * My script was tested on the game DragonQuest IX, a popular game that I remember fondly from my childhood.
-
-## Tool development
-
-During this process, I also wrote several smaller scripts to help facilitate the organization/viewport performance across different scenes. As the ROM that I used had nearly 6000 models (each with their own materials, textures, and rigging information!), it was important that the viewport be performant.
 
 ### Regular Expression Selection
 
@@ -83,8 +86,20 @@ I learned a lot from this project.
 
 ### Source Code
 
-[TODO](#overview)
+My utility scripts including the [**NDS Importer**](https://github.com/j-red/blender-addons/tree/main/nds-importer/) and [**Object Redistributor**](https://github.com/j-red/blender-addons/tree/main/redistributor) are available on [GitHub](https://github.com/j-red/blender-addons/).
 
 ### Disclaimer  
 
 I do not endorse any illegal activity regarding ROM hacking or the abuse of copyright law or intellectual property. Only use this tool for files you own and have the right to use!  
+
+
+## Testing on [Legend of Zelda: Phantom Hourglass](https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Phantom_Hourglass) (2007)
+
+* Move the `.NDS` file to the same directory as the `apicula` executable
+* Run `apicula extract zelda.nds -o loz` to extract the game data
+* Run `apicula convert loz/* -o loz_out/` to convert the game files into 3D meshes that Blender can read
+  * This returned the output, `Got 1119 models, 3518 textures, 3509 palettes, 3527 animations, 1808 pattern animations, 132 material animations.`
+  * After some time, it concluded with `Wrote 1119 DAEs, 1953 PNGs.`
+* Then, open Blender and load the `nds-importer.py` script. Change the parameters to point to the `loz_out/` directory. Change the number to import at a time and run!
+* The UVs aren't perfect, but the meshes and textures appear to be intact. 
+  * Not bad for a game nearly of drinking age! (In Canada/Europe, at least)
