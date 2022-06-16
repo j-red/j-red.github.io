@@ -1,4 +1,4 @@
-{%- assign social = site.minima.social_links -%}
+{%- assign social = site.socials -%}
 
 <ul class="social-media-list">
   {%- for glb in social.gitlab -%}{%- if glb.username and glb.instance -%}<li><a rel="me" href="https://{{ glb.instance | cgi_escape | escape}}/{{glb.username}}" target="_blank" title="{{ glb.username | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#gitlab' | relative_url }}"></use></svg></a></li>{%- endif -%}{%- endfor -%}
@@ -12,7 +12,7 @@
   {%- if social.pinterest -%}<li><a rel="me" href="https://www.pinterest.com/{{ social.pinterest | cgi_escape | escape }}" target="_blank" title="{{ social.pinterest | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#pinterest' | relative_url }}"></use></svg></a></li>{%- endif -%}
   {%- for mst in social.mastodon -%}{%- if mst.username and mst.instance -%}<li><a rel="me" href="https://{{ mst.instance | cgi_escape | escape}}/@{{mst.username}}" target="_blank" title="{{ mst.username | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#mastodon' | relative_url }}"></use></svg></a></li>{%- endif -%}{%- endfor -%}
   
-  {%- if social.twitter -%}<li><a rel="me" href="https://twitter.com/{{ social.twitter | cgi_escape | escape }}" target="_blank" title="{{ social.twitter | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg></a></li>{%- endif -%}
+  {%- if site.twitter -%}<li><a rel="me" href="https://twitter.com/{{ site.twitter | cgi_escape | escape }}" target="_blank" title="{{ site.twitter | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg></a></li>{%- endif -%}
 
   {%- if social.youtube -%}<li><a rel="me" href="https://www.youtube.com/{{ social.youtube | cgi_escape | escape }}" target="_blank" title="{{ social.youtube | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg></a></li>{%- endif -%}
   {%- if social.youtube_channel -%}<li><a rel="me" href="https://www.youtube.com/channel/{{ social.youtube_channel | cgi_escape | escape }}" target="_blank" title="{{ social.youtube_channel_name | escape | default: 'YouTube' }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg></a></li>{%- endif -%}
@@ -20,4 +20,8 @@
   {%- if social.keybase -%}<li><a rel="me" href="https://keybase.io/{{ social.keybase | cgi_escape | escape }}" target="_blank" title="{{ social.keybase | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#keybase' | relative_url }}"></use></svg></a></li>{%- endif -%}
   {%- if social.microdotblog -%}<li><a rel="me" href="https://micro.blog/{{ social.microdotblog | cgi_escape | escape }}" target="_blank" title="{{ social.microdotblog | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#microdotblog' | relative_url }}"></use></svg></a></li>{%- endif -%}
   {%- if social.devto -%}<li><a href="https://dev.to/{{ social.devto | cgi_escape | escape }}" target="_blank" title="{{ social.devto | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#devto' | relative_url }}"></use></svg></a></li>{%- endif -%}
+
+  {%- if social.orcid -%}<li><a rel="me" href="https://orcid.org/{{ social.orcid | cgi_escape | escape }}" target="_blank" title="{{ social.orcid | escape }}"><img class="svg-icon" alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" /></a></li>{%- endif -%}
 </ul>
+
+<!-- {{ site.socials | jsonify | escape }} -->

@@ -18,13 +18,7 @@ author:
   bio: "PhD Student, Technical Artist, and Internet Data Scientist currently located in Oregon."
   location: "Eugene, Oregon"
   avatar: "profile.png"
-  # employer: 
-  github: "j-red"
-  orcid: "https://orcid.org/0000-0002-6658-8527"
-  linkedin: "knofczynski"
-  twitter: "okcomputerrrrrr"
-  # soundcloud: 
-  # stackoverflow:
+  employer: 
 
 twitter: "okcomputerrrrrr"
 
@@ -33,48 +27,44 @@ description: > # this means to ignore newlines until "show_excerpts:"
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
+socials:
+  twitter: okcomputerrrrrr
+  github_username:  j-red
+  github:  j-red
+  orcid: 0000-0002-6658-8527
+  linkedin: knofczynski
+  soundcloud: 
+  stackoverflow: 
+  # devto: jekyll
+  # dribbble: jekyll
+  # facebook: jekyll
+  # flickr:   jekyll
+  # instagram: jekyll
+  # pinterest: jekyll
+  # youtube: jekyll
+  # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+  # youtube_channel_name: CloudCannon
+  # telegram: jekyll
+  # googleplus: +jekyll
+  # microdotblog: jekyll
+  # keybase: jekyll
+
+  # Mastodon instances
+  # mastodon:
+  # - username: jekyll
+  #   instance: example.com
+  # - username: jekyll2
+  #   instance: example.com
+
+  # GitLab instances
+  # gitlab:
+  # - username: jekyll
+  #   instance: example.com
+  # - username: jekyll2
+  #   instance: example.com
+
 # Minima date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-minima:
-  date_format: "%b %-d, %Y"
-
-  # generate social links in footer
-  social_links:
-    twitter: okcomputerrrrrr
-    github_username:  j-red
-    github:  j-red
-    orcid: 0000-0002-6658-8527
-    linkedin: 
-    soundcloud: 
-    stackoverflow: 
-    # devto: jekyll
-    # dribbble: jekyll
-    # facebook: jekyll
-    # flickr:   jekyll
-    # instagram: jekyll
-    # linkedin: knofczynski
-    # pinterest: jekyll
-    # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    # youtube_channel_name: CloudCannon
-    # telegram: jekyll
-    # googleplus: +jekyll
-    # microdotblog: jekyll
-    # keybase: jekyll
-
-    # Mastodon instances
-    # mastodon:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
-
-    # GitLab instances
-    # gitlab:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
+date_format: "%b %-d, %Y"
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
