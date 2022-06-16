@@ -93,10 +93,9 @@ minima:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-gist
   - jemoji
-  - jekyll-email-protect
   - jekyll-redirect-from
+  # - jekyll-email-protect
 
 author:
   # name: John Smith
@@ -105,7 +104,6 @@ author:
 whitelist:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-gist
   - jemoji
-  - jekyll-email-protect
   - jekyll-redirect-from
+  # - jekyll-email-protect

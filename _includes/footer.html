@@ -18,8 +18,8 @@
             <li class="p-name">{{ site.author.name | escape }}</li>
           {% endif -%}
           {% if site.author.email -%}
-            <!-- <li><a class="u-email" href="mailto:{{ site.author.email | encode_email }}">{{ site.author }}</a></li> -->
-            <li><a class="u-email" href="mailto:{{ site.author.email | encode_email }}">Contact me</a></li>
+            <!-- <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author }}</a></li> -->
+            <li><a class="u-email" href="mailto:{{ site.author.email }}">Contact me</a></li>
           {%- endif %}
         </ul>
       {%- endif %}
