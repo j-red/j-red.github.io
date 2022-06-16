@@ -1,43 +1,106 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
 
-title: Edit _config.yml to set your title!
-description: This is where the description of your site will go. You should change it by editing the _config.yml file. It can be as long as you like! Happy blogging... ❤
-github_username: jph00
+# Site Settings
+locale                   : "en-US"
+search                   : true # enable site search
+title                    : Jared Kzy
+title_separator          : "-"
+url                      : https://j-red.github.io
+baseurl                  : "" # e.g., "/blog" if hosted in a subdirectory
+words_per_minute         : 160
 
-# Email and twitter are optional:
-email:
-twitter_username:
+author:
+  name: j-red
+  email: jared@cs.uoregon.edu
+  bio: "PhD Student, Technical Artist, and Internet Data Scientist currently located in Oregon."
+  location: "Eugene, Oregon"
+  avatar: "profile.png"
+  employer: 
+  github: "j-red"
+  orcid: "https://orcid.org/0000-0002-6658-8527"
+  linkedin: "knofczynski"
+  soundcloud: 
+  stackoverflow:
+  twitter: "okcomputerrrrrr"
 
-# Set this to true to get LaTeX math equation support
-use_math:
 
-# Add your Google Analytics ID here if you have one and want to use it
-google_analytics:
+description: > # this means to ignore newlines until "show_excerpts:"
+  PhD student, Technical Artist, and Internet Data Scientist currently located in Oregon.
 
-# Everything below here can be ignored, unless you want to change the theme entirely
+show_excerpts: false # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    twitter: okcomputerrrrrr
+    github_username:  j-red
+    orcid: 0000-0002-6658-8527
+    # devto: jekyll
+    # dribbble: jekyll
+    # facebook: jekyll
+    # flickr:   jekyll
+    # instagram: jekyll
+    # linkedin: knofczynski
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+    # keybase: jekyll
+
+    # Mastodon instances
+    # mastodon:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+    # GitLab instances
+    # gitlab:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+- about.md
+- portfolio.md
+- publications.md
+- cv.md
+- blog.md
+
+# Build settings
 theme: minima
+minima:
+  skin: dark
+
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-gist
-  - jekyll-octicons
-  - jekyll-github-metadata
+  - jemoji
+  - jekyll-email-protect
+  - jekyll-redirect-from
 
-titles_from_headings:
-  enabled:     true
-  strip_title: true
-  collections: true
+author:
+  # name: John Smith
+  email: "jared@cs.uoregon.edu"
 
-highlighter: rouge
-markdown: kramdown
-kramdown:
-  math_engine: katex
-  input: GFM
-  auto_ids: true
-  hard_wrap: false
-  syntax_highlighter: rouge
+whitelist:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jemoji
+  - jekyll-email-protect
+  - jekyll-redirect-from

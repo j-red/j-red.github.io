@@ -1,7 +1,21 @@
-Hello and welcome to this blog. Edit the `index.md` file to change this content. All pages on the blog, including this one, use [Markdown](https://guides.github.com/features/mastering-markdown/). You can include images:
+---
+#
+# By default, content added below the "---" mark will appear in the home page
+# between the top bar and the list of recent posts.
+# To change the home page layout, edit the _layouts/home.html file.
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+#
+layout: home
+title: ""
+---
 
-![Image of fast.ai logo](images/logo.png)
+### **PhD STUDENT & INTERNET DATA SCIENTIST, University of Oregon**  
 
-## This is a title
+Graduate researcher with a degree in Math, Computer Science, and Music Technology.  
+Conducting research on Machine Learning methods for Network Management and Cybersecurity. 
 
-And you can include links, like this [link to fast.ai](https://www.fast.ai). Posts will appear after this file. 
+Sometimes I blog about computers.  
+
+--------
+
+## Recent posts
