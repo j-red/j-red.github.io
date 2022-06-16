@@ -4,29 +4,19 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Jared Knofczynski is a PhD student in the [University of Oregon Department of Computer Science]("https://cs.uoregon.edu/) studying machine learning for networking applications.  
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
-
-Jared Knofczynski is a PhD student in the [University of Oregon Department of Computer Science]("https://cs.uoregon.edu/) studying machine learning for networking applications. 
 Jared received a B.S. in Mathematics, Computer Science, and Music Technology from the University of Oregon in March 2022, graduating *summa cum laude* with Departmental and University Honors. 
+
 Jared has been recognized with several honors, fellowships, and grants, including membership in the 
 <a href="https://www.pbk.org/" target="_blank">Phi Beta Kappa</a> Honors Society, the
 <a href="https://cs.uoregon.edu/activities/awards-and-honors/phillip-seeley-graduate-fellowship" target="_blank">Phillip Seeley Graduate Fellowship</a>, the 
 <a href="https://ubri.ripple.com/" target="_blank">Ripple UBRI Scholarship</a>, the
 <a href="https://research.uoregon.edu/apply/apply-internal-funding/vpri-fellowship" target="_blank">UO VPRI Fellowship</a>, and 
-<a href="/awards" target="_blank">more</a>.</p>
+more.
+<!-- <a href="/awards" target="_blank">more</a>. -->
 
-See <a href="/files/resume.pdf" target="_blank">here</a> for a current resume or my <a href="/portfolio">portfolio page</a> to see a collection of my recent work.
+See <a href="/files/cv.pdf" target="_blank">here</a> for a current resume or my <a href="/portfolio">portfolio page</a> for a collection of my recent work.
 
 
 

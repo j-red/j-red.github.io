@@ -18,14 +18,15 @@ author:
   bio: "PhD Student, Technical Artist, and Internet Data Scientist currently located in Oregon."
   location: "Eugene, Oregon"
   avatar: "profile.png"
-  employer: 
+  # employer: 
   github: "j-red"
   orcid: "https://orcid.org/0000-0002-6658-8527"
   linkedin: "knofczynski"
-  soundcloud: 
-  stackoverflow:
   twitter: "okcomputerrrrrr"
+  # soundcloud: 
+  # stackoverflow:
 
+twitter: "okcomputerrrrrr"
 
 description: > # this means to ignore newlines until "show_excerpts:"
   PhD student, Technical Artist, and Internet Data Scientist currently located in Oregon.
@@ -41,7 +42,11 @@ minima:
   social_links:
     twitter: okcomputerrrrrr
     github_username:  j-red
+    github:  j-red
     orcid: 0000-0002-6658-8527
+    linkedin: 
+    soundcloud: 
+    stackoverflow: 
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll

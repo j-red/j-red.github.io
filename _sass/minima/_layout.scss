@@ -186,6 +186,8 @@
     &:first-child {
       padding-right: $spacing-unit / 2;
       padding-left: 0;
+
+      width: 25%; // custom
     }
 
     &:last-child {
