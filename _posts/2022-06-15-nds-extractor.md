@@ -61,6 +61,8 @@ During this process, I also wrote several smaller scripts to help facilitate the
 * I also wrote scripts to organize and redistribute the armatures in the scene -- deleting several copies, moving them between scenes, etc., often resulted in chaotic arrangements of the armatures. So, I used Python to once again extend the Blender backend to automatically rearrange the characters/models/rigs into a grid arrangement for easier access.
 * Would be nice to utilize a grid packing algorithm to consolidate them as much as possible, or check the sizing information/dimensions of each object first to pack according to model size.
 
+* Modifying the existing rigs and adding Inverse Kinematics for manual animation
+
 ![A monster's idle animation with IK bones sticking out](/assets/blog/nds-extractor/demon-ik.gif)
 		
 ## My Findings  
