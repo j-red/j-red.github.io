@@ -4,6 +4,15 @@ title: About
 permalink: /about/
 ---
 
+Hello! My name's Jared, I'm a freelance technical artist and Ph.D. student from the Pacific Northwest. I graduated from the University of Oregon with a degree in **Math**, **Computer Science**, and **Music Technology** in March 2022, but am currently on hiatus from my Ph.D. seeking to develop my portfolio and find a full-time position in the field.
+
+During my education, I received several awards and honors, including membership in the 
+<a href="https://www.pbk.org/" target="_blank">Phi Beta Kappa</a> Honors Society, the
+<a href="https://cs.uoregon.edu/activities/awards-and-honors/phillip-seeley-graduate-fellowship" target="_blank">Phillip Seeley Graduate Fellowship</a>, the 
+<a href="https://ubri.ripple.com/" target="_blank">Ripple UBRI Scholarship</a>, the
+<a href="https://research.uoregon.edu/apply/apply-internal-funding/vpri-fellowship" target="_blank">UO VPRI Fellowship</a>, and 
+more.
+
 Jared Knofczynski is a PhD student in the [University of Oregon Department of Computer Science]("https://cs.uoregon.edu/) studying machine learning for networking applications.  
 
 Jared received a B.S. in Mathematics, Computer Science, and Music Technology from the University of Oregon in March 2022, graduating *summa cum laude* with Departmental and University Honors. 
@@ -13,8 +22,7 @@ Jared has been recognized with several honors, fellowships, and grants, includin
 <a href="https://cs.uoregon.edu/activities/awards-and-honors/phillip-seeley-graduate-fellowship" target="_blank">Phillip Seeley Graduate Fellowship</a>, the 
 <a href="https://ubri.ripple.com/" target="_blank">Ripple UBRI Scholarship</a>, the
 <a href="https://research.uoregon.edu/apply/apply-internal-funding/vpri-fellowship" target="_blank">UO VPRI Fellowship</a>, and 
-more.
-<!-- <a href="/awards" target="_blank">more</a>. -->
+<a href="/awards" target="_blank">more</a>.
 
 See <a href="/files/cv.pdf" target="_blank">here</a> for a current resume or my <a href="/portfolio">portfolio page</a> for a collection of my recent work.
 

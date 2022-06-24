@@ -3,7 +3,7 @@ layout: post
 title: "Nintendo DS Model Extraction"
 categories: misc 3D
 permalink: /nds-extractor/
-excerpt: "Extracting 3D models and their respective textures from Nintendo DS game files."
+excerpt: "Developing tools to extract 3D models from Nintendo game files."
 ---
 
 <h3>Table of Contents </h3>
@@ -46,35 +46,54 @@ During this process, I also wrote several smaller scripts to help facilitate the
   * Automatically sets the texture interpolation to any of Blender's available options (I chose "Closest", meaning no interpolation, as the other options would make the pixel art less crisp.)
 * My script was tested on the game DragonQuest IX, a popular game that I remember fondly from my childhood.
 
+![Models imported from Dragon Quest 9](/assets/blog/nds-extractor/raw-extract.png)
+<p class='caption'>Colladae models imported and arranged automatically by my custom script.</p>
+
 ### Regular Expression Selection
 
-* I also found that (at least for this game), practically every model had several copies and different skins, so there was a lot of repeated content that I didn't feel would be useful or helpful to keep around. Additionally, some versions of the LOD meshes were improperly skinned/fixed by Blender's tris-to-quads algorithm, but as there were multiple copies, I could just delete these to not worry about them and use the properly skinned versions instead.
-* One thing I noticed was the lower-quality level-of-detail ("LOD") mesh objects always matched the higher quality version, with the addition of "_f" at the end of the name. As Blender doesn't have a way to select by name like this (that I know of!), I decided to write a simple tool to let me do that as well.
+* I also found that (at least for this game), practically every model had several copies and different skins, so there was a lot of repeated content that I didn't feel would be useful or helpful to keep around. Additionally, some versions of the LoD meshes were improperly skinned/fixed by Blender's tris-to-quads algorithm, but as there were multiple copies, I could just delete these to not worry about them and use the properly skinned versions instead.
+* One thing I noticed was the lower-quality level-of-detail ("LoD") mesh objects always matched the higher quality version, with the addition of "_f" at the end of the name. As Blender doesn't have a way to select by name like this*\**, I decided to write a simple tool to let me do that as well. **Note: it does! I just didn't know it was there.**
 	* Edit: I found the option to do so in Blender using the Select -> Select Pattern menu. While I'm thrilled to know this is here (and shows you learn something new about Blender every day!), I had fun writing my own addon extension for it and appreciated the practice in using Blender's class system for registering and unregistering modules, as well as executing code through the UI panels.
-* I wanted a way to select objects and armatures using regular-expression style notation, which would (for example) allow me to select and isolate all the LOD meshes matching the pattern "*_f"
+* I wanted a way to select objects and armatures using regular-expression style notation, which would (for example) allow me to select and isolate all the LoD meshes matching the pattern "*_f"
 * Calling it "re-select", for "regular expression select"
   * Of course, while I was trying to figure out where to put the menu for the addon, I was looking in the built-in Blender "Select" menu and found the 'Select Pattern' tool, which does basically exactly what the tool I just made does, if not better. Oh well. It was still a good learning experience.
+
+![Using RE Select to identify duplicate meshes in the scene](/assets/blog/nds-extractor/regex.gif)
+<p class='caption'>Using RE-Select to identify duplicate LoD meshes in the scene.</p>
+
+![Models remaining after deleting LoD models and other models I found uninteresting](/assets/blog/nds-extractor/LoD-delete.png)
+<p class='caption'>Models remaining after selecting and deleting all duplicate LoD meshes.</p>
 
 ### Redistributor
 
 * One thing that I DIDN'T find a built-in tool for was neatly arranging large quantities of models/objects in a scene. So, I wrote something to fix that too.  
+
+![Rearranging models from previous step](/assets/blog/nds-extractor/LoD-reorganize.png)
+<p class='caption'>Redistributing the meshes from the previous step into an organized grid.</p>
+
 * I also wrote scripts to organize and redistribute the armatures in the scene -- deleting several copies, moving them between scenes, etc., often resulted in chaotic arrangements of the armatures. So, I used Python to once again extend the Blender backend to automatically rearrange the characters/models/rigs into a grid arrangement for easier access.
 * Would be nice to utilize a grid packing algorithm to consolidate them as much as possible, or check the sizing information/dimensions of each object first to pack according to model size.
+
+![Aligning objects automatically with my Redistributor tool.](/assets/blog/nds-extractor/redistributor.gif)
+<p class='caption'>Arranging objects with my Redistributor tool.</p>
 
 * Modifying the existing rigs and adding Inverse Kinematics for manual animation
 
 ![A monster's idle animation with IK bones sticking out](/assets/blog/nds-extractor/demon-ik.gif)
+<p class='caption'>With the rigs intact, I could easily set up inverse kinematics to create new animations for the existing models.</p>
 		
 ## My Findings  
 
 * A surprising number of particle effects, etc., have their own rigged objects which are animated using UV map displacement; this is different from modern games (e.g., Unity in my experience), which use particle systems and complex shaders/node graphs to achieve the same effects. Cool to see similar styles achieved with much more severe hardware constraints.
 
 ![.GIF of moving the rigging bones in a particle effect object](/assets/blog/nds-extractor/particle-rig.gif)
+<p class='caption'>Apparently even particles need bones. Who knew?</p>
 
 * Facial features and other characteristics reused across skins are often separate and use a separate material (e.g., slime eyes), which is really clever and neat.
 * I still didn't find the player models or any* (I found one) NPCs, which is really what I was looking for. Sad.
 
 ![Screenshot of the character Aquila from Dragon Quest IX](/assets/blog/nds-extractor/aquila.png)
+<p class='caption'>A textured model and its wireframe view after cleanup by my import script.</p>
 
 ## Conclusion  
 <!-- <h2 style="display: inline;"> -->
@@ -94,7 +113,7 @@ My utility scripts including the [**NDS Importer**](https://github.com/j-red/ble
 
 I do not endorse any illegal activity regarding ROM hacking or the abuse of copyright law or intellectual property. Only use this tool for files you own and have the right to use!  
 
-
+<!-- 
 ## Testing on [Legend of Zelda: Phantom Hourglass](https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Phantom_Hourglass) (2007)
 
 * Move the `.NDS` file to the same directory as the `apicula` executable
@@ -104,4 +123,6 @@ I do not endorse any illegal activity regarding ROM hacking or the abuse of copy
   * After some time, it concluded with `Wrote 1119 DAEs, 1953 PNGs.`
 * Then, open Blender and load the `nds-importer.py` script. Change the parameters to point to the `loz_out/` directory. Change the number to import at a time and run!
 * The UVs aren't perfect, but the meshes and textures appear to be intact. 
-  * Not bad for a game nearly of drinking age! (In Canada/Europe, at least)
+  * Not bad for a game nearly of drinking age! (In Canada/Europe, at least) 
+
+-->

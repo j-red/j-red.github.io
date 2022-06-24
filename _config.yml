@@ -15,7 +15,7 @@ words_per_minute         : 160
 author:
   name: j-red
   email: jared@cs.uoregon.edu
-  bio: "PhD Student, Technical Artist, and Internet Data Scientist currently located in Oregon."
+  bio: "Freelance Technical Artist and Ph.D. student from the Pacific Northwest."
   location: "Eugene, Oregon"
   avatar: "profile.png"
   employer: 
@@ -23,9 +23,9 @@ author:
 twitter: "okcomputerrrrrr"
 
 description: > # this means to ignore newlines until "show_excerpts:"
-  PhD student, Technical Artist, and Internet Data Scientist currently located in Oregon.
+  Technical Artist & Ph.D. student from the Pacific Northwest.
 
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: true # set to true to show excerpts on the homepage
 
 socials:
   twitter: okcomputerrrrrr
@@ -72,6 +72,7 @@ header_pages:
 - about.md
 - portfolio.md
 - publications.md
+- resume.html
 - cv.md
 - blog.md
 
