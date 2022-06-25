@@ -9,7 +9,7 @@ layout: home
 title: ""
 ---
 
-### **PhD STUDENT & INTERNET DATA SCIENTIST, University of Oregon**  
+### **TECHNICAL ARTIST & Ph.D. STUDENT, University of Oregon**  
 
 Freelance technical artist with a degree in Math, Computer Science, and Music Technology. 
 Avid musician, 3D modeler, and software engineer.  
