@@ -11,10 +11,10 @@ title: ""
 
 ### **PhD STUDENT & INTERNET DATA SCIENTIST, University of Oregon**  
 
-Graduate researcher with a degree in Math, Computer Science, and Music Technology.  
-Conducting research on Machine Learning methods for Network Management and Cybersecurity. 
+Freelance technical artist with a degree in Math, Computer Science, and Music Technology. 
+Avid musician, 3D modeler, and software engineer.  
 
-Sometimes I blog about computers.  
+Sometimes I [blog](/blog/) about computers or various other projects. Take a look at my [portfolio](/portfolio) or [resume](/resume) if interested, and feel free to reach out!
 
 --------
 

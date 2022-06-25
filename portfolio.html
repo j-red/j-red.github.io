@@ -1,0 +1,140 @@
+---
+layout: page
+title: Portfolio
+permalink: /portfolio/
+---
+
+<style>
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    /* Create two equal columns that sits next to each other */
+    .column {
+        flex: 50%;
+        padding: 0 4px;
+    }
+
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+    }
+
+    .portfolio-item:hover {
+        scale: 120%;
+        transition: scale 0.1s ease-out;
+    }
+
+    .portfolio-item {
+        transition: scale 0.1s ease-out;
+    }
+</style>
+
+<div id="content">
+    <p>Below are some screenshots from my past and current projects. For more info on any of them, click the links attached or check out my <a href="/blog">blog</a>.</p>
+
+    <div class="row" id="portfolio-grid">
+        <div class="column">
+            <a href="/arcadeflight/" title="A retro arcade-style flying sim">
+                <img class="portfolio-item" src="/assets/portfolio/fightership.png">
+            </a>
+            <a href="/demoreel/" title="Assorted 3D renders">
+                <img class="portfolio-item" src="/assets/portfolio/ocean.png">
+            </a>
+            <a href="/demoreel/" title="Assorted 3D renders">
+                <img class="portfolio-item" src="/assets/portfolio/water.png">
+            </a>
+            <a href="/demoreel/" title="Assorted 3D renders">
+                <img class="portfolio-item" src="/assets/portfolio/gameboy.png">
+            </a>
+        </div>
+        <div class="column">
+            <a href="/demoreel/" title="Assorted 3D renders">
+                <img class="portfolio-item" src="/assets/portfolio/night-glasses.png">
+            </a>
+            <a href="/demoreel/" title="Assorted 3D renders">
+                <img class="portfolio-item" src="/assets/portfolio/radio-headphones.png">
+            </a>
+            <a href="/demoreel/" title="Assorted 3D renders">
+                <img class="portfolio-item" src="/assets/portfolio/helmet.png">
+            </a>
+            <!-- <a href="/bitbot/">
+                <img class="portfolio-item" src="/assets/portfolio/esc.jpg">
+            </a> -->
+        </div>
+        <div class="column">
+            <!-- <a href="/bitbot/">
+                <img class="portfolio-item" src="/assets/portfolio/random.png">
+            </a> -->
+            <a href="/bitbot/" title="File distortion for image glitch-ification">
+                <img class="portfolio-item" src="/assets/portfolio/s.jpg">
+            </a>
+            <a href="/bitbot/" title="File distortion for image glitch-ification">
+                <img class="portfolio-item" src="/assets/portfolio/plant.jpg">
+            </a>
+            <a href="/bitbot/" title="File distortion for image glitch-ification">
+                <img class="portfolio-item" src="/assets/portfolio/corrupted.png">
+            </a>
+        </div>
+        <!-- <div class="column">
+          <img src="underwater.jpg">
+          <img src="ocean.jpg">
+          <img src="wedding.jpg">
+          <img src="mountainskies.jpg">
+          <img src="rocks.jpg">
+          <img src="underwater.jpg">
+        </div> -->
+      </div>
+
+
+      <!-- <button onclick="one()">1</button>
+      <button onclick="two()">2</button>
+      <button onclick="four()">4</button> -->
+      
+      <script>
+        // Get the elements with class="column"
+        var elements = document.getElementsByClassName("column");
+        
+        // Declare a "loop" variable
+        var i;
+        
+        // Full-width images
+        function one() {
+            for (i = 0; i < elements.length; i++) {
+            elements[i].style.flex = "100%";
+            }
+        }
+        
+        // Two images side by side
+        function two() {
+            for (i = 0; i < elements.length; i++) {
+            elements[i].style.flex = "50%";
+            }
+        }
+        
+        // Four images side by side
+        function four() {
+            for (i = 0; i < elements.length; i++) {
+            elements[i].style.flex = "25%";
+            }
+        }
+
+        function three() {
+            for (i = 0; i < elements.length; i++) {
+            elements[i].style.flex = "30%";
+            }
+        }
+
+        three();
+
+
+
+
+      </script> 
+
+</div>
+
+
+

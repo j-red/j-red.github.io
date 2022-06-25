@@ -1,4 +1,4 @@
-# To Run  
+# To Run this site locally:
 
 `bundle exec jekyll serve --livereload --safe`
 
