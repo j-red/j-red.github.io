@@ -16,7 +16,7 @@ author:
   name: j-red
   email: jared@cs.uoregon.edu
   bio: "Freelance Technical Artist and Ph.D. student from the Pacific Northwest."
-  location: "Eugene, Oregon"
+  location: "Pacific Northwest"
   avatar: "profile.png"
   employer: 
 
@@ -31,8 +31,8 @@ socials:
   twitter: okcomputerrrrrr
   github_username:  j-red
   github:  j-red
-  orcid: 0000-0002-6658-8527
-  # linkedin: knofczynski
+  #orcid: 0000-0002-6658-8527
+  # linkedin: 
   soundcloud: 
   stackoverflow: 
   # devto: jekyll
@@ -43,7 +43,7 @@ socials:
   # pinterest: jekyll
   # youtube: jekyll
   # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-  # youtube_channel_name: CloudCannon
+  # youtube_channel_name: 
   # telegram: jekyll
   # googleplus: +jekyll
   # microdotblog: jekyll
